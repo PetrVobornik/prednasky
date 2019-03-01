@@ -6,6 +6,8 @@ Základní přehled technologií .NET, aneb co všechno ten .NET a C# vlastně u
 
 [![Porovnání .NET technologií](https://img.youtube.com/vi/LIXC68nDkMc/0.jpg)](https://www.youtube.com/watch?v=LIXC68nDkMc)
 
+[Prezentace](https://github.com/PetrVobornik/prednasky/blob/master/Xamarin.Forms/01-OOP-a-NET/OOP%201%20-%20D%C4%9Bdi%C4%8Dnost,%20polymorfizmus%20a%20rozhran%C3%AD.ppsx?raw=true)
+
 
 ## OOP - Třídy a objekty
 
