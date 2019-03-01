@@ -33,4 +33,4 @@ Ukázka základních principů objektově orientovaného programování v prakti
 
 [![Ukázka OOP - Program Bankomat v Xamarin.Forms](https://img.youtube.com/vi/FhzPbeIMusY/0.jpg)](https://www.youtube.com/watch?v=FhzPbeIMusY)
 
-[Proejkt Bankomat program](https://github.com/PetrVobornik/prednasky/tree/master/Xamarin.Forms/01-OOP-a-NET/BankomatProgram)
+[Projekt Bankomat program](https://github.com/PetrVobornik/prednasky/tree/master/Xamarin.Forms/01-OOP-a-NET/BankomatProgram)
