@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:BankomatProgram"
+             x:Class="BankomatProgram.MainPage">
+
+    <StackLayout HorizontalOptions="Center" VerticalOptions="Center" WidthRequest="250">
+        <Label Text="Stav konta bankomatu" />
+        <Entry x:Name="eStav" HorizontalTextAlignment="End" />
+        <Label Text="Částka" />
+        <Entry x:Name="eCastka" HorizontalTextAlignment="End" />
+        <Button x:Name="bVlozit" Text="Vložit" Clicked="BVlozit_Clicked" />
+        <Button x:Name="bVybrat" Text="Vybrat" Clicked="BVybrat_Clicked" /> 
+    </StackLayout>
+
+</ContentPage>

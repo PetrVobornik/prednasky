@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:PolohovaciPrvky"
+             x:Class="PolohovaciPrvky.MainPage">
+
+    <ScrollView>
+        <StackLayout>
+            <!-- ContentView -->
+            <local:Logo WidthRequest="120" HeightRequest="120" Margin="0,25" HorizontalOptions="Center" />
+
+            <!-- Frame -->
+            <Frame OutlineColor="Red" HorizontalOptions="Center" Margin="0,50" Padding="20,10" 
+                   BackgroundColor="LightYellow">
+                <Label Text="Text v rámečku" />
+            </Frame>
+            
+            <!-- RelativeLayout -->
+            <RelativeLayout BackgroundColor="Aqua" HeightRequest="200">
+                <ContentView BackgroundColor="Red" x:Name="cRed"
+                    RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=0.75}"
+                    RelativeLayout.HeightConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height, Factor=0.5}" />
+                <ContentView BackgroundColor="Violet" WidthRequest="50" HeightRequest="50"
+                    RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToView, ElementName=cRed, Property=Width, Constant=5}"
+                    RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToView, ElementName=cRed, Property=Height, Constant=-50}" />
+                <ContentView BackgroundColor="Maroon" WidthRequest="50" HeightRequest="50"
+                    RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToView, ElementName=cRed, Property=Width, Constant=-50}"
+                    RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToView, ElementName=cRed, Property=Height, Constant=5}" />
+            </RelativeLayout>
+            
+            <!-- AbsoluteLayout -->
+            <AbsoluteLayout HeightRequest="200">
+                <ContentView BackgroundColor="Silver" AbsoluteLayout.LayoutFlags="All" 
+                             AbsoluteLayout.LayoutBounds="0,0,1,1" />
+                <ContentView BackgroundColor="Blue" AbsoluteLayout.LayoutFlags="PositionProportional" 
+                             AbsoluteLayout.LayoutBounds="0.5,0.5,300,190" />
+                <ContentView BackgroundColor="Yellow" AbsoluteLayout.LayoutFlags="PositionProportional" 
+                             AbsoluteLayout.LayoutBounds="1,1,100,80" />
+                <ContentView BackgroundColor="Lime" AbsoluteLayout.LayoutFlags="PositionProportional" 
+                             AbsoluteLayout.LayoutBounds="0.9,0.9,100,80" />
+                <ContentView BackgroundColor="Red" AbsoluteLayout.LayoutFlags="PositionProportional" 
+                             AbsoluteLayout.LayoutBounds="0.9,0.9,5,5" />
+            </AbsoluteLayout>
+            
+            <!-- Grid -->
+            <Grid HeightRequest="200">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition Width="10" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="2*" />
+                </Grid.RowDefinitions>
+                <Label Grid.Column="0" Text="První řádek" VerticalOptions="Center" />
+                <ContentView Grid.Column="2" BackgroundColor="Red" />
+                <ContentView Grid.Column="3" BackgroundColor="Lime" Grid.RowSpan="2" />
+                <Label Grid.Column="0" Grid.Row="1" Text="Druhý řádek gridu" VerticalOptions="Center" />
+                <ContentView Grid.Column="2" Grid.Row="1" BackgroundColor="Blue" />
+            </Grid>
+            
+            <!-- FlexLayout -->
+            <FlexLayout x:Name="flFlex" Wrap="Wrap" JustifyContent="SpaceAround" />
+
+            <!-- StackLayout -->
+            <StackLayout Spacing="10" Margin="20">
+                <Label Text="Login:" />
+                <Entry />
+                <Label Text="Heslo:" />
+                <Entry />
+                <Button Text="Přihlásit" WidthRequest="100" HorizontalOptions="Center" />
+            </StackLayout>
+        </StackLayout>
+    </ScrollView>
+
+</ContentPage>
