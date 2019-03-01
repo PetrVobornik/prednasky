@@ -1,4 +1,4 @@
-# 1 - OOP a .NET technologie
+# OOP a .NET technologie
 
 ## Porovnání .NET technologií
 
