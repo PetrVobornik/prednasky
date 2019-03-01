@@ -1,2 +1,2 @@
-# prednasky
+# Přednášky
 Materiály z přednášek
