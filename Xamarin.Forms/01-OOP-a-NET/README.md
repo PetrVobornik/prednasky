@@ -5,7 +5,9 @@
 
 Základní přehled technologií .NET, aneb co všechno ten .NET a C# vlastně umí.
 
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/LIXC68nDkMc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+[![PRE](https://img.youtube.com/vi/LIXC68nDkMc/0.jpg)](https://www.youtube.com/watch?v=LIXC68nDkMc)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/LIXC68nDkMc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 ## OOP - Třídy a objekty
