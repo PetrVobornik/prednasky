@@ -2,7 +2,7 @@
 
 Ukázka základních postupů při navigaci v Xamarin.Forms aplikaci, tj. hlavní typy stránek (obrazovek/oken), jejich možnosti a příklady jejich použití, a jak se mezi nimi přepínat.
 
-<!--- [![Navigace v aplikaci](https://img.youtube.com/vi/VvrViTDniKw/0.jpg)](https://www.youtube.com/watch?v=VvrViTDniKw) -->
+[![Navigace v aplikaci](https://img.youtube.com/vi/8dYOsUFnlWA/0.jpg)](https://www.youtube.com/watch?v=8dYOsUFnlWA)
 
 [Prezentace Navigace v aplikaci](https://github.com/PetrVobornik/prednasky/blob/master/Xamarin.Forms/03-Navigace/navigace.ppsx?raw=true)
 
