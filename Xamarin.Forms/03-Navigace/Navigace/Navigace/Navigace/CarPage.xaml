@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CarouselPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Navigace.CarPage"
+              Title="CarouselPage">
+
+    <ContentPage>
+        <Grid>
+            <ContentView BackgroundColor="Red" WidthRequest="100" HeightRequest="100" HorizontalOptions="Center" VerticalOptions="Center" />
+        </Grid>
+    </ContentPage>
+
+    <ContentPage>
+        <Grid>
+            <ContentView BackgroundColor="Lime" WidthRequest="100" HeightRequest="100" HorizontalOptions="Center" VerticalOptions="Center" />
+        </Grid>
+    </ContentPage>
+
+    <ContentPage>
+        <Grid>
+            <ContentView BackgroundColor="Blue" WidthRequest="100" HeightRequest="100" HorizontalOptions="Center" VerticalOptions="Center" />
+        </Grid>
+    </ContentPage>
+
+</CarouselPage>

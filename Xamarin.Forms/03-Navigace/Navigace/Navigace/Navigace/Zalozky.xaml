@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:Navigace"
+             x:Class="Navigace.Zalozky"
+            Title="Záložky">
+    <!--Pages can be added as references or inline-->
+    
+    <ContentPage Title="Záložka 1" BackgroundColor="Aqua">
+        <StackLayout>
+            <Label Text="Obsah první záložky" />
+        </StackLayout>
+    </ContentPage>
+
+    <ContentPage Title="Záložka 2" BackgroundColor="Lime">
+        <StackLayout>
+            <Label Text="Obsah druhé záložky" />
+        </StackLayout>
+    </ContentPage>
+
+    <ContentPage Title="Záložka 3" BackgroundColor="Yellow">
+        <StackLayout>
+            <Label Text="Obsah třetí záložky" />
+        </StackLayout>
+    </ContentPage>
+
+</TabbedPage>

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Navigace.InputDialog"
+             Title="Jméno">
+    <ContentPage.Content>
+        <Grid>
+            <StackLayout HorizontalOptions="Center" VerticalOptions="Center" WidthRequest="150">
+                <Label Text="Zadej jméno" />
+                <Entry x:Name="eJmeno" />
+                <Button Text="OK" Clicked="Button_Clicked" />
+            </StackLayout>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

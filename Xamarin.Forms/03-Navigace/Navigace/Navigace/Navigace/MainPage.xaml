@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:Navigace"
+             x:Class="Navigace.MainPage"
+             Title="Hlavní stránka aplikace">
+
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Icon="icon_smile.png" Text="Ahoj" Order="Primary" Priority="1" x:Name="bAhoj" Clicked="BAhoj_Clicked" />
+        <ToolbarItem Icon="icon_smile.png" Text="Pápá" Order="Secondary" Priority="2" />        
+    </ContentPage.ToolbarItems>
+
+    <Grid>
+        <StackLayout HorizontalOptions="Center" VerticalOptions="Center" WidthRequest="150">
+            <Button Text="Záložky" x:Name="bZalozky" Clicked="BZalozky_Clicked" />
+            <Button Text="Master-Detail" x:Name="bMD" Clicked="BMD_Clicked" />
+            <Button Text="Carousel" x:Name="bCarousel" Clicked="BCarousel_Clicked" />
+            <Button Text="Druhá stránka" x:Name="bDruha" Clicked="BDruha_Clicked" />
+            <Button Text="Input dialog" x:Name="binput" Clicked="Binput_Clicked" />
+        </StackLayout>
+    </Grid>
+
+</ContentPage>
