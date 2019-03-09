@@ -1,0 +1,3 @@
+# Zadání rozšiøující úlohy pro program [Bankomat](https://github.com/PetrVobornik/prednasky/tree/master/Xamarin.Forms/01-OOP-a-NET/BankomatProgram)
+
+Pøidejte do Bankomatu funkci výherního automatu. Pokud si ji uživatel zvolí, vloží do bankomatu libovolnou èástku, probìhne slosování (Random), pøièemž vyhrát mùže s pravdìpodobností 20%. Pokud vyhraje, bankomat mu vyplatí pìtinásobek vložené èástky, pokud ne, bankomat to jen oznámí a vložené peníze si nechá. Bankomat by mìl pøijímat pouze sázky na jejichž vyplacení má dostateènou hotovost.
