@@ -8,3 +8,12 @@ Ukázka hlavních polohovacích kontejnerů pro rozložení ovládacích prvků 
 
 [Projekt Polohovací prvky](https://github.com/PetrVobornik/prednasky/tree/master/Xamarin.Forms/02-Layout/PolohovaciPrvky)
 
+## Polohovací prvky
+* StackLayout – řazení pod-prvků pod/za sebe
+* FlexLayout – řazení pod-prvků do řádku/sloupce s možností zalamování
+* ScrollView – umožňuje plochu posunout za její okraj
+* Grid – rozdělení plochy do mřížky
+* AbsoluteLayout – absolutní pozice a rozměry prvků (v pixelech nebo % plochy)
+* RelativeLayout – pozice a rozměry vztažené k jiným prvkům
+* Frame – rámeček okolo
+* ContentView – plocha pro další obsah
