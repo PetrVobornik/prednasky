@@ -8,3 +8,10 @@ Ukázka základních postupů při navigaci v Xamarin.Forms aplikaci, tj. hlavn�
 
 [Projekt Navigace](https://github.com/PetrVobornik/prednasky/tree/master/Xamarin.Forms/03-Navigace/Navigace)
 
+## Typy stránek
+* Content Page
+* Navigation Page
+* Tabbed Page
+* Master-Detail Page
+* Carousel Page
+* _Shell_
