@@ -4,6 +4,8 @@ Představení ovládacích prvků (controls), které jsou v základním Xamarin.
 
 [Prezentace Ovládací prvky](https://github.com/PetrVobornik/prednasky/blob/master/Xamarin.Forms/04-OvladaciPrvky/ovladaci-prvky?raw=true)
 
+[Projekt Ovládací prvky](https://github.com/PetrVobornik/prednasky/tree/master/Xamarin.Forms/04-OvladaciPrvky/OvladaciPrvky)
+
 ## Ovládací prvky
 * Label – text, popisek
 * Image – obrázek
@@ -28,9 +30,9 @@ Představení ovládacích prvků (controls), které jsou v základním Xamarin.
 * TableView – položky rozdělené do sekcí
 
 ## Cells
-* TextCell
-* ImageCell
-* SwitchCell
-* EntryCell
-* ViewCell
+* TextCell - text a poznámka
+* ImageCell - obrázek + text
+* SwitchCell - přepínač s popiskem
+* EntryCell - vstup pro jednořádkový text s popiskem
+* ViewCell - vlastní struktura obsahu
 
