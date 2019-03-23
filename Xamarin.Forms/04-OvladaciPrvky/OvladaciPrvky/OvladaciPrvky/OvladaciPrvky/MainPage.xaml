@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:OvladaciPrvky"
+             x:Class="OvladaciPrvky.MainPage">
+
+    <ScrollView>
+        <StackLayout Spacing="20" Padding="10">
+
+            <TableView Intent="Settings" HeightRequest="400">
+                <TableRoot>
+                    <TableSection Title="Základní nastavení">
+                        <TextCell Text="Vybrané album" Detail="Kája Gott" />
+                        <ImageCell Text="Sociální síť" Detail="Facebook" ImageSource="facebook.png" />
+                        <SwitchCell Text="Přehrávat dokola" On="True" />
+                        <SwitchCell Text="Náhodné přehrávání" />
+                    </TableSection>
+                    <TableSection Title="Rozšířené nastavení">
+                        <EntryCell Label="Přezdívka" Placeholder="Nickname" />
+                        <ViewCell>
+                            <StackLayout Orientation="Horizontal" Spacing="10" Padding="10">
+                                <Label Text="Obtížnost" HorizontalOptions="Start" VerticalOptions="Center" />
+                                <Slider x:Name="sObtiznost" Maximum="100" Value="50" HorizontalOptions="FillAndExpand" />
+                                <Label HorizontalOptions="End" VerticalOptions="Center"
+                                       Text="{Binding Source={x:Reference sObtiznost}, Path=Value, StringFormat='{0:N1} %'}" />
+                            </StackLayout>
+                        </ViewCell>
+                    </TableSection>
+                </TableRoot>
+            </TableView>
+
+            <!-- ListView -->
+            <ListView x:Name="lSeznam" HeightRequest="150" WidthRequest="150">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <StackLayout Orientation="Horizontal" HeightRequest="40">
+                                <BoxView Color="Red" Margin="5" />
+                                <Label Text="{Binding Name}" VerticalOptions="Center" />
+                            </StackLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+
+            <!-- Picker -->
+            <Picker Title="Světadíl" WidthRequest="150" x:Name="pSvetadil">
+                <Picker.Items>
+                    <x:String>Evropa</x:String>
+                    <x:String>Asie</x:String>
+                    <x:String>Afrika</x:String>
+                    <x:String>Amerika</x:String>
+                    <x:String>Austrálie</x:String>
+                    <x:String>Antarktida</x:String>
+                </Picker.Items>
+            </Picker>
+            
+            <!-- WebView -->
+            <Entry x:Name="eUrl" Completed="EUrl_Completed" Keyboard="Url" />
+            <WebView Source="https://www.uhk.cz" HeightRequest="500" x:Name="wWeb"
+                     Navigated="WWeb_Navigated" />
+
+            <!-- drobnosti -->
+            <BoxView Color="Fuchsia" WidthRequest="100" HeightRequest="50" HorizontalOptions="Center" />
+
+            <ActivityIndicator IsRunning="True" BackgroundColor="Yellow" Color="Blue" />
+            <ActivityIndicator IsRunning="True" />
+
+            <ProgressBar Progress="0.666" BackgroundColor="Red" ProgressColor="Lime" />
+            <ProgressBar Progress="0.666" />
+
+            <TimePicker />
+            <DatePicker />
+
+            <Stepper x:Name="sKrokovac" Minimum="-5" Maximum="5" Increment="0.5" Value="0" />
+            <Label Text="{Binding Source={x:Reference sKrokovac}, Path=Value}" />
+
+            <Slider Minimum="0" Maximum="100" Value="75" />
+
+            <Switch IsToggled="True" HorizontalOptions="Center" />
+
+            <!-- SearchBar -->
+            <SearchBar Placeholder="Hledat..." />
+
+            <!-- Editor -->
+            <Editor Placeholder="About you..." AutoSize="TextChanges" />
+
+            <!-- Entry -->
+            <Entry Placeholder="Číslo" Keyboard="Numeric" ReturnType="Send" />
+            <Entry Placeholder="E-mail" Keyboard="Email" ReturnType="Next" />
+            <Entry Placeholder="Vyplň mě!" />
+
+            <!-- Button -->
+            <ImageButton HorizontalOptions="Center" Source="facebook.png" />
+
+            <Button Text="+" FontAttributes="Bold" FontSize="Large"
+                    WidthRequest="50" HeightRequest="50" HorizontalOptions="Center"
+                    CornerRadius="25" TextColor="White" BackgroundColor="DarkBlue" />
+            
+            <Button Text="Sledujte nás" HorizontalOptions="Center" Image="facebook.png" />
+            <Button Text="Klikni na mě!" HorizontalOptions="Center" Clicked="Button_Clicked" />
+
+            <!-- Image -->
+            <Image Source="https://scontent-prg1-1.cdninstagram.com/vp/0767b6bc9c6bcf392aef3054ba0eec68/5D4A7E8E/t51.2885-15/sh0.08/e35/s750x750/43617655_1849096751874341_6285176765518526561_n.jpg?_nc_ht=scontent-prg1-1.cdninstagram.com" 
+                   HeightRequest="500" Aspect="AspectFit" />            
+            <Image Source="facebook.png" />
+
+            <!-- Label -->
+            <Label>
+                <Label.FormattedText>
+                    <FormattedString>
+                        <Span TextColor="Red">Milý     </Span>
+                        <Span FontSize="Medium" Text=" Jardo " />
+                        <Span BackgroundColor="Yellow" Text=" kup " />
+                        <Span FontAttributes="Bold">rohlíky</Span>
+                        <Span>!</Span>
+                        <Span x:Name="sLineBreak" />
+                        <Span>
+Nazdar
+Karle!
+                        </Span>
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+            
+            <Label LineBreakMode="NoWrap" Text="NoWrap: Když se to nevejde, tak se to zkrátí nebo zalomí. Když se to nevejde, tak se to zkrátí nebo zalomí. Když se to nevejde, tak se to zkrátí nebo zalomí. Když se to nevejde, tak se to zkrátí nebo zalomí." />
+            <Label LineBreakMode="WordWrap" Text="WordWrap: Když se to nevejde, tak se to zkrátí nebo zalomí. Když se to nevejde, tak se to zkrátí nebo zalomí. Když se to nevejde, tak se to zkrátí nebo zalomí. Když se to nevejde, tak se to zkrátí nebo zalomí." />
+            <Label LineBreakMode="TailTruncation" Text="TailTruncation: Když se to nevejde, tak se to zkrátí nebo zalomí. Když se to nevejde, tak se to zkrátí nebo zalomí. Když se to nevejde, tak se to zkrátí nebo zalomí. Když se to nevejde, tak se to zkrátí nebo zalomí." />
+            <Label LineBreakMode="HeadTruncation" Text="HeadTruncation: Když se to nevejde, tak se to zkrátí nebo zalomí. Když se to nevejde, tak se to zkrátí nebo zalomí. Když se to nevejde, tak se to zkrátí nebo zalomí. Když se to nevejde, tak se to zkrátí nebo zalomí." />
+            <Label LineBreakMode="MiddleTruncation" Text="MiddleTruncation: Když se to nevejde, tak se to zkrátí nebo zalomí. Když se to nevejde, tak se to zkrátí nebo zalomí. Když se to nevejde, tak se to zkrátí nebo zalomí. Když se to nevejde, tak se to zkrátí nebo zalomí." />
+
+            <Label Text="Toto je konec!" HorizontalOptions="Center"
+               FontAttributes="Bold" FontSize="Medium" TextColor="Blue" BackgroundColor="Yellow"
+               TextDecorations="Strikethrough,Underline"    />
+            
+        </StackLayout>
+    </ScrollView>
+
+</ContentPage>
