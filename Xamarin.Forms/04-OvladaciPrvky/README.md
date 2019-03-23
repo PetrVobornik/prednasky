@@ -2,7 +2,7 @@
 
 Představení ovládacích prvků (controls), které jsou v základním Xamarin.Forms k dispozici.
 
-[Prezentace Ovládací prvky](https://github.com/PetrVobornik/prednasky/blob/master/Xamarin.Forms/04-OvladaciPrvky/ovladaci-prvky?raw=true)
+[Prezentace Ovládací prvky](https://github.com/PetrVobornik/prednasky/blob/master/Xamarin.Forms/04-OvladaciPrvky/ovladaci-prvky.ppsx?raw=true)
 
 [Projekt Ovládací prvky](https://github.com/PetrVobornik/prednasky/tree/master/Xamarin.Forms/04-OvladaciPrvky/OvladaciPrvky)
 
