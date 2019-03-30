@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:VazaniDat"
+             x:Class="VazaniDat.MainPage">
+
+    <StackLayout x:Name="sLayout" Spacing="20" Margin="20">
+        <StackLayout.Resources>
+            <ResourceDictionary>
+                <local:DateTimeConverter x:Key="cDatum" />
+            </ResourceDictionary>
+        </StackLayout.Resources>
+        
+
+        <Entry Text="{Binding Jmeno}" />
+
+        <Entry x:Name="eJmeno2" />
+
+        <Label Text="{Binding Jmeno, StringFormat='Ahoj {0}!'}" />
+
+        <Slider x:Name="sStupnu" Minimum="0" Maximum="360" Value="0" />
+        <Label x:Name="lStupnu" />
+        <BoxView WidthRequest="100" HeightRequest="50" BackgroundColor="Blue" HorizontalOptions="Center"
+                 Rotation="{Binding Value, Source={x:Reference sStupnu}}" />
+
+        <DatePicker Date="{Binding DatumNarozeni}" />
+        <Label Text="{Binding DatumNarozeni, Converter={StaticResource cDatum}}" />
+
+        <local:EditorCisla Cislo="{Binding Vyska}" HorizontalOptions="Start" WidthRequest="200" />
+        <Label Text="{Binding Vyska, StringFormat='Výška: {0:N0} cm'}"/>
+
+    </StackLayout>
+
+</ContentPage>

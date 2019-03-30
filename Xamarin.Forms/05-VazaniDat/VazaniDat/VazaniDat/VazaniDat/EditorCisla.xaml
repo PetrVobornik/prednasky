@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="VazaniDat.EditorCisla">
+    <ContentView.Content>
+        <StackLayout Orientation="Horizontal">
+            <Entry x:Name="eCislo" HorizontalOptions="FillAndExpand" Keyboard="Numeric" TextChanged="ECislo_TextChanged" />
+            <Stepper x:Name="sCislo" HorizontalOptions="End" Minimum="0" Maximum="200" Increment="1" ValueChanged="SCislo_ValueChanged" />
+        </StackLayout>
+    </ContentView.Content>
+</ContentView>
