@@ -6,7 +6,7 @@ Představíme si tři základní varianty pro ukládání a načítání dat v a
 
 ## Možnosti ukládání dat
 * Nastavení aplikace (Preferences z Xamarin.Essentials)
-* Zabezpečné hodnoty (SecureStorage z Xamarin.Essentials)
+* Zabezpečené hodnoty (SecureStorage z Xamarin.Essentials)
 * Soubory v úložišti aplikace (FileSystem z Xamarin.Essentials a třídy System.IO)
 * Získávání souborů ze zařízení, z jiných aplikací a internetu
 * Mobilní databáze (SQLite)
