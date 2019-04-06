@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="UkladaniDat.PozadiPage"
+             Title="Výběr obrázku do pozadí">
+    <ContentPage.Content>
+        <Grid>
+
+            <WebView x:Name="wWeb" Navigated="WWeb_Navigated">
+                <WebView.Source>
+                    <OnPlatform UWP="https://wallpaperscraft.com" Android="https://www.bing.com/images/" />
+                </WebView.Source>
+            </WebView>
+
+            <Button Text="!" FontSize="Medium" FontAttributes="Bold" WidthRequest="50" 
+                    HeightRequest="50" CornerRadius="25" HorizontalOptions="End" 
+                    VerticalOptions="Start" Margin="20" BackgroundColor="Red" TextColor="White"
+                    x:Name="bOk" Clicked="BOk_Clicked" IsVisible="False"/>
+
+
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

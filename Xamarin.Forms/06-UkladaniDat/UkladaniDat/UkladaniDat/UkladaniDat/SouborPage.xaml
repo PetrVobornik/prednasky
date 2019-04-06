@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="UkladaniDat.SouborPage"
+             Title="Detail souboru">
+    <ContentPage.Content>
+        <StackLayout Margin="20">
+
+            <Label Text="Název souboru" />
+            <Entry x:Name="eNazev" />
+
+            <Label Text="Obsah" />
+            <Editor x:Name="eObsah" VerticalOptions="FillAndExpand" />
+
+            <StackLayout Orientation="Horizontal">
+                <Button x:Name="bUlozit" Text="Uložit" Clicked="BUlozit_Clicked"/>
+                <Button x:Name="bZrusit" Text="Zrušit" Clicked="BZrusit_Clicked"/>
+                <Button x:Name="bSmazat" Text="Smazat" Clicked="BSmazat_Clicked" IsVisible="False"/>
+            </StackLayout>
+
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

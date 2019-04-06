@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="UkladaniDat.NastaveniPage"
+             Title="Nastavení">
+    <ContentPage.Content>
+        <TableView Margin="20" Intent="Settings">
+            <TableRoot>
+                <TableSection Title="Přihlašovací údaje">
+                    <EntryCell Label="Jméno" Text="{Binding Jmeno}" />
+                    <SwitchCell Text="Přihlásit odběr" On="{Binding PrihlasitOdber}" />
+                    <EntryCell Label="Heslo" x:Name="eHeslo" />
+                </TableSection>
+            </TableRoot>
+        </TableView>
+    </ContentPage.Content>
+</ContentPage>

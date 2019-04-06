@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:UkladaniDat"
+             x:Class="UkladaniDat.MainPage"
+             Title="Ukládání dat">
+
+    <Grid>
+
+        <Image x:Name="iPozadi" Aspect="AspectFill" />
+
+        <StackLayout HorizontalOptions="Center" VerticalOptions="CenterAndExpand" Spacing="10">
+
+            <Button x:Name="bNastaveni" Text="Nastavení" Clicked="BNastaveni_Clicked" BackgroundColor="Silver" />
+            <Button x:Name="bSoubory" Text="Soubory" Clicked="BSoubory_Clicked" BackgroundColor="Silver" />
+            <Button x:Name="bPozadi" Text="Pozadí" Clicked="BPozadi_Clicked" BackgroundColor="Silver" />
+            <Button x:Name="bKnihy" Text="Knihy" Clicked="BKnihy_Clicked" BackgroundColor="Silver" />
+
+        </StackLayout>
+
+    </Grid>
+</ContentPage>

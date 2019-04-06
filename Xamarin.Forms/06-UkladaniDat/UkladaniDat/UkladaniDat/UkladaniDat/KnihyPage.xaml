@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="UkladaniDat.KnihyPage"
+             Title="Knihy">
+    <ContentPage.Content>
+        <Grid>
+            <ListView x:Name="lSeznam" ItemTapped="LSeznam_ItemTapped" Margin="20,0,0,0">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <TextCell Text="{Binding CelyNazev}" Detail="{Binding Autor}" />
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+
+            <Button Text="+" FontSize="Medium" FontAttributes="Bold" WidthRequest="50" 
+                    HeightRequest="50" CornerRadius="25" HorizontalOptions="End" 
+                    VerticalOptions="End" Margin="20" BackgroundColor="Navy" TextColor="White"
+                    x:Name="bNovy" Clicked="BNovy_Clicked"/>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>
