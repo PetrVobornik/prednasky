@@ -7,10 +7,10 @@
         <StackLayout Margin="20">
 
             <Label Text="Název knihy" />
-            <Entry Text="{Binding Nazev}" />
+            <Entry Text="{Binding Nazev}" MaxLength="100" />
 
             <Label Text="Autor" />
-            <Entry Text="{Binding Autor}" />
+            <Entry Text="{Binding Autor}" MaxLength="100" />
 
             <Label Text="Rok vydání" />
             <Entry Text="{Binding Rok}" Keyboard="Numeric" />
