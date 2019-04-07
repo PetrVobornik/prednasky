@@ -8,18 +8,18 @@ Představíme si tři základní varianty pro ukládání a načítání dat v a
 
 ## Možnosti ukládání dat
 * Nastavení aplikace 
- * Preferences z Xamarin.Essentials
- * Ukázka - datový objekt automaticky ukládající změny v nastavení
- * Zabezpečená varianta - SecureStorage
- * Ukázka - uložení a načtení hesla
+  * Preferences z Xamarin.Essentials
+  * Ukázka - datový objekt automaticky ukládající změny v nastavení
+  * Zabezpečená varianta - SecureStorage
+  * Ukázka - uložení a načtení hesla
 * Soubory v úložišti aplikace
- * FileSystem z Xamarin.Essentials
- * Třídy System.IO
- * Ukázka - správce textových souborů s možností editace
- * Získávání souborů ze zařízení, z jiných aplikací a internetu
- * Ukázka - stažení obrázku do pozadí aplikace přes WebView
+  * FileSystem z Xamarin.Essentials
+  * Třídy System.IO
+  * Ukázka - správce textových souborů s možností editace
+  * Získávání souborů ze zařízení, z jiných aplikací a internetu
+  * Ukázka - stažení obrázku do pozadí aplikace přes WebView
 * Mobilní databáze SQLite
- * Třídy definující tabulky
- * Připojení k databázi
- * Čtení a ukládání dat
- * Ukázka - databáze knih
+  * Třídy definující tabulky
+  * Připojení k databázi
+  * Čtení a ukládání dat
+  * Ukázka - databáze knih
