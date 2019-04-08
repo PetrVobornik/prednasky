@@ -17,3 +17,7 @@ Ukázka hlavních polohovacích kontejnerů pro rozložení ovládacích prvků 
 * RelativeLayout – pozice a rozměry vztažené k jiným prvkům
 * Frame – rámeček okolo
 * ContentView – plocha pro další obsah
+
+---
+
+[Další přednáška - Navigace v aplikaci](https://github.com/PetrVobornik/prednasky/tree/master/Xamarin.Forms/03-Navigace)
