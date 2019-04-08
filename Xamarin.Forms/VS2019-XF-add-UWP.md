@@ -8,15 +8,17 @@ Snad ji brzy vyøeší, nicménì zatím lze UWP projekt pøidat do øešení i ruènì, a t
 * Pøidat do Solution nový projekt UWP (_Blank App (Universal Windows)_) pojmenovaný jako øešení + ".UWP"
 * Pøidat do UWP referenci na spoleèný (.NET Standard) projekt 
 * Doinstalovat NuGet _Xamarin.Forms_ (a rovnou i _Xamarin.Essentials_)
-* Do _App.xaml.cs_ pøidat do metody _OnLaunched_
-  *Xamarin.Forms.Forms.Init(e);<br/>
-mezi<br/>
-rootFrame.NavigationFailed += OnNavigationFailed;<br/>
-// SEMto vložit<br/>
+* Do _App.xaml.cs_ pøidat do metody _OnLaunched_  
+Xamarin.Forms.Forms.Init(e);  
+mezi  
+rootFrame.NavigationFailed += OnNavigationFailed;  
+// SEMto vložit
 if (e.PreviousExecutionState == ApplicationExecutionState.Terminated)
 * V _MainPage.xaml_
-  * Pøidat definici<br/>xmlns:forms="using:Xamarin.Forms.Platform.UWP"
+  * Pøidat definici  
+xmlns:forms="using:Xamarin.Forms.Platform.UWP"
   * Zmìnit Root element z _Page_ na _forms:WindowsPage_
 * V _MainPage.xaml.cs_
   * Umazat bázovou tøídu _": Page"_
-  * Pøidat do konstruktoru<br/>_LoadApplication(new Reflexe.App());_
+  * Pøidat do konstruktoru  
+_LoadApplication(new Reflexe.App());_
