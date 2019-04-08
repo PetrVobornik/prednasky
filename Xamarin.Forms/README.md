@@ -1,7 +1,7 @@
 # Xamarin.Forms
 
 <p align="center">
-<img src="https://github.com/PetrVobornik/prednasky/raw/Xamarin.Forms/app-development.png" alt="Cross-platform develpoment" />
+<img src="https://github.com/PetrVobornik/prednasky/raw/master/Xamarin.Forms/app-development.png" alt="Cross-platform develpoment" />
 </p>
 
 
