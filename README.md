@@ -11,5 +11,5 @@ Projekty, prezentace a záznamy z přednášek o programování a dalších tech
 1. [Ukládání dat](https://github.com/PetrVobornik/prednasky/tree/master/Xamarin.Forms/07-Reflexe)
 
 <p align="center">
-<img src="https://github.com/PetrVobornik/prednasky/raw/master/Xamarin.Forms/app-development.png" alt="Cross-platform develpoment" />
+<img src="https://github.com/PetrVobornik/prednasky/raw/master/Xamarin.Forms/theme.png" alt="Cross-platform develpoment" />
 </p>
