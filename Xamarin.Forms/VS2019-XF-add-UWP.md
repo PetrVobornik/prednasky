@@ -19,6 +19,6 @@ mezi
 `xmlns:forms="using:Xamarin.Forms.Platform.UWP"`
   * Zmìnit Root element z `Page` na `forms:WindowsPage`
 * V _MainPage.xaml.cs_
-  * Umazat bázovou tøídu "`: Page`""
+  * Umazat bázovou tøídu "`: Page`"
   * Pøidat do konstruktoru  
 `LoadApplication(new Reflexe.App());`
