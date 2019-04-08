@@ -39,7 +39,5 @@ Ukázka základních principů objektově orientovaného programování v prakti
 
 
 <p style="text-align: right;">
-
-[Další přednáška - Layout v Xamarin.Forms](https://github.com/PetrVobornik/prednasky/tree/master/Xamarin.Forms/02-Layout)
-
+	<a href="https://github.com/PetrVobornik/prednasky/tree/master/Xamarin.Forms/02-Layout">Další přednáška - Layout v Xamarin.Forms</a>
 </p>
