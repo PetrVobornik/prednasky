@@ -1,5 +1,10 @@
 # Xamarin.Forms
 
+<p align="center">
+<img src="https://github.com/PetrVobornik/prednasky/raw/Xamarin.Forms/app-development.png" alt="Cross-platform develpoment" />
+</p>
+
+
 Materiály k přednáškám o základech objektově orientovaného programování a vývoji cross-platform aplikací v Xamarin.Forms. 
 Letní semestr 2019.
 
