@@ -8,3 +8,7 @@ Projekty, prezentace a záznamy z přednášek o programování a dalších tech
 1. [Ovládací prvky](https://github.com/PetrVobornik/prednasky/tree/master/Xamarin.Forms/04-OvladaciPrvky)
 1. [Vázání dat](https://github.com/PetrVobornik/prednasky/tree/master/Xamarin.Forms/05-VazaniDat)
 1. [Ukládání dat](https://github.com/PetrVobornik/prednasky/tree/master/Xamarin.Forms/06-UkladaniDat)
+
+<p align="center">
+<img src="https://github.com/PetrVobornik/prednasky/raw/master/Xamarin.Forms/app-development.png" alt="Cross-platform develpoment" />
+</p>
