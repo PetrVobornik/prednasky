@@ -12,7 +12,7 @@ Snad ji brzy vyøeší, nicménì zatím lze UWP projekt pøidat do øešení i ruènì, a t
 Xamarin.Forms.Forms.Init(e);  
 mezi  
 rootFrame.NavigationFailed += OnNavigationFailed;  
-// SEMto vložit
+// SEM to vložit  
 if (e.PreviousExecutionState == ApplicationExecutionState.Terminated)
 * V _MainPage.xaml_
   * Pøidat definici  
