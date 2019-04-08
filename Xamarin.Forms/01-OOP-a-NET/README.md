@@ -36,3 +36,8 @@ Ukázka základních principů objektově orientovaného programování v prakti
 [Projekt Bankomat program](https://github.com/PetrVobornik/prednasky/tree/master/Xamarin.Forms/01-OOP-a-NET/BankomatProgram)
 
 [Zadání rozšiřující úlohy pro program Bankomat](https://github.com/PetrVobornik/prednasky/tree/master/Xamarin.Forms/01-OOP-a-NET/uloha.md)
+
+
+<p style="text-align: right;">
+[Další přednáška - Layout v Xamarin.Forms](https://github.com/PetrVobornik/prednasky/tree/master/Xamarin.Forms/02-Layout)
+</p>
