@@ -23,3 +23,7 @@ Představíme si tři základní varianty pro ukládání a načítání dat v a
   * Připojení k databázi
   * Čtení a ukládání dat
   * Ukázka - databáze knih
+
+---
+
+[Další přednáška - Reflexe](https://github.com/PetrVobornik/prednasky/tree/master/Xamarin.Forms/07-Reflexe)

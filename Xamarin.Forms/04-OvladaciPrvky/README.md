@@ -38,3 +38,6 @@ Představení všech základních ovládacích prvků (controls), které jsou v 
 * EntryCell - vstup pro jednořádkový text s popiskem
 * ViewCell - vlastní struktura obsahu
 
+---
+
+[Další přednáška - Vázání dat](https://github.com/PetrVobornik/prednasky/tree/master/Xamarin.Forms/05-VazaniDat)

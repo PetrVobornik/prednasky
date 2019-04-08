@@ -12,3 +12,7 @@ Na několika názorných ukázkách si vysvětlíme a vyzkoušíme základní pr
 * Editovaný datový objekt se s editorem/y prováže přes BindingContext prvku či kontejneru
 * Hodnotu lze během editace v ovládacím prvku konvertovat přes IValueConverter
 * Vlastní ovládací prvky, potomky třídy BindableObject, mohou mít své "propojitelné" vlastnosti
+
+---
+
+[Další přednáška - Vázání dat](https://github.com/PetrVobornik/prednasky/tree/master/Xamarin.Forms/06-UkladaniDat)

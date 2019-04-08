@@ -15,3 +15,7 @@ Ukázka základních postupů při navigaci v Xamarin.Forms aplikaci, tj. hlavn�
 * Master-Detail Page
 * Carousel Page
 * _Shell_
+
+---
+
+[Další přednáška - Ovládací prvky](https://github.com/PetrVobornik/prednasky/tree/master/Xamarin.Forms/04-OvladaciPrvky)
