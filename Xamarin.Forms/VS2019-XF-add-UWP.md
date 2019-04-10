@@ -1,6 +1,6 @@
 # Visual Studio 2019 - pøidání UWP projektu do XF øešení
 
-*Edit:* V prvním update na verzi 16.0.1 byl tento problém vyøešen a UWP projekt lze znovu pøidat standardnì pøi zakládání Xamarin.Forms øešení pouhým zaškrtnutím této volby.
+_**Edit:** V prvním update na verzi 16.0.1 byl tento problém vyøešen a UWP projekt lze znovu pøidat standardnì pøi zakládání Xamarin.Forms øešení pouhým zaškrtnutím této volby._
 
 V nové verzi Visual Studio 2019 pøi zakládání nového projektu typu Xamarin.Forms schází volba pro automatické vygenerování projektu UWP (Universal Windows Platform).
 Dle informací na rùzných fórech se jedná pouze o chybu, která se bohužel dostala z Preview i do Release verze VS2019. 
