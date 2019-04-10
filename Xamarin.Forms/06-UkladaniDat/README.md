@@ -6,6 +6,8 @@ Představíme si tři základní varianty pro ukládání a načítání dat v a
 
 [Prezentace Ukládání dat](https://github.com/PetrVobornik/prednasky/blob/master/Xamarin.Forms/06-UkladaniDat/ukladani-dat.ppsx?raw=true)
 
+[Projekt Ukládání dat](https://github.com/PetrVobornik/prednasky/tree/master/Xamarin.Forms/06-UkladaniDat/UkladaniDat)
+
 ## Možnosti ukládání dat
 * Nastavení aplikace 
   * Preferences z Xamarin.Essentials
@@ -26,4 +28,4 @@ Představíme si tři základní varianty pro ukládání a načítání dat v a
 
 ---
 
-[Další přednáška - Reflexe](https://github.com/PetrVobornik/prednasky/tree/master/Xamarin.Forms/07-Reflexe)
+[Další přednáška - Reflexe a lokalizace](https://github.com/PetrVobornik/prednasky/tree/master/Xamarin.Forms/07-Reflexe)

@@ -6,6 +6,8 @@ Na několika názorných ukázkách si vysvětlíme a vyzkoušíme základní pr
 
 [Prezentace Vázání dat](https://github.com/PetrVobornik/prednasky/blob/master/Xamarin.Forms/05-VazaniDat/vazani-dat.ppsx?raw=true)
 
+[Projekt Vázání dat](https://github.com/PetrVobornik/prednasky/tree/master/Xamarin.Forms/05-VazaniDat/VazaniDat)
+
 ## Postupy při vázání dat
 * Datové objekty implementují rozhraní INotifyPropertyChanged
 * Ovládací prvky editovanou hodnotu provážou s vlastností objektu přes Binding

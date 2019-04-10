@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Reflexe.PrehledPage">
+    <ContentPage.Content>
+        <Grid>
+            <ListView x:Name="lPrehled" ItemTapped="LPrehled_ItemTapped">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <Label Margin="20,10" Text="{Binding Path=., StringFormat='{0}'}" />
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+
+            <Button x:Name="bNovy" Text="+" FontSize="Medium" FontAttributes="Bold"
+                    WidthRequest="50" HeightRequest="50" CornerRadius="25"
+                    BackgroundColor="Navy" TextColor="White" Margin="20"
+                    HorizontalOptions="End" VerticalOptions="End" Clicked="BNovy_Clicked" />
+
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

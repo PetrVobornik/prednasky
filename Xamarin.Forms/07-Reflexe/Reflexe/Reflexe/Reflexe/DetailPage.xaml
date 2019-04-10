@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:reflexe="clr-namespace:Reflexe"
+             x:Class="Reflexe.DetailPage">
+    <ContentPage.Content>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*" />
+                <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
+            <ScrollView>
+                <Grid>
+                    <reflexe:DataForm x:Name="dForm" Margin="20,10" />
+                </Grid>
+            </ScrollView>
+            <StackLayout Grid.Row="1" HorizontalOptions="End" Margin="20,10" Orientation="Horizontal" Spacing="20">
+                <Button Text="OK" x:Name="bOk" Clicked="BOk_Clicked" />
+                <Button Text="Zrušit" x:Name="bZrusit" Clicked="BZrusit_Clicked" />
+                <Button Text="Smazat" x:Name="bSmazat" Clicked="BSmazat_Clicked" IsVisible="False" />
+            </StackLayout>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>
