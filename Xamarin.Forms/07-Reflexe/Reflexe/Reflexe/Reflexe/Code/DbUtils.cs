@@ -75,8 +75,8 @@ namespace Reflexe
             foreach (var v in vazby)
             {
                 string s = "";
-                v.Vlastnosti.ForEach(p => s += (p.GetCustomAttribute<ColumnAttribute>()?.Name ?? p.Name) + $"={obj.Id} and ");
-                s = s.Substring(0, s.Length - 4);
+                v.Vlastnosti.ForEach(p => s += (p.GetCustomAttribute<ColumnAttribute>()?.Name ?? p.Name) + $"={obj.Id} or ");
+                s = s.Substring(0, s.Length - 3);
                 int pocet = await DB.ExecuteScalarAsync<int>(String.Format(
                     "select count(*) from {0} where {1}", v.Typ.GetCustomAttribute<TableAttribute>()?.Name ?? v.Typ.Name, s));
                 if (pocet > 0)
