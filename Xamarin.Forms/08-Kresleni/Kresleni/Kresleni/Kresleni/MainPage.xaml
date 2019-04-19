@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:Kresleni"
+             xmlns:forms="clr-namespace:SkiaSharp.Views.Forms;assembly=SkiaSharp.Views.Forms"
+             x:Class="Kresleni.MainPage">
+
+    <ContentPage.ToolbarItems>
+        <ToolbarItem x:Name="bPridat" Icon="icon_add.png" Text="Nový" Order="Primary" Priority="0" Clicked="BPridat_Clicked" />
+
+        <ToolbarItem x:Name="bTloustkaCary" Icon="icon_stroke_width.png" Text="Tloušťka čáry" Order="Primary" Priority="0" Clicked="BTloustkaCary_Clicked" />
+        <ToolbarItem x:Name="bBarvaCary" Icon="icon_stroke_color.png" Text="Barva čáry" Order="Primary" Priority="0" Clicked="BBarvaCary_Clicked" />
+        <ToolbarItem x:Name="bBarvaVyplne" Icon="icon_fill_color.png" Text="Barva výplně" Order="Primary" Priority="0" Clicked="BBarvaVyplne_Clicked" />
+        <ToolbarItem x:Name="bConfirm" Icon="icon_ok.png" Text="Přidat" Order="Primary" Priority="0" Clicked="BConfirm_Clicked" />
+
+        <ToolbarItem x:Name="bNovaKresba" Icon="icon_new.png" Text="Nový výkres" Order="Secondary" Priority="0" Clicked="BNovaKresba_Clicked" />
+        <ToolbarItem x:Name="bUlozit" Icon="icon_save.png" Text="Uložit" Order="Secondary" Priority="0" Clicked="BUlozit_Clicked" />
+        <ToolbarItem x:Name="bOtevrit" Icon="icon_open.png" Text="Načíst" Order="Secondary" Priority="0" Clicked="BOtevrit_Clicked" />
+        <ToolbarItem x:Name="bKopie" Icon="icon_copy.png" Text="Kopie kresby" Order="Secondary" Priority="0" Clicked="BKopie_Clicked" />
+    </ContentPage.ToolbarItems>
+    
+    <Grid x:Name="gMain">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="Auto" />
+        </Grid.ColumnDefinitions>
+
+        <forms:SKCanvasView x:Name="cPlocha" PaintSurface="CPlocha_PaintSurface"
+                            Touch="CPlocha_Touch" EnableTouchEvents="True" />
+
+        <ListView Grid.Column="1" WidthRequest="200" BackgroundColor="#FFEEEEEE" x:Name="lSeznam" ItemTapped="LSeznam_ItemTapped" />
+
+    </Grid>
+
+</ContentPage>

@@ -10,4 +10,7 @@ Naprogramujte každý typ okna jen jednou, ale pořádně a univerzálně, a pak
 
 [Projekt Reflexe a lokalizace](https://github.com/PetrVobornik/prednasky/tree/master/Xamarin.Forms/07-Reflexe/Reflexe)
 
+Přidané balíčky NuGet: [SQLite](https://www.nuget.org/packages/sqlite-net-pcl/)
+
+
 Video záznam z přednášky již brzy...
