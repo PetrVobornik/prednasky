@@ -10,7 +10,7 @@ Naprogramujte každý typ okna jen jednou, ale pořádně a univerzálně, a pak
 
 [Projekt Reflexe a lokalizace](https://github.com/PetrVobornik/prednasky/tree/master/Xamarin.Forms/07-Reflexe/Reflexe)
 
-Přidané komponenty: [SQLite](https://www.nuget.org/packages/sqlite-net-pcl/), [LookupPicker](https://github.com/PetrVobornik/LookupPicker)
+Přidané komponenty: [SQLite](https://www.nuget.org/packages/sqlite-net-pcl/), [LookupPicker](https://www.nuget.org/packages/Amporis.Xamarin.Forms.LookupPicker)
 
 Video záznam z přednášky již brzy...
 
