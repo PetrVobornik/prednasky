@@ -12,5 +12,16 @@ Naprogramujte každý typ okna jen jednou, ale pořádně a univerzálně, a pak
 
 Přidané balíčky NuGet: [SQLite](https://www.nuget.org/packages/sqlite-net-pcl/)
 
-
 Video záznam z přednášky již brzy...
+
+
+## Univerzální editor databáze (SQLite)
+* Automaticky hledá datové třídy v projektu
+* Automaticky pro ně vytváří a aktualizuje DB tabulky
+* Pro každou datovou třídu načte a zobrazí přehled všech záznamů v tabulce
+* Pro každý záznam automaticky vygeneruje editační formulář a umožní tak jeho editaci, či vkládání nových
+* Mezi tabulkami bude možné definovat reference (vztahy přes cizí klíče)
+* Záznamy je možné mazat, avšak pouze za předpokladu, že se na ně neodkazuje záznam z jiné tabulky
+* Veškeré texty a popisky v aplikaci budou lokalizované do češtiny a alespoň jednoho dalšího jazyka
+* Lokalizován bude i název aplikace (z pohledu Store a OS)
+
