@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>b22b231f-f149-4430-91a1-1a0fad0bc65b</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>Asteroids.Shared</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)GameAsteroids.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Sprite.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)SpriteAsteroid.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)SpriteCannon.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)SpriteExplosion.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)SpriteItem.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)SpriteRect.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="$(MSBuildThisFileDirectory)Content\asteroids.xnb" />
+    <Content Include="$(MSBuildThisFileDirectory)Content\cannon_base.xnb" />
+    <Content Include="$(MSBuildThisFileDirectory)Content\cannon_missile.xnb" />
+    <Content Include="$(MSBuildThisFileDirectory)Content\cannon_tube.xnb" />
+    <Content Include="$(MSBuildThisFileDirectory)Content\explosion_hit.xnb" />
+    <Content Include="$(MSBuildThisFileDirectory)Content\explosion_impact.xnb" />
+    <Content Include="$(MSBuildThisFileDirectory)Content\font.xnb" />
+    <Content Include="$(MSBuildThisFileDirectory)Content\sky.xnb" />
+    <Content Include="$(MSBuildThisFileDirectory)Content\snd_hit.xnb" />
+    <Content Include="$(MSBuildThisFileDirectory)Content\snd_impact.xnb" />
+    <Content Include="$(MSBuildThisFileDirectory)Content\snd_shoot.xnb" />
+    <Content Include="$(MSBuildThisFileDirectory)Content\song1.xnb" />
+    <Content Include="$(MSBuildThisFileDirectory)Content\town.xnb" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="$(MSBuildThisFileDirectory)Content\song1.wma" />
+  </ItemGroup>
+</Project>

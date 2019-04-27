@@ -32,17 +32,17 @@ V první části přednášky o reflexi a lokalizaci si vysvětlíme základní 
 
 [![Reflexe a lokalizace 1/5 - Trocha teorie na úvod](https://img.youtube.com/vi/dDDKcubt_t4/0.jpg)](https://www.youtube.com/watch?v=dDDKcubt_t4)
 
-* 00:00:00 - Úvod
-* 00:01:36 - Metadata o třídě (Type)
-* 00:03:51 - Metadata o vlastnostech (PropertyInfo)
-* 00:05:32 - Metadata o metodách (MethodInfo)
-* 00:07:55 - Assembly (projekt / knihovna / sestava)
-* 00:09:28 - Založení nového projektu (VS2019)
-* 00:13:10 - Připojení k DB (SQLite)
-* 00:16:25 - Datová třída Osoba
-* 00:19:56 - Atributy - použití a tvorba vlastních
-* 00:21:08 - Atributy - zpracování pomocí reflexe
-* 00:22:27 - Důležité jmenné prostory
+* 00:00 - Úvod
+* 01:36 - Metadata o třídě (Type)
+* 03:51 - Metadata o vlastnostech (PropertyInfo)
+* 05:32 - Metadata o metodách (MethodInfo)
+* 07:55 - Assembly (projekt / knihovna / sestava)
+* 09:28 - Založení nového projektu (VS2019)
+* 13:10 - Připojení k DB (SQLite)
+* 16:25 - Datová třída Osoba
+* 19:56 - Atributy - použití a tvorba vlastních
+* 21:08 - Atributy - zpracování pomocí reflexe
+* 22:27 - Důležité jmenné prostory
 
 
 ### Reflexe a lokalizace 2/5 - Přehledy, aneb seznam tabulek (datových tříd) a univerzální výpis dat ze kterékoli z nich
@@ -51,12 +51,12 @@ Ve druhé části přednášky o reflexi a lokalizaci pomocí reflexe automatizu
 
 [![Reflexe a lokalizace 2/5 - Přehledy, aneb seznam tabulek (datových tříd) a univerzální výpis dat ze kterékoli z nich](https://img.youtube.com/vi/7MYsFQd4eyQ/0.jpg)](https://www.youtube.com/watch?v=7MYsFQd4eyQ)
 
-* 00:00:00 - Automatizované generování DB tabulek na základě datových tříd v projektu
-* 00:03:13 - Přehled datových tříd/tabulek (MainPage)
-* 00:05:58 - Popisek - sjednocení přiřazování popisků položek do jediné metody
-* 00:06:53 - Datová třída Auto
-* 00:08:32 - IData - společné rozhraní pro všechny datové třídy
-* 00:09:25 - Stránka s přehledem záznamů tabulky (PrehledPage)
+* 00:00 - Automatizované generování DB tabulek na základě datových tříd v projektu
+* 03:13 - Přehled datových tříd/tabulek (MainPage)
+* 05:58 - Popisek - sjednocení přiřazování popisků položek do jediné metody
+* 06:53 - Datová třída Auto
+* 08:32 - IData - společné rozhraní pro všechny datové třídy
+* 09:25 - Stránka s přehledem záznamů tabulky (PrehledPage)
 
 
 ### Reflexe a lokalizace 3/5 - Detail, čili automaticky generovaný formulář pro editaci záznamu jakékoli třídy
@@ -65,10 +65,10 @@ Ve třetí části přednášky o reflexi a lokalizaci vytvoříme univerzální
 
 [![Reflexe a lokalizace 3/5 - Detail, čili automaticky generovaný formulář pro editaci záznamu jakékoli třídy](https://img.youtube.com/vi/dsWxY9fxcag/0.jpg)](https://www.youtube.com/watch?v=dsWxY9fxcag)
 
-* 00:00:00 - Zahájení tvorby stránky pro zobrazení, vkládání a editaci záznamu (DetailPage)
-* 00:05:18 - DataForm - vlastní komponenta generující formulář pro editaci každého datvého objektu
-* 00:12:08 - Dokončení DetailPage
-* 00:15:58 - Skrývání nežádoucích položek ve formuláři prostřednictvím vlastního atributu pro vlastnosti
+* 00:00 - Zahájení tvorby stránky pro zobrazení, vkládání a editaci záznamu (DetailPage)
+* 05:18 - DataForm - vlastní komponenta generující formulář pro editaci každého datvého objektu
+* 12:08 - Dokončení DetailPage
+* 15:58 - Skrývání nežádoucích položek ve formuláři prostřednictvím vlastního atributu pro vlastnosti
 
 
 ### Reflexe a lokalizace 4/5 - Lokalizace, tj. popisky editorů i veškeré další texty včetně názvu aplikace česky, anglicky atd.
@@ -77,13 +77,13 @@ Ve čtvrté části přednášky o reflexi a lokalizaci se zaměříme na lokali
 
 [![Reflexe a lokalizace 4/5 - Lokalizace, tj. popisky editorů i veškeré další texty včetně názvu aplikace česky, anglicky atd.](https://img.youtube.com/vi/pZHwUEavbCo/0.jpg)](https://www.youtube.com/watch?v=pZHwUEavbCo)
 
-* 00:00:00 - Popisky definované přes atribut - zatím jednojazyčné
-* 00:03:54 - Lokalizace popisků - vícejazyčná lokalizace textů v aplikaci (AppResources)
-* 00:13:50 - Lokalizace názvu aplikace - tj. názvu a popisu pro přehled aplikací ve store a v OS
-* 00:14:18 - Lokalizace názvu v UWP
-* 00:16:14 - Lokalizace názvu na Androidu
-* 00:18:00 - AppResources EN - druhá jazyková verze textů v aplikaci
-* 00:18:47 - Spuštění na Androidu v anglické verzi
+* 00:00 - Popisky definované přes atribut - zatím jednojazyčné
+* 03:54 - Lokalizace popisků - vícejazyčná lokalizace textů v aplikaci (AppResources)
+* 13:50 - Lokalizace názvu aplikace - tj. názvu a popisu pro přehled aplikací ve store a v OS
+* 14:18 - Lokalizace názvu v UWP
+* 16:14 - Lokalizace názvu na Androidu
+* 18:00 - AppResources EN - druhá jazyková verze textů v aplikaci
+* 18:47 - Spuštění na Androidu v anglické verzi
 
 
 ### Reflexe a lokalizace 5/5 - Reference, neboli vztahy mezi datovými třídami (tabulkami přes cizí klíče) včetně kontroly integrity dat
@@ -92,7 +92,7 @@ V páté části přednášky o reflexi a lokalizaci rozšíříme pomocí refle
 
 [![Reflexe a lokalizace 5/5 - Reference, neboli vztahy mezi datovými třídami (tabulkami přes cizí klíče) včetně kontroly integrity dat](https://img.youtube.com/vi/3lIGCYMMaMA/0.jpg)](https://www.youtube.com/watch?v=3lIGCYMMaMA)
 
-* 00:00:00 - Reference - označení vlastností, které se mají odkazovat na ID jiných tříd + určení kterých
-* 00:01:29 - Úprava formuláře pro editaci záznamů o schopnost zpracování vazeb přes LookupPicker
-* 00:06:53 - Kontrola referencí (vazeb) objektu před jeho smazáním
-* 00:14:42 - Závěrečné úpravy a shrnutí
+* 00:00 - Reference - označení vlastností, které se mají odkazovat na ID jiných tříd + určení kterých
+* 01:29 - Úprava formuláře pro editaci záznamů o schopnost zpracování vazeb přes LookupPicker
+* 06:53 - Kontrola referencí (vazeb) objektu před jeho smazáním
+* 14:42 - Závěrečné úpravy a shrnutí
