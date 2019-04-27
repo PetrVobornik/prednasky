@@ -2,7 +2,7 @@
 
 Představíme si tři základní varianty pro ukládání a načítání dat v aplikacích. Podle jejich typu půjde o základní hodnoty většinou používané pro nastavení aplikace, o celé soubory dat a v neposlední řadě o možnosti využití mobilního databázového systému.
 
-*Záznam z přednášky*
+**Záznam z přednášky**  
 [![Ukládání dat - záznam z přednášky](https://img.youtube.com/vi/mb8xvo9CBXM/0.jpg)](https://www.youtube.com/watch?v=mb8xvo9CBXM)
 
 [Prezentace Ukládání dat](https://github.com/PetrVobornik/prednasky/blob/master/Xamarin.Forms/06-UkladaniDat/ukladani-dat.ppsx?raw=true)
