@@ -13,19 +13,13 @@ namespace UkladaniDat
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class SouborPage : ContentPage
     {
-        public string Soubor { get; set; }
+        public string Soubor { get; private set; }
 
-        public SouborPage()
+        public SouborPage(string soubor = "")
         {
             InitializeComponent();
-        }
 
-        string slozka;
-
-        protected override void OnAppearing()
-        {
-            base.OnAppearing();
-
+            Soubor = soubor;
             slozka = Path.Combine(FileSystem.AppDataDirectory, "soubory");
 
             if (!String.IsNullOrEmpty(Soubor))
@@ -35,6 +29,15 @@ namespace UkladaniDat
                 eObsah.Text = File.ReadAllText(Path.Combine(slozka, Soubor + ".txt"));
                 bSmazat.IsVisible = true;
             }
+        }
+
+        string slozka;
+
+        protected override void OnAppearing()
+        {
+            base.OnAppearing();
+
+            // Kód přesunut do konstruktoru, zde by hrozila ztráta práce při přepnutí aplikace
         }
 
         private void BUlozit_Clicked(object sender, EventArgs e)

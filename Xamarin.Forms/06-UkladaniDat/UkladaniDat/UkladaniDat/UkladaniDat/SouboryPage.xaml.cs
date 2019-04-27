@@ -29,7 +29,7 @@ namespace UkladaniDat
 
         private void LSeznam_ItemTapped(object sender, ItemTappedEventArgs e)
         {
-            Navigation.PushAsync(new SouborPage() { Soubor = e.Item as string });
+            Navigation.PushAsync(new SouborPage(e.Item as string));
         }
 
         private void BNovy_Clicked(object sender, EventArgs e)
