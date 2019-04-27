@@ -8,7 +8,7 @@ Naprogramujte každý typ okna jen jednou, ale pořádně a univerzálně, a pak
 [Prezentace Reflexe a lokalizace](https://github.com/PetrVobornik/prednasky/blob/master/Xamarin.Forms/07-Reflexe/reflexe.ppsx?raw=true)
 
 
-### Univerzální editor databáze (SQLite)
+## Univerzální editor databáze (SQLite)
 
 [Projekt Reflexe a lokalizace](https://github.com/PetrVobornik/prednasky/tree/master/Xamarin.Forms/07-Reflexe/Reflexe)
 
@@ -24,9 +24,9 @@ Naprogramujte každý typ okna jen jednou, ale pořádně a univerzálně, a pak
 Přidané komponenty: [SQLite](https://www.nuget.org/packages/sqlite-net-pcl/), [LookupPicker](https://www.nuget.org/packages/Amporis.Xamarin.Forms.LookupPicker)
 
 
-# Záznamy z přednášky Reflexe a lokalizace
+## Záznamy z přednášky Reflexe a lokalizace
 
-## Reflexe a lokalizace 1/5 - Trocha teorie na úvod
+### Reflexe a lokalizace 1/5 - Trocha teorie na úvod
 
 V první části přednášky o reflexi a lokalizaci si vysvětlíme základní teoretické pojmy a ukážeme konstrukce kódu nezbytné pro práci s reflexí. Za účelem následné praktické ukázky založíme nový Xamarin.Forms projekt ve Visual Studiu 2019 a vytvoříme první datovou třídu.
 
@@ -45,7 +45,7 @@ V první části přednášky o reflexi a lokalizaci si vysvětlíme základní 
 * 00:22:27 - Důležité jmenné prostory
 
 
-## Reflexe a lokalizace 2/5 - Přehledy, aneb seznam tabulek (datových tříd) a univerzální výpis dat ze kterékoli z nich
+### Reflexe a lokalizace 2/5 - Přehledy, aneb seznam tabulek (datových tříd) a univerzální výpis dat ze kterékoli z nich
 
 Ve druhé části přednášky o reflexi a lokalizaci pomocí reflexe automatizujeme vytváření databázových tabulek v SQLite pro všechny stávající i budoucí datové třídy a vytvoříme univerzální stránku s přehledem pro záznamy libovolné tabulky (objekty datové třídy).
 
@@ -59,7 +59,7 @@ Ve druhé části přednášky o reflexi a lokalizaci pomocí reflexe automatizu
 * 00:09:25 - Stránka s přehledem záznamů tabulky (PrehledPage)
 
 
-## Reflexe a lokalizace 3/5 - Detail, čili automaticky generovaný formulář pro editaci záznamu jakékoli třídy
+### Reflexe a lokalizace 3/5 - Detail, čili automaticky generovaný formulář pro editaci záznamu jakékoli třídy
 
 Ve třetí části přednášky o reflexi a lokalizaci vytvoříme univerzální stránku pro editaci jednoho konkrétního záznamu (objektu) libovolné tabulky (třídy). Za tímto účelem vytvoříme vlastní komponentu, která pro kterýkoli datový objekt automaticky vygeneruje uživatelsky přívětivý formulář s editačními prvky provázanými (přes DataBinding) na jeho vlastnosti.
 
@@ -71,7 +71,7 @@ Ve třetí části přednášky o reflexi a lokalizaci vytvoříme univerzální
 * 00:15:58 - Skrývání nežádoucích položek ve formuláři prostřednictvím vlastního atributu pro vlastnosti
 
 
-## Reflexe a lokalizace 4/5 - Lokalizace, tj. popisky editorů i veškeré další texty včetně názvu aplikace česky, anglicky atd.
+### Reflexe a lokalizace 4/5 - Lokalizace, tj. popisky editorů i veškeré další texty včetně názvu aplikace česky, anglicky atd.
 
 Ve čtvrté části přednášky o reflexi a lokalizaci se zaměříme na lokalizaci. Vyzkoušíme si, jak definovat popisky vlastností a tříd ve fromuláři přes vlastní atribut, ale také to, jak jim přiřazovat tyto popisky automaticky a především vícejazyčně, podle toho, jaký jazyk je nastaven v operačním systému, na kterém je aplikace spuštěna. Ukážeme si také, jak lokalizovat název aplikace (pro popisek v přehledu aplikací v OS) a to jak pro UWP tak pro Android.
 
@@ -86,7 +86,7 @@ Ve čtvrté části přednášky o reflexi a lokalizaci se zaměříme na lokali
 * 00:18:47 - Spuštění na Androidu v anglické verzi
 
 
-## Reflexe a lokalizace 5/5 - Reference, neboli vztahy mezi datovými třídami (tabulkami přes cizí klíče) včetně kontroly integrity dat
+### Reflexe a lokalizace 5/5 - Reference, neboli vztahy mezi datovými třídami (tabulkami přes cizí klíče) včetně kontroly integrity dat
 
 V páté části přednášky o reflexi a lokalizaci rozšíříme pomocí reflexe použitý databázový systém o důležitou vlastnost, která SQLite schází, a to o možnost používání referencí, tj. cizích klíčů odkazující se na záznamy jiných tabulek. Do editoru detailu záznamu přidáme speciální komponentu pro výběr navázaného záznamu a chybět nebude ani kontrola integrity dat reprezentovaná automatizovanou kontrolou před smazáním záznamu, neexistují-li na něj nějaké reference (nejsou-li na něj navázány jiné záznam z dalších tabulek).
 
