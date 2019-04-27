@@ -65,10 +65,10 @@ Ve třetí části přednášky o reflexi a lokalizaci vytvoříme univerzální
 
 [![Reflexe a lokalizace 3/5 - Detail, čili automaticky generovaný formulář pro editaci záznamu jakékoli třídy](https://img.youtube.com/vi/dsWxY9fxcag/0.jpg)](https://www.youtube.com/watch?v=dsWxY9fxcag)
 
-00:00:00 Zahájení tvorby stránky pro zobrazení, vkládání a editaci záznamu (DetailPage)
-00:05:18 DataForm - vlastní komponenta generující formulář pro editaci každého datvého objektu
-00:12:08 Dokončení DetailPage
-00:15:58 Skrývání nežádoucích položek ve formuláři prostřednictvím vlastního atributu pro vlastnosti
+* 00:00:00 - Zahájení tvorby stránky pro zobrazení, vkládání a editaci záznamu (DetailPage)
+* 00:05:18 - DataForm - vlastní komponenta generující formulář pro editaci každého datvého objektu
+* 00:12:08 - Dokončení DetailPage
+* 00:15:58 - Skrývání nežádoucích položek ve formuláři prostřednictvím vlastního atributu pro vlastnosti
 
 
 ## Reflexe a lokalizace 4/5 - Lokalizace, tj. popisky editorů i veškeré další texty včetně názvu aplikace česky, anglicky atd.
@@ -77,13 +77,13 @@ Ve čtvrté části přednášky o reflexi a lokalizaci se zaměříme na lokali
 
 [![Reflexe a lokalizace 4/5 - Lokalizace, tj. popisky editorů i veškeré další texty včetně názvu aplikace česky, anglicky atd.](https://img.youtube.com/vi/pZHwUEavbCo/0.jpg)](https://www.youtube.com/watch?v=pZHwUEavbCo)
 
-00:00:00 Popisky definované přes atribut - zatím jednojazyčné
-00:03:54 Lokalizace popisků - vícejazyčná lokalizace textů v aplikaci (AppResources)
-00:13:50 Lokalizace názvu aplikace - tj. názvu a popisu pro přehled aplikací ve store a v OS
-00:14:18 Lokalizace názvu v UWP
-00:16:14 Lokalizace názvu na Androidu
-00:18:00 AppResources EN - druhá jazyková verze textů v aplikaci
-00:18:47 Spuštění na Androidu v anglické verzi
+* 00:00:00 - Popisky definované přes atribut - zatím jednojazyčné
+* 00:03:54 - Lokalizace popisků - vícejazyčná lokalizace textů v aplikaci (AppResources)
+* 00:13:50 - Lokalizace názvu aplikace - tj. názvu a popisu pro přehled aplikací ve store a v OS
+* 00:14:18 - Lokalizace názvu v UWP
+* 00:16:14 - Lokalizace názvu na Androidu
+* 00:18:00 - AppResources EN - druhá jazyková verze textů v aplikaci
+* 00:18:47 - Spuštění na Androidu v anglické verzi
 
 
 ## Reflexe a lokalizace 5/5 - Reference, neboli vztahy mezi datovými třídami (tabulkami přes cizí klíče) včetně kontroly integrity dat
@@ -92,7 +92,7 @@ V páté části přednášky o reflexi a lokalizaci rozšíříme pomocí refle
 
 [![Reflexe a lokalizace 5/5 - Reference, neboli vztahy mezi datovými třídami (tabulkami přes cizí klíče) včetně kontroly integrity dat](https://img.youtube.com/vi/3lIGCYMMaMA/0.jpg)](https://www.youtube.com/watch?v=3lIGCYMMaMA)
 
-00:00:00 Reference - označení vlastností, které se mají odkazovat na ID jiných tříd + určení kterých
-00:01:29 Úprava formuláře pro editaci záznamů o schopnost zpracování vazeb přes LookupPicker
-00:06:53 Kontrola referencí (vazeb) objektu před jeho smazáním
-00:14:42 Závěrečné úpravy a shrnutí
+* 00:00:00 - Reference - označení vlastností, které se mají odkazovat na ID jiných tříd + určení kterých
+* 00:01:29 - Úprava formuláře pro editaci záznamů o schopnost zpracování vazeb přes LookupPicker
+* 00:06:53 - Kontrola referencí (vazeb) objektu před jeho smazáním
+* 00:14:42 - Závěrečné úpravy a shrnutí

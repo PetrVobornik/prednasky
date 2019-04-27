@@ -2,6 +2,7 @@
 
 Představení všech základních ovládacích prvků (controls), které jsou v Xamarin.Forms k dispozici.
 
+**Záznam z přednášky**  
 [![Ovládací prvky - záznam z přednášky](https://img.youtube.com/vi/XIjtPZsIEkc/0.jpg)](https://www.youtube.com/watch?v=XIjtPZsIEkc)
 
 [Prezentace Ovládací prvky](https://github.com/PetrVobornik/prednasky/blob/master/Xamarin.Forms/04-OvladaciPrvky/ovladaci-prvky.ppsx?raw=true)
