@@ -10,6 +10,7 @@ Projekty, prezentace a záznamy z přednášek o programování a dalších tech
 1. [Ukládání dat](https://github.com/PetrVobornik/prednasky/tree/master/Xamarin.Forms/06-UkladaniDat)
 1. [Reflexe a lokalizace](https://github.com/PetrVobornik/prednasky/tree/master/Xamarin.Forms/07-Reflexe)
 1. [Aplikace Kreslení](https://github.com/PetrVobornik/prednasky/tree/master/Xamarin.Forms/08-Kresleni)
+1. [Hra Asteroidy](https://github.com/PetrVobornik/prednasky/tree/master/Xamarin.Forms/09-Hra)
 
 <p align="center">
 <img src="https://github.com/PetrVobornik/prednasky/raw/master/Xamarin.Forms/theme.png" alt="Cross-platform develpoment" />
