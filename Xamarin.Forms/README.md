@@ -17,3 +17,6 @@ Letní semestr 2019.
 1. [Reflexe a lokalizace](https://github.com/PetrVobornik/prednasky/tree/master/Xamarin.Forms/07-Reflexe)
 1. [Aplikace Kreslení](https://github.com/PetrVobornik/prednasky/tree/master/Xamarin.Forms/08-Kresleni)
 1. [Hra Asteroidy](https://github.com/PetrVobornik/prednasky/tree/master/Xamarin.Forms/09-Hra)
+
+
+Seriál video-záznamů z přednášek na [YouTube](https://www.youtube.com/playlist?list=PLxTqV9i8bnb-jSug_rNeIZqOk41CfgPHx)
