@@ -84,3 +84,7 @@ Závěrečný pátý díl shrne veškerou dosavadní práci, ukáže jak výtvor
 * 05:41 - Další obrazec: Čára
 * 08:53 - Shrnutí
 * 15:47 - Název a ikony aplikace
+
+---
+
+[Další přednáška - Hra Asteroidy](https://github.com/PetrVobornik/prednasky/tree/master/Xamarin.Forms/09-Hra)

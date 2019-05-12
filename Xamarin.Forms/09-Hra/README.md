@@ -11,3 +11,7 @@ Přidané balíčky NuGet: [MonoGame.Framework.WindowsUniversal](https://www.nug
 
 
 Video záznam z přednášky již brzy...
+
+---
+
+[Zpět na přehled přednášek](https://github.com/PetrVobornik/prednasky)

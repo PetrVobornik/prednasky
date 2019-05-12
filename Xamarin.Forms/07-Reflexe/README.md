@@ -96,3 +96,7 @@ V páté části přednášky o reflexi a lokalizaci rozšíříme pomocí refle
 * 01:29 - Úprava formuláře pro editaci záznamů o schopnost zpracování vazeb přes LookupPicker
 * 06:53 - Kontrola referencí (vazeb) objektu před jeho smazáním
 * 14:42 - Závěrečné úpravy a shrnutí
+
+---
+
+[Další přednáška - Aplikace Kreslení](https://github.com/PetrVobornik/prednasky/tree/master/Xamarin.Forms/08-Kresleni)
