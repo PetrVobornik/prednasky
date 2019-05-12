@@ -13,7 +13,7 @@ Přidané balíčky NuGet: [SkiaSharp](https://www.nuget.org/packages/SkiaSharp/
 
 ### Aplikace Kreslení 1/5 - Obrazce
 
-V prvním díle video-tutoriálu s ukázkou vytvoření ucelené cross-platform aplikace Kreslení, si nejprve předveeme, jak aplikace bude vypadat, až bude hotová, a pak začneme od začátku s jejím vývojem. Založíme nový Xamrin.Forms projekt ve Visual Studiu 2019 a připravíme základní třídy pro kreslení obrazců - bázovou třídu Obrazec a z ní odvozené podtřídy Obdelnik a Elipsa.
+V prvním díle video-tutoriálu s ukázkou vytvoření ucelené cross-platform aplikace Kreslení, si nejprve předvedeme, jak aplikace bude vypadat, až bude hotová, a pak začneme od začátku s jejím vývojem. Založíme nový Xamrin.Forms projekt ve Visual Studiu 2019 a připravíme základní třídy pro kreslení obrazců - bázovou třídu Obrazec a z ní odvozené podtřídy Obdelnik a Elipsa.
 
 [![Aplikace Kreslení 1/5 - Obrazce](https://img.youtube.com/vi/gGIWSDz1i8E/0.jpg)](https://www.youtube.com/watch?v=gGIWSDz1i8E)
 
