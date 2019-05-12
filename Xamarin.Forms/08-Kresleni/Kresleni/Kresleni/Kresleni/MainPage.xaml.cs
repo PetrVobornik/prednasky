@@ -46,7 +46,7 @@ namespace Kresleni
             }
         }
 
-        ObservableCollection<Obrazec> obrazce = new ObservableCollection<Obrazec>();
+        readonly ObservableCollection<Obrazec> obrazce = new ObservableCollection<Obrazec>();
 
         private void StavIkon(bool? editace)
         {
@@ -127,8 +127,8 @@ namespace Kresleni
 
         private async void LSeznam_ItemTapped(object sender, ItemTappedEventArgs e)
         {
-            if (AktualniObrazec != null || lSeznam.SelectedItem == null) return;
-            var obr = (Obrazec)lSeznam.SelectedItem;
+            if (AktualniObrazec != null || e.Item == null) return;
+            var obr = (Obrazec)e.Item;
             string typ = await DisplayActionSheet(obr.ToString(), "Zrušit", "Vymazat", "Upravit");
             if (typ == "Upravit")
                 AktualniObrazec = obr;
@@ -188,7 +188,7 @@ namespace Kresleni
             get { return aktualniSoubor; }
             set {
                 aktualniSoubor = value;
-                Title = String.IsNullOrEmpty(aktualniSoubor) ? "Nová výkres" : aktualniSoubor;
+                Title = String.IsNullOrEmpty(aktualniSoubor) ? "Nový výkres" : aktualniSoubor;
             }
         }
 
@@ -196,7 +196,7 @@ namespace Kresleni
 
         private async void BNovaKresba_Clicked(object sender, EventArgs e)
         {
-            if (await DisplayAlert("Nový výkres", "Skutečně si přejete zavřít tento výkres a začít novou?", "Ano", "Ne"))
+            if (await DisplayAlert("Nový výkres", "Skutečně si přejete zavřít tento výkres a začít nový?", "Ano", "Ne"))
             {
                 obrazce.Clear();
                 AktualniObrazec = null;
