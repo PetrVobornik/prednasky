@@ -17,22 +17,4 @@
     <Compile Include="$(MSBuildThisFileDirectory)SpriteItem.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)SpriteRect.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Content Include="$(MSBuildThisFileDirectory)Content\asteroids.xnb" />
-    <Content Include="$(MSBuildThisFileDirectory)Content\cannon_base.xnb" />
-    <Content Include="$(MSBuildThisFileDirectory)Content\cannon_missile.xnb" />
-    <Content Include="$(MSBuildThisFileDirectory)Content\cannon_tube.xnb" />
-    <Content Include="$(MSBuildThisFileDirectory)Content\explosion_hit.xnb" />
-    <Content Include="$(MSBuildThisFileDirectory)Content\explosion_impact.xnb" />
-    <Content Include="$(MSBuildThisFileDirectory)Content\font.xnb" />
-    <Content Include="$(MSBuildThisFileDirectory)Content\sky.xnb" />
-    <Content Include="$(MSBuildThisFileDirectory)Content\snd_hit.xnb" />
-    <Content Include="$(MSBuildThisFileDirectory)Content\snd_impact.xnb" />
-    <Content Include="$(MSBuildThisFileDirectory)Content\snd_shoot.xnb" />
-    <Content Include="$(MSBuildThisFileDirectory)Content\song1.xnb" />
-    <Content Include="$(MSBuildThisFileDirectory)Content\town.xnb" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="$(MSBuildThisFileDirectory)Content\song1.wma" />
-  </ItemGroup>
 </Project>

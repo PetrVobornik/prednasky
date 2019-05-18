@@ -129,8 +129,22 @@
       <SubType>Designer</SubType>
     </AppxManifest>
     <None Include="Asteroids.UWP_TemporaryKey.pfx" />
+    <Content Include="Content\asteroids.xnb" />
+    <Content Include="Content\cannon_base.xnb" />
+    <Content Include="Content\cannon_missile.xnb" />
+    <Content Include="Content\cannon_tube.xnb" />
+    <Content Include="Content\explosion_hit.xnb" />
+    <Content Include="Content\explosion_impact.xnb" />
+    <Content Include="Content\font.xnb" />
+    <Content Include="Content\sky.xnb" />
+    <Content Include="Content\snd_hit.xnb" />
+    <Content Include="Content\snd_impact.xnb" />
+    <Content Include="Content\snd_shoot.xnb" />
+    <Content Include="Content\song1.xnb" />
+    <Content Include="Content\town.xnb" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\song1.wma" />
     <Content Include="Properties\Default.rd.xml" />
     <Content Include="Assets\LockScreenLogo.scale-200.png" />
     <Content Include="Assets\SplashScreen.scale-200.png" />
