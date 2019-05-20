@@ -9,7 +9,7 @@ Tentokrát si vyzkoušíme vytvořit ucelenou apalikaci a to jednoduchý kreslí
 Přidané balíčky NuGet: [SkiaSharp](https://www.nuget.org/packages/SkiaSharp/), [SkiaSharp.Views.Forms](https://www.nuget.org/packages/SkiaSharp.Views.Forms/), [ColorPicker](https://www.nuget.org/packages/Amporis.Xamarin.Forms.ColorPicker/)
 
 
-## Video-záznamy z přednášky Aplikace Kreslení
+## Videozáznamy z přednášky Aplikace Kreslení
 
 ### Aplikace Kreslení 1/5 - Obrazce
 

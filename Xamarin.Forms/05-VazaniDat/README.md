@@ -2,8 +2,9 @@
 
 Na několika názorných ukázkách si vysvětlíme a vyzkoušíme základní principy vázání dat neboli DataBindingu, při kterém se vlastnosti datových objektů provazují s vlastnostmi ovládacích prvků, umožňujících jejich přímou editaci bez nutnosti obslužného kódu na pozadí.
 
-**Záznam z přednášky**  
 [![Vázání dat - záznam z přednášky](https://img.youtube.com/vi/VB3ZpOXpq40/0.jpg)](https://www.youtube.com/watch?v=VB3ZpOXpq40)
+
+[Videozáznam z přednášky - Vázání dat](https://www.youtube.com/watch?v=VB3ZpOXpq40)
 
 [Prezentace Vázání dat](https://github.com/PetrVobornik/prednasky/blob/master/Xamarin.Forms/05-VazaniDat/vazani-dat.ppsx?raw=true)
 

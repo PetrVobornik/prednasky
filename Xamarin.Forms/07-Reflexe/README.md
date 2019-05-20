@@ -24,7 +24,7 @@ Naprogramujte každý typ okna jen jednou, ale pořádně a univerzálně, a pak
 Přidané komponenty: [SQLite](https://www.nuget.org/packages/sqlite-net-pcl/), [LookupPicker](https://www.nuget.org/packages/Amporis.Xamarin.Forms.LookupPicker)
 
 
-## Záznamy z přednášky Reflexe a lokalizace
+## Videozáznamy z přednášky Reflexe a lokalizace
 
 ### Reflexe a lokalizace 1/5 - Trocha teorie na úvod
 
