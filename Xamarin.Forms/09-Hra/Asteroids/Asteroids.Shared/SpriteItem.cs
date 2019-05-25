@@ -79,8 +79,8 @@ namespace Asteroids.Shared
             // Přepočet hranic obrazovky
             recFull.X -= (int)(Stred.X * Meritko);
             recFull.Y -= (int)(Stred.Y * Meritko);
-            recFull.Width += (int)(Stred.X * Meritko);
-            recFull.Height += (int)(Stred.Y * Meritko);
+            recFull.Width += (int)(Stred.X * Meritko * 2);
+            recFull.Height += (int)(Stred.Y * Meritko * 2);
             // Kontrola, je-li mimo hranice obrazovky
             JeMimo = !recFull.Contains(novaPozice);
             if (!JeMimo)

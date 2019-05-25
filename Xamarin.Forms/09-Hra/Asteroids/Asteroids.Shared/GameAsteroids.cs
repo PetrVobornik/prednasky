@@ -173,7 +173,7 @@ namespace Asteroids.Shared
 
         protected override void Draw(GameTime gameTime)
         {
-            GraphicsDevice.Clear(Color.Black); // Brava podkladu na pozadí
+            GraphicsDevice.Clear(Color.Black); // Barva podkladu na pozadí
             spriteBatch.Begin(SpriteSortMode.FrontToBack, BlendState.AlphaBlend); // Začátek vykreslování
 
             sky.Draw(spriteBatch);
