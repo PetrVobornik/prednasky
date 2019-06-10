@@ -15,7 +15,7 @@ namespace Asteroids.Shared
             Meritko = 0.6f;
             Layer = 0.99f;
             UhelPohybu = missile.UhelPohybu;
-            Pozice = missile.Pozice + VektorPosunuPoUhlu() * missile.VyskaObrzaku * missile.Meritko;
+            Pozice = missile.Pozice + VektorPosunuPoUhlu() * missile.VyskaObrzaku * missile.Meritko * 0.5f;
             RychlostAnimace = 25f;
         }
     }

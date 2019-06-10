@@ -52,7 +52,7 @@ namespace Asteroids.Shared
         {
             Meritko = cannon.Meritko;
             Layer = 0.90f;
-            Stred = new Vector2(SirkaObrzaku * 0.5f, VyskaObrzaku);
+            //Stred = new Vector2(SirkaObrzaku * 0.5f, VyskaObrzaku * 0.5f);
             UhelOtoceni = cannon.UhelOtoceni;
             UhelPohybu = UhelOtoceni - (float)Math.PI * 0.5f;
             RychlostPohybu = 500;
@@ -66,7 +66,7 @@ namespace Asteroids.Shared
         }
 
         public bool ZasahAsteroidu(SpriteAsteroid a)
-            => Vector2.Distance(a.Pozice, Pozice) <= a.SirkaObrzaku * a.Meritko;
+            => Vector2.Distance(a.Pozice, Pozice) <= a.SirkaObrzaku * a.Meritko * 0.5 + 
+                                                       VyskaObrzaku *   Meritko * 0.5; 
     }
-
 }
