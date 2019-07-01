@@ -20,7 +20,7 @@ namespace Asteroids.Shared
             UhelPohybu = (float)(RND.NextDouble() * Math.PI * 0.5 + Math.PI * 0.25);
             baseSpeed = RND.Next(5, 60);
             RychlostPohybu = baseSpeed;
-            RychlostRotace = (float)(RND.NextDouble() * 0.25);
+            RychlostRotace = (float)(RND.NextDouble() * 0.5 * Math.PI - 0.25 * Math.PI);
             Layer = Meritko;
         }
 
