@@ -126,7 +126,7 @@ namespace Asteroids.Shared
             }
             foreach (var a in asteroids)
             {
-                if (a.Pozice.Y + a.VyskaObrzaku * a.Meritko >= recFull.Height - (townHeight * 0.08f))
+                if (a.Pozice.Y + a.VyskaObrzaku * a.Meritko * 0.5f >= recFull.Height - (townHeight * 0.08f))
                 {
                     a.JeMimo = true;
                     impacts.Add(new SpriteExplosionImpact(a));

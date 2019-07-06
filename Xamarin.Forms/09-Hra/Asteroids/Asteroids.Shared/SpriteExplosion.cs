@@ -29,7 +29,7 @@ namespace Asteroids.Shared
             Meritko = 0.6f;
             Layer = 0.99f;
             Stred = new Vector2(SirkaObrzaku * 0.5f, VyskaObrzaku);
-            Pozice = asteroid.Pozice + new Vector2(0, asteroid.VyskaObrzaku * asteroid.Meritko);
+            Pozice = asteroid.Pozice + new Vector2(0, asteroid.VyskaObrzaku * asteroid.Meritko * 0.5f);
             RychlostAnimace = 25f;
         }
     }
