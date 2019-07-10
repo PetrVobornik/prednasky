@@ -7,6 +7,7 @@ using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
+using Windows.UI.ViewManagement;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Controls.Primitives;
@@ -29,6 +30,7 @@ namespace Asteroids.UWP
             this.InitializeComponent();
 
             var game = XamlGame<GameAsteroids>.Create("", Window.Current.CoreWindow, swapChainPanel);
+            ApplicationView.GetForCurrentView().TryEnterFullScreenMode();  // Přepne okno na full screen
         }
     }
 }
