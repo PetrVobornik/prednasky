@@ -80,7 +80,7 @@ Ve čtvrté části přidáme do hry konečně nějaké pohyblivé části a tě
 
 V páté části vytvoříme hráčem ovládaný obranný prvek - obrovský kanón uprostřed města. Tím bude možné otáčet jak klikáním myši, tak dotykem, přičemž ho naučíme i vystřelovat rakety proti padajícím asteroidům.
 
-[![Hra Asteroidy 5/8 - Kanón](https://img.youtube.com/vi/8rJOuH6dPDw/0.jpg)](https://www.youtube.com/watch?v=8rJOuH6dPDw)
+[![Hra Asteroidy 5/8 - Kanón](https://img.youtube.com/vi/87sDalPCRRM/0.jpg)](https://www.youtube.com/watch?v=87sDalPCRRM)
 
 * 00:00 - Třída pro objekty asteroidů (SpriteAsteroid)
 * 05:38 - Metoda Update
