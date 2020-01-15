@@ -11,7 +11,7 @@ V této části si ukážeme, jak se právně odkazovat mezi buňkami, jaké dru
 * 02:18 - Priorita operátorů
 * 04:27 - Vkládání rovnic
 * 05:01 - Složitější vzorce s odkazy
-
+* 
 * 06:28 - Funkce
 * 07:01 - Dialog pro vložení funkce
 * 07:41 - Kategorie funkcí - Vše
@@ -28,14 +28,14 @@ V této části si ukážeme, jak se právně odkazovat mezi buňkami, jaké dru
 * 13:03 - Datová krychle
 * 13:07 - Kompatibilita
 * 13:54 - Webové funkce
-
+* 
 * 14:20 - Vložení funkce - Zaokrouhlování
 * 16:33 - Rychlé statistiky
 * 17:34 - Agregační funkce
 * 19:35 - Absolutní a relativní odkazy
 * 24:41 - Posloupnost
 * 25:17 - Skryté mezivýpočty
-
+* 
 * 27:36 - Matematické funkce
 * 27:43 - Odmocnina
 * 28:58 - PI
