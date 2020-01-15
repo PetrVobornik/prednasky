@@ -5,7 +5,7 @@
 </p>
 
 
-Záznamy přednášek a materiály k ovládání tabulkového procesoru Microsoft Excel. 
+Záznamy přednášek a materiály k ovládání tabulkového procesoru Microsoft Excel.  
 Letní semestr 2019.
 
 1. [Základní ovládání](https://github.com/PetrVobornik/prednasky/tree/master/Excel/01-ZakladniOvladani)
@@ -23,4 +23,4 @@ Letní semestr 2019.
     * Vlastní funkce
 
 
-Seriál video-záznamů z přednášek na [YouTube](https://www.youtube.com/playlist?list=PLxTqV9i8bnb8glGrHHlSyZn5FMVJa5xhv)
+Seriál video záznamů z přednášek na [YouTube](https://www.youtube.com/playlist?list=PLxTqV9i8bnb8glGrHHlSyZn5FMVJa5xhv)
