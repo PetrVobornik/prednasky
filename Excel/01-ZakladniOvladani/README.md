@@ -28,4 +28,4 @@ Pro začátek si vysvětlíme úplné základy v ovládání Excelu, co se jak j
 
 ---
 
-[Další přednáška - Navigace v aplikaci](https://github.com/PetrVobornik/prednasky/tree/master/Excel/02-FormatovaniBunek)
+[Další přednáška - Formátování buněk](https://github.com/PetrVobornik/prednasky/tree/master/Excel/02-FormatovaniBunek)
