@@ -13,7 +13,7 @@ Projekty, prezentace a záznamy z přednášek o programování a dalších tech
 1. [Hra Asteroidy](https://github.com/PetrVobornik/prednasky/tree/master/Xamarin.Forms/09-Hra)
 
 <p align="center">
-<img src="https://github.com/PetrVobornik/prednasky/raw/master/Xamarin.Forms/theme.png" alt="Cross-platform develpoment" />
+<img src="https://github.com/PetrVobornik/prednasky/raw/master/Xamarin.Forms/theme.png" width="400" alt="Cross-platform develpoment" />
 </p>
 
 
