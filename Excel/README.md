@@ -19,8 +19,8 @@ Letní semestr 2019.
 1. [Makra - Buňky](https://github.com/PetrVobornik/prednasky/tree/master/Excel/09-MakraBunky)
 1. [Makra - Cykly](https://github.com/PetrVobornik/prednasky/tree/master/Excel/10-MakraCykly)
 1. [Praktické příklady](https://github.com/PetrVobornik/prednasky/tree/master/Excel/11-PraktickePriklady)
- * Univerzální kalendář
- * Vlastní funkce
+  * Univerzální kalendář
+  * Vlastní funkce
 
 
 Seriál video-záznamů z přednášek na [YouTube](https://www.youtube.com/playlist?list=PLxTqV9i8bnb8glGrHHlSyZn5FMVJa5xhv)
