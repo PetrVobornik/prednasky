@@ -34,4 +34,4 @@ Podmíněné formátování
 
 ---
 
-[Další přednáška - Formátování buněk](https://github.com/PetrVobornik/prednasky/tree/master/Excel/03-OdkazyVzorce)
+[Další přednáška - Odkazy a vzorce](https://github.com/PetrVobornik/prednasky/tree/master/Excel/03-OdkazyVzorce)
