@@ -1,7 +1,7 @@
 # Excel
 
 <p align="center">
-<img src="https://github.com/PetrVobornik/prednasky/raw/master/Excel/theme.png" alt="Excel" />
+<img src="https://github.com/PetrVobornik/prednasky/raw/master/Excel/theme.png" alt="Excel" style="width: 400px;" />
 </p>
 
 
