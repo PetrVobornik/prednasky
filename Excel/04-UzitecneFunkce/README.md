@@ -20,11 +20,11 @@ Tentokrát se podíváme na několik konkrétních Excelových funkcí, na kter�
 * 11:10 - Vážený průměr
 * 12:26 - Skalární součin
 * 13:47 - Podmíněný počet (COUNTIF)
-
+* 
 * 15:49 - Vyhledávání
 * 16:49 - Dekódování znaků z čísel dle převodové tabulky (SVYHLEDAT)
 * 18:18 - Přibližné vyhledávání - automatické známkování dle bodů
-
+* 
 * 20:52 - Datum
 * 20:55 - Dnešní datum
 * 21:33 - Jak Excel počítá datum
@@ -38,7 +38,7 @@ Tentokrát se podíváme na několik konkrétních Excelových funkcí, na kter�
 * 24:58 - Za hodinu
 * 25:14 - Za 7 hodin
 * 25:30 - Převod čísla na čas
-
+* 
 * 26:44 - Textové funkce
 * 27:15 - Převod velkých písmen na malá
 * 27:28 - Převod malých písmen na velká

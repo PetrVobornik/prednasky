@@ -7,7 +7,7 @@ Tentokrát se zaměříme na možnosti vytváření grafů v Excelu. Podíváme 
 [Videozáznam z přednášky Excel - Grafy](https://youtu.be/PrYl6k08wLY)
 
 * 00:05 - Vložení grafu
-
+* 
 * 00:44 - Jednotlivé typy grafů
 * 00:53 - Sloupcový graf
 * 01:29 - Skládaný sloupcový graf
@@ -32,17 +32,17 @@ Tentokrát se zaměříme na možnosti vytváření grafů v Excelu. Podíváme 
 * 12:43 - Vodopádový graf
 * 12:52 - Trychtýřový/pyramidový graf
 * 13:01 - Kombinovaný graf
-
-Minigrafy
+* 
+* Minigrafy
 * 13:33 - Spojnicový
 * 14:28 - Sloupcový
 * 14:35 - Vzestupy/poklesy
-
+* 
 * 14:49 - Možnosti formátování různých typů grafů
 * 14:54 - Formátování výsečového grafu
 * 16:39 - Formát popisků dat výsečového grafu
 * 18:38 - Úprava vzhledu datových řad výsečového grafu
-
+* 
 * 20:25 - Formátování sloupcového grafu
 * 20:45 - Změna barev sloupců
 * 21:02 - Šířka mezery mezi kategoriemi sloupců
@@ -58,7 +58,7 @@ Minigrafy
 * 24:57 - Umístění popisků osy
 * 25:13 - Popisky dat sloupcového grafu
 * 25:22 - Tabulka dat
-
+* 
 * 26:15 - Časový graf
 * 26:52 - Spojnice trendu (MNČ)
 

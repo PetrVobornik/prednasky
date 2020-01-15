@@ -21,8 +21,8 @@ Tato část bude věnována různým způsobům formátování (včetně formát
 * 20:09 - Zamykání buněk a listů
 * 22:47 - Styly buněk
 * 24:53 - Formát tabulky
-
-Podmíněné formátování
+* 
+* Podmíněné formátování
 * 26:34 - Porovnání čísel
 * 28:07 - Formát dle části textu
 * 28:58 - Duplicitní hodnoty

@@ -6,15 +6,15 @@ Než se pustíme do maker, ještě zbývá spoustu funkcí, kterými Excel dispo
 
 [Videozáznam z přednášky Excel - Import, tisk a formuláře](https://youtu.be/dkWHceR_G3o)
 
-Import dat
+* Import dat
 * 00:05 - CSV soubor
 * 01:00 - Načtení CSV souboru
 * 01:34 - Vložení textových dat ze schránky
 * 01:53 - Text do sloupců
 * 04:39 - Nahrazování znaků ve sloupci
 * 06:17 - Převést text na číslo
-
-Filtrování dat
+* 
+* Filtrování dat
 * 06:53 - Filtrování dat
 * 07:50 - Kopírování filtrovaných dat
 * 08:08 - Počet vyfiltrovaných záznamů
@@ -23,8 +23,8 @@ Filtrování dat
 * 09:47 - Filtrování číselných hodnot
 * 10:20 - Rychlé řazení řádků tabulky
 * 10:29 - Víceúrovňové řazení
-
-Příprava pro tisk
+* 
+* Příprava pro tisk
 * 11:48 - Příprava pro tisk
 * 12:02 - Vzhled a rozložení stránky
 * 12:58 - Opakování záhlaví tabulky na každé stránce
@@ -42,8 +42,8 @@ Příprava pro tisk
 * 20:26 - Úsporný tisk
 * 20:38 - Tisk čísel řádků a písmen sloupců
 * 20:59 - Export listu do PDF
-
-Ověřování dat ve formulářích
+* 
+* Ověřování dat ve formulářích
 * 21:43 - Komentáře buněk
 * 23:18 - Ověřování dat
 * 23:35 - Ověření zadání čísla v určitém rozmezí
@@ -53,8 +53,8 @@ Ověřování dat ve formulářích
 * 25:55 - Informace
 * 26:19 - Hromadné označení neplatných dat
 * 27:27 - Znepřístupnění ostatních buněk
-
-Iterativní přepočet buněk
+* 
+* Iterativní přepočet buněk
 * 28:03 - Cyklické odkazy ve vzorcích
 * 28:39 - Iterativní přepočet buněk
 * 30:42 - Závěr
