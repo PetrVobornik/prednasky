@@ -35,3 +35,7 @@ Projekty, prezentace a záznamy z přednášek o programování a dalších tech
 <p align="center">
 <img src="https://github.com/PetrVobornik/prednasky/raw/master/Excel/theme.png" alt="Excel" width="400" />
 </p>
+
+---
+
+[Facebook](https://www.facebook.com/Programovat/)
