@@ -5,7 +5,7 @@
 </p>
 
 
-Záznamy přednášek a materiály k na téma Základy programování v C# (Visual Studio 2019, Console App .NET Core).
+Záznamy přednášek a materiály k na téma *Základy programování v C#* (Visual Studio 2019, Console App .NET Core).
 Letní semestr 2020.
 
 
