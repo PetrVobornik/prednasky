@@ -1,6 +1,6 @@
 # Přednášky
 Projekty, prezentace a záznamy z přednášek o programování a dalších technologiích.
-<p style="text-align: right">[Facebook](https://www.facebook.com/Programovat/)</p>
+<p style="text-align: right"><a href="https://www.facebook.com/Programovat/">Facebook</a></p>
 
 ## [Xamarin.Forms](https://github.com/PetrVobornik/prednasky/tree/master/Xamarin.Forms)
 1. [OOP a .NET technologie](https://github.com/PetrVobornik/prednasky/tree/master/Xamarin.Forms/01-OOP-a-NET)
