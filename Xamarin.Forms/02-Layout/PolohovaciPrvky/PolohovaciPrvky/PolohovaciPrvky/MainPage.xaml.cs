@@ -30,7 +30,7 @@ namespace PolohovaciPrvky
         {
             using (var wc = new WebClient())
             {
-                var data = await wc.DownloadDataTaskAsync("https://developer.xamarin.com/demo/stock.json");
+                var data = await wc.DownloadDataTaskAsync("https://raw.githubusercontent.com/xamarin/docs-archive/master/Images/stock/small/stock.json");
 
                 using (var stream = new MemoryStream(data))
                 {
@@ -39,7 +39,7 @@ namespace PolohovaciPrvky
 
                     foreach (string fileUrl in images.Photos.Take(12))
                         flFlex.Children.Add(new Image() {
-                            Source = ImageSource.FromUri(new Uri(fileUrl + "?width=240&height=240&mode=max")),
+                            Source = ImageSource.FromUri(new Uri(fileUrl)),
                             Margin = new Thickness(5)
                         });
                 }

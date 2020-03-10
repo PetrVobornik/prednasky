@@ -6,7 +6,7 @@
 
 
 Materiály k přednáškám o základech objektově orientovaného programování a vývoji cross-platform aplikací v Xamarin.Forms. 
-Letní semestr 2019.
+Letní semestr 2019. Částečně postupně aktulizováno novinkami z LS 2020.
 
 1. [OOP a .NET technologie](https://github.com/PetrVobornik/prednasky/tree/master/Xamarin.Forms/01-OOP-a-NET)
 1. [Layout v Xamarin.Forms](https://github.com/PetrVobornik/prednasky/tree/master/Xamarin.Forms/02-Layout)

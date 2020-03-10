@@ -33,7 +33,7 @@ Druhá část přehledu základů objektově orientovaného programování v jaz
 [Prezentace OOP - Dědičnost, polymorfizmus a rozhraní](https://github.com/PetrVobornik/prednasky/raw/master/Xamarin.Forms/01-OOP-a-NET/OOP-2-dedicnost.ppsx)
 
 
-## Ukázka OOP - Program Bankomat v Xamarin.Forms
+## Ukázka OOP 1 (třídy a objekty) - Program Bankomat v Xamarin.Forms
 
 Ukázka základních principů objektově orientovaného programování v praktické ukázce na programu (třídě) Bankomat v Xamarin.Forms.
 
@@ -44,6 +44,13 @@ Ukázka základních principů objektově orientovaného programování v prakti
 [Projekt Bankomat program](https://github.com/PetrVobornik/prednasky/tree/master/Xamarin.Forms/01-OOP-a-NET/BankomatProgram)
 
 [Zadání rozšiřující úlohy pro program Bankomat](https://github.com/PetrVobornik/prednasky/tree/master/Xamarin.Forms/01-OOP-a-NET/uloha.md)
+
+
+## Ukázka OOP 2 (dědičnost a polymorfizmus) - Program Kalkulátor v Xamarin.Forms
+
+Ukázka základního principu dědičnosti a polymorfizmu v jednoduché praktické ukázce abstraktní třídy Operace a jejích potomků.
+
+[Projekt Kalkulátor](https://github.com/PetrVobornik/prednasky/tree/master/Xamarin.Forms/01-OOP-a-NET/OopKalkulator)
 
 ---
 

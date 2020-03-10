@@ -6,6 +6,7 @@
 
     <ScrollView>
         <StackLayout>
+            
             <!-- ContentView -->
             <local:Logo WidthRequest="120" HeightRequest="120" Margin="0,25" HorizontalOptions="Center" />
 
@@ -69,7 +70,7 @@
                 <Label Text="Login:" />
                 <Entry />
                 <Label Text="Heslo:" />
-                <Entry />
+                <Entry IsPassword="True" />
                 <Button Text="Přihlásit" WidthRequest="100" HorizontalOptions="Center" />
             </StackLayout>
         </StackLayout>

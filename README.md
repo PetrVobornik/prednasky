@@ -16,6 +16,7 @@ Projekty, prezentace a záznamy z přednášek o programování a dalších tech
 <img src="https://github.com/PetrVobornik/prednasky/raw/master/Xamarin.Forms/theme.png" width="400" alt="Cross-platform develpoment" />
 </p>
 
+---
 
 ## [Excel](https://github.com/PetrVobornik/prednasky/tree/master/Excel)
 1. [Základní ovládání](https://github.com/PetrVobornik/prednasky/tree/master/Excel/01-ZakladniOvladani)
