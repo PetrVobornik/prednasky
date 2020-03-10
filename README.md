@@ -39,4 +39,12 @@ Projekty, prezentace a záznamy z přednášek o programování a dalších tech
 
 ---
 
+## [Základy programování v C#](https://github.com/PetrVobornik/prednasky/tree/master/ZakladyCs)
+1. [Základní příkazy](https://github.com/PetrVobornik/prednasky/tree/master/ZakladyCs/01-ZakladniPrikazy)
+
+<p align="center">
+<img src="https://github.com/PetrVobornik/prednasky/raw/master/ZakladyCs/theme.png" alt="C#" width="320" />
+</p>
+
+
 [Facebook](https://www.facebook.com/Programovat/)

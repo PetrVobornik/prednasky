@@ -1,7 +1,7 @@
 # Základy programování v C#
 
 <p align="center">
-<img src="https://github.com/PetrVobornik/prednasky/raw/master/ZakladyCs/theme.svg" alt="C#" width="300" />
+<img src="https://github.com/PetrVobornik/prednasky/raw/master/ZakladyCs/theme.png" alt="C#" width="320" />
 </p>
 
 
