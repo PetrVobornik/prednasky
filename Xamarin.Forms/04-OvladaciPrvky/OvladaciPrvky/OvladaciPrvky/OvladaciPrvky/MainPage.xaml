@@ -7,6 +7,14 @@
     <ScrollView>
         <StackLayout Spacing="20" Padding="10">
 
+            <!-- RefreshView -->
+            <RefreshView x:Name="rRefresher" HeightRequest="150" Refreshing="rRefresher_Refreshing">
+                <ScrollView>
+                    <BoxView x:Name="xRefreshBox" HeightRequest="200" BackgroundColor="Yellow" />
+                </ScrollView>
+            </RefreshView>
+
+            <!-- TableView -->
             <TableView Intent="Settings" HeightRequest="400">
                 <TableRoot>
                     <TableSection Title="Základní nastavení">
@@ -29,13 +37,42 @@
                 </TableRoot>
             </TableView>
 
-            <!-- ListView -->
+            <!-- CollectionView... -->
+            <CollectionView x:Name="cCollect" HeightRequest="300" SelectionMode="Single" Header="Měsíce" Footer="Rok 2020">
+                <CollectionView.ItemsLayout>
+                    <GridItemsLayout Orientation="Vertical" Span="3" />
+                </CollectionView.ItemsLayout>
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <StackLayout Orientation="Horizontal" HeightRequest="40">
+                            <BoxView Color="{Binding Color}" Margin="5" />
+                            <Label Text="{Binding Name}" VerticalOptions="Center" />
+                        </StackLayout>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+
+            <!-- CarouselView...  -->
+            <CarouselView x:Name="cCarousel" HeightRequest="100" IndicatorView="iCarIndicator">
+                <CarouselView.ItemTemplate>
+                    <DataTemplate>
+                        <StackLayout>
+                            <BoxView Color="{Binding Color}" Margin="10" HorizontalOptions="Center" WidthRequest="50" HeightRequest="50" />
+                            <Label Text="{Binding Name}" HorizontalOptions="Center" />
+                        </StackLayout>
+                    </DataTemplate>
+                </CarouselView.ItemTemplate>
+            </CarouselView>
+            <IndicatorView x:Name="iCarIndicator"  IndicatorColor="LightGray" SelectedIndicatorColor="DarkGray" HorizontalOptions="Center" />
+          
+            
+            <!-- ListView... -->
             <ListView x:Name="lSeznam" HeightRequest="150" WidthRequest="150">
                 <ListView.ItemTemplate>
                     <DataTemplate>
                         <ViewCell>
                             <StackLayout Orientation="Horizontal" HeightRequest="40">
-                                <BoxView Color="Red" Margin="5" />
+                                <BoxView Color="{Binding Color}" Margin="5" />
                                 <Label Text="{Binding Name}" VerticalOptions="Center" />
                             </StackLayout>
                         </ViewCell>
@@ -43,7 +80,7 @@
                 </ListView.ItemTemplate>
             </ListView>
 
-            <!-- Picker -->
+            <!-- Picker... -->
             <Picker Title="Světadíl" WidthRequest="150" x:Name="pSvetadil">
                 <Picker.Items>
                     <x:String>Evropa</x:String>
@@ -54,11 +91,34 @@
                     <x:String>Antarktida</x:String>
                 </Picker.Items>
             </Picker>
-            
-            <!-- WebView -->
+
+            <!-- MediaElement -->
+            <MediaElement Source="https://sec.ch9.ms/ch9/5d93/a1eab4bf-3288-4faf-81c4-294402a85d93/XamarinShow_mid.mp4"
+              ShowsPlaybackControls="True" Volume="0.01" HeightRequest="300" />
+
+            <!-- WebView... -->
             <Entry x:Name="eUrl" Completed="EUrl_Completed" Keyboard="Url" />
             <WebView Source="https://www.uhk.cz" HeightRequest="500" x:Name="wWeb"
                      Navigated="WWeb_Navigated" />
+
+            <!-- SwipeView -->
+            <SwipeView>
+                <SwipeView.LeftItems>
+                    <SwipeItems>
+                        <SwipeItem Text="Uložit" BackgroundColor="LightGreen" Invoked="siUlozit_Invoked" />
+                        <SwipeItem Text="Smazat" BackgroundColor="LightPink" />
+                    </SwipeItems>
+                </SwipeView.LeftItems>
+                <SwipeView.RightItems>
+                    <SwipeItems>
+                        <SwipeItem Text="OK" BackgroundColor="LightBlue" />
+                    </SwipeItems>
+                </SwipeView.RightItems>
+                <Grid HeightRequest="60" WidthRequest="300" BackgroundColor="LightGray">
+                    <Label Text="Swipe right" HorizontalOptions="Center" VerticalOptions="Center" />
+                </Grid>
+            </SwipeView>
+            
 
             <!-- drobnosti -->
             <BoxView Color="Fuchsia" WidthRequest="100" HeightRequest="50" HorizontalOptions="Center" />
@@ -78,6 +138,7 @@
             <Slider Minimum="0" Maximum="100" Value="75" />
 
             <Switch IsToggled="True" HorizontalOptions="Center" />
+            
 
             <!-- SearchBar -->
             <SearchBar Placeholder="Hledat..." />
@@ -99,13 +160,15 @@
             
             <Button Text="Sledujte nás" HorizontalOptions="Center" Image="facebook.png" />
             <Button Text="Klikni na mě!" HorizontalOptions="Center" Clicked="Button_Clicked" />
-
+            
             <!-- Image -->
-            <Image Source="https://scontent-prg1-1.cdninstagram.com/vp/0767b6bc9c6bcf392aef3054ba0eec68/5D4A7E8E/t51.2885-15/sh0.08/e35/s750x750/43617655_1849096751874341_6285176765518526561_n.jpg?_nc_ht=scontent-prg1-1.cdninstagram.com" 
+            <Image Source="https://upload.wikimedia.org/wikipedia/commons/2/2c/Rotating_earth_%28large%29.gif"
+                   IsAnimationPlaying="True" />
+            <Image Source="https://scontent-prg1-1.cdninstagram.com/v/t51.2885-15/e35/74969020_541065930022917_563139040754857265_n.jpg?_nc_ht=scontent-prg1-1.cdninstagram.com&amp;_nc_cat=109&amp;_nc_ohc=vzj7_7J1ff0AX98YP4L&amp;oh=55d6c04a240956636b91ddc0141b0827&amp;oe=5E9069BD" 
                    HeightRequest="500" Aspect="AspectFit" />            
             <Image Source="facebook.png" />
 
-            <!-- Label -->
+            <!-- Label... -->
             <Label>
                 <Label.FormattedText>
                     <FormattedString>
