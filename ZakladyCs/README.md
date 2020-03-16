@@ -12,6 +12,7 @@ Letní semestr 2020.
 1. [Základní příkazy](https://github.com/PetrVobornik/prednasky/tree/master/ZakladyCs/01-ZakladniPrikazy)
 1. [Jednorozměrná pole](https://github.com/PetrVobornik/prednasky/tree/master/ZakladyCs/02-Posloupnosti)
 1. [Dvourozměrná pole](https://github.com/PetrVobornik/prednasky/tree/master/ZakladyCs/03-Matice)
+1. [Čtvercové matice](https://github.com/PetrVobornik/prednasky/tree/master/ZakladyCs/04-CtvercoveMatice)
 1. ...
 
 Seriál video záznamů z přednášek o C# na [YouTube](https://www.youtube.com/playlist?list=PLxTqV9i8bnb8tanSMrno74A4tvOF7eIqT)
