@@ -64,6 +64,9 @@ O tom, jak nahrát či napsat makro (vlastní program v rámci Excelového seši
 * 28:22 - Načtení hodnoty z jiného (zavřeného) sešitu - Workbooks
 * 32:04 - Závěr
 
+
+[Sešit Excelu - Marka - Buňky](https://github.com/PetrVobornik/prednasky/tree/master/Excel/09-MakraBunky/makra-bunky.xlsm)
+
 ---
 
 [Další přednáška - Makra - Cykly](https://github.com/PetrVobornik/prednasky/tree/master/Excel/10-MakraCykly)

@@ -18,6 +18,8 @@ Ukážeme si, jak vytvořit univerzální kalendář, kterému bude stačit zada
 * 16:48 - Zvýraznění dnů, které jsou v seznamu dat
 * 21:16 - Závěr
 
+[Sešit Excelu - Vlastní funkce](https://github.com/PetrVobornik/prednasky/tree/master/Excel/11-PraktickePriklady/funkce.xlsm)
+
 ---
 
 ## Vlastní funkce
@@ -38,3 +40,5 @@ V tomto praktickém příkladě si ukážeme, jak do Excelu přidávat vlastní 
 * 08:23 - Kontrola duplicit
 * 09:27 - Vše v jednom vzorci
 * 09:50 - Shrnutí
+
+[Sešit Excelu - Univerzální kalendář](https://github.com/PetrVobornik/prednasky/tree/master/Excel/11-PraktickePriklady/kalendar.xlsx)

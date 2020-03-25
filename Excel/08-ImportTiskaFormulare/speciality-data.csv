@@ -1,0 +1,31 @@
+ID;Prodejna;Prodejce;Kategorie ;Produkt ;Datum;Ks;Cena;Prodej
+1;Praha;Fantomas;Hokej;Helma;1.2.2013;10;125;1 250
+2;Praha;Superman;Golf;Hùl;1.2.2013;60;100;6 000
+3;Praha;Rakosníèek;Golf;Míèek;5.2.2013;45;80;3 600
+4;Praha;Bond James;Hokej;Chránèe;6.2.2013;33;123;4 059
+5;Brno;Wolker Johny;Golf;Boty;6.2.2013;44;456;20 064
+6;Brno;Aladin;PinkPong;Lopta;6.2.2013;12;14;168
+7;Brno;Bathman;PinkPong;Pálka;14.2.2013;5;147;735
+8;Brno;Spiderman;Fotbal;Kopaèky;14.2.2013;8;258;2 064
+9;Praha;Fantomas;Horolezectví;Karabina;14.2.2013;24;369;8 856
+10;Praha;Superman;Horolezectví;Sedák;14.2.2013;32;951;30 432
+11;Praha;Rakosníèek;Horolezectví;Osma;14.2.2013;24;159;3 816
+12;Praha;Bond James;Hokej;Brusle;16.2.2013;20;7;140
+13;Brno;Wolker Johny;Hokej;Trenér;16.2.2013;45;873;39 285
+14;Brno;Aladin;Fotbal;Kopaèák;16.2.2013;45;222;9 990
+15;Brno;Bathman;Hokej;Puk;17.2.2013;45;357;16 065
+16;Brno;Spiderman;Horolezectví;Lano;21.2.2013;12;12;144
+17;Brno;Fantomas;Hokej;Sí;22.2.2013;1;24;24
+18;Praha;Superman;Kuelky;Kuelka;22.2.2013;145;64;9 280
+19;Praha;Rakosníèek;Kuelky;Míè;26.2.2013;10;128;1 280
+20;Praha;Bond James;Golf;Míèek;3.3.2013;20;1 024;20 480
+21;Praha;Wolker Johny;Kuelky;Leštidlo;4.3.2013;30;555;16 650
+22;Praha;Aladin;Golf;Pøíruèka;5.3.2013;12;666;7 992
+23;Brno;Bathman;Horolezectví;Skoba;6.3.2013;15;777;11 655
+24;Brno;Spiderman;Fotbal;Rozhoèí;7.3.2013;18;888;15 984
+25;Brno;Fantomas;Golf;Bagl;8.3.2013;6;999;5 994
+26;Brno;Superman;Fotbal;Dres;8.3.2013;12;200;2 400
+27;Praha;Rakosníèek;Hokej;Chranièe;9.3.2013;49;300;14 700
+28;Brno;Bond James;Hokej;Vstupenky;10.3.2013;51;400;20 400
+29;Praha;Wolker Johny;Hokej;Brusle;10.3.2013;14;222;3 108
+30;Brno;Aladin;PinkPong;Manuál;10.3.2013;87;111;9 657

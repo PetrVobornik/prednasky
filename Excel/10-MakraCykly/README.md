@@ -41,6 +41,9 @@ Tentokrát si rozšíříme znalosti Maker o používání cyklů, tedy možnost
 * 31:04 - Krokování kódu
 * 32:06 - Zpomalení vykonávání kódu
 
+
+[Sešit Excelu - Marka - Cykly](https://github.com/PetrVobornik/prednasky/tree/master/Excel/10-MakraCykly/makra-cykly.xlsm)
+
 ---
 
 [Další přednáška - Praktické příklady](https://github.com/PetrVobornik/prednasky/tree/master/Excel/11-PraktickePriklady)
