@@ -65,7 +65,7 @@ O tom, jak nahrát či napsat makro (vlastní program v rámci Excelového seši
 * 32:04 - Závěr
 
 
-[Sešit Excelu - Marka - Buňky](https://github.com/PetrVobornik/prednasky/tree/master/Excel/09-MakraBunky/makra-bunky.xlsm)
+[Sešit Excelu - Marka - Buňky](https://github.com/PetrVobornik/prednasky/raw/master/Excel/09-MakraBunky/makra-bunky.xlsm)
 
 ---
 

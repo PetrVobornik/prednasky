@@ -42,7 +42,7 @@ Tentokrát si rozšíříme znalosti Maker o používání cyklů, tedy možnost
 * 32:06 - Zpomalení vykonávání kódu
 
 
-[Sešit Excelu - Marka - Cykly](https://github.com/PetrVobornik/prednasky/tree/master/Excel/10-MakraCykly/makra-cykly.xlsm)
+[Sešit Excelu - Marka - Cykly](https://github.com/PetrVobornik/prednasky/raw/master/Excel/10-MakraCykly/makra-cykly.xlsm)
 
 ---
 
