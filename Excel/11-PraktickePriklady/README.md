@@ -17,7 +17,7 @@ Ukážeme si, jak vytvořit univerzální kalendář, kterému bude stačit zada
 * 15:20 - Zakrytí prázdných buněk mimo měsíce
 * 16:48 - Zvýraznění dnů, které jsou v seznamu dat
 * 21:16 - Závěr
-
+ 
 [Sešit Excelu - Vlastní funkce](https://github.com/PetrVobornik/prednasky/raw/master/Excel/11-PraktickePriklady/funkce.xlsm)
 
 ---
