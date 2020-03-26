@@ -2,6 +2,8 @@
 
 Přehled základních příkazů, operátorů a vlastností jazyka C# v konzolové aplikaci.
 
+[Projekt Základní příkazy](https://github.com/PetrVobornik/prednasky/tree/master/ZakladyCs/01-ZakladniPrikazy/ZakladniPrikazy)
+
 [![Základní příkazy - záznam z přednášky](https://img.youtube.com/vi/MSXsCDiEdLI/0.jpg)](https://youtu.be/MSXsCDiEdLI)
 
 [Videozáznam z přednášky Základní příkazy](https://youtu.be/MSXsCDiEdLI)

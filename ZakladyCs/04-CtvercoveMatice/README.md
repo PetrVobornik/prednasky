@@ -2,6 +2,8 @@
 
 Programové zpracování matic je důležité pro celou řadu praktických úloh, jako například úpravy rastrových obrázků, herních map apod. Procvičíme si tedy další způsoby práce s nimi tentokrát na specifikách, jež mají matice čtvercové, tedy 2D pole se stejným počtem řádků i sloupců.
 
+[Projekt Čtvercové matice](https://github.com/PetrVobornik/prednasky/tree/master/ZakladyCs/04-CtvercoveMatice/CtvercoveMatice)
+
 [![Základní příkazy - záznam z přednášky](https://img.youtube.com/vi/2MRy5OK4PZg/0.jpg)](https://youtu.be/2MRy5OK4PZg)
 
 [Videozáznam z přednášky Základní příkazy](https://youtu.be/2MRy5OK4PZg)
@@ -37,8 +39,6 @@ Příklady
 Rotace matice
 * 33:40 - Naplnění matice řadou souvislou čísel
 * 34:47 - Rotace matice o 90° stupňů ve směru hodinových ručiček
-
-[Projekt Čtvercové matice](https://github.com/PetrVobornik/prednasky/tree/master/ZakladyCs/04-CtvercoveMatice/CtvercoveMatice)
 
 ---
 
