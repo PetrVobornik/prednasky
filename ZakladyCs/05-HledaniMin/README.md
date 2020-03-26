@@ -20,6 +20,7 @@ Vykreslení minového pole (hrací plochy) do konzole
 * 15:50 - Vypis obsahu minového pole
 * 17:08 - Výpis podbarvených znaků
 
+Dokončení příprav pole
 * 23:04 - Čísla okolo min
 
 Herní smyčka
@@ -31,6 +32,7 @@ Herní smyčka
 * 43:33 - Zakončení výhrou
 * 46:01 - Oznámení konce hry
 
+Závěr
 * 49:09 - Závěrečné shrnutí
 
 ---
