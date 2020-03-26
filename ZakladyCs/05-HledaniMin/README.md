@@ -5,3 +5,5 @@ Tentokrát zúročíme znalost práce s maticemi (2D poli) na praktickém příp
 [Projekt Hledání min](https://github.com/PetrVobornik/prednasky/tree/master/ZakladyCs/05-HledaniMin/HledaniMin)
 
 ---
+
+[Další přednáška - Řazení](https://github.com/PetrVobornik/prednasky/tree/master/ZakladyCs/06-Razeni)
