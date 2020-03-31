@@ -10,7 +10,7 @@ Představíme si tři základní varianty pro ukládání a načítání dat v a
 
 [Projekt Ukládání dat](https://github.com/PetrVobornik/prednasky/tree/master/Xamarin.Forms/06-UkladaniDat/UkladaniDat)
 
-Použité balíčky NuGet: [Xamarin.Essentials](https://www.nuget.org/packages/Xamarin.Essentials/) (jen ve VS2017), [SQLite](https://www.nuget.org/packages/sqlite-net-pcl/)
+Použitý balíček NuGet: [SQLite](https://www.nuget.org/packages/sqlite-net-pcl/). Xamarin.Essentials je již automaticky součástí nově založených projektů (ve VS2019) a není třeba jej instalovat přes NuGet zvlášť.
 
 ## Možnosti ukládání dat
 * Nastavení aplikace 
