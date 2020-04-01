@@ -7,3 +7,5 @@ Programátorské umění si tentokrát procvičíme při sestavování klasický
 [Prezentace Řazení](https://github.com/PetrVobornik/prednasky/blob/master/ZakladyCs/06-Razeni/razeni.ppsx)
 
 ---
+
+[Další přednáška - Seznamy, slovníky a metody rozšíření](https://github.com/PetrVobornik/prednasky/tree/master/ZakladyCs/07-Seznamy)
