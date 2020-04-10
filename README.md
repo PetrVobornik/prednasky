@@ -48,6 +48,7 @@ Projekty, prezentace a záznamy z přednášek o programování a dalších tech
 1. [Čtvercové matice](https://github.com/PetrVobornik/prednasky/tree/master/ZakladyCs/04-CtvercoveMatice)
 1. [Hledání min](https://github.com/PetrVobornik/prednasky/tree/master/ZakladyCs/05-HledaniMin)
 1. [Řazení](https://github.com/PetrVobornik/prednasky/tree/master/ZakladyCs/06-Razeni)
+1. [Seznamy a LINQ](https://github.com/PetrVobornik/prednasky/tree/master/ZakladyCs/07-Seznamy-LINQ)
 
 <p align="center">
 <img src="https://github.com/PetrVobornik/prednasky/raw/master/ZakladyCs/theme.png" alt="C#" width="320" />
