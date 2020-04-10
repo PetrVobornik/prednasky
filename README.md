@@ -3,6 +3,22 @@ Projekty, prezentace a záznamy z přednášek o programování a dalších tech
 [Facebook](https://www.facebook.com/Programovat/)
 
 
+## [Základy programování v C#](https://github.com/PetrVobornik/prednasky/tree/master/ZakladyCs)
+1. [Základní příkazy](https://github.com/PetrVobornik/prednasky/tree/master/ZakladyCs/01-ZakladniPrikazy)
+1. [Jednorozměrná pole](https://github.com/PetrVobornik/prednasky/tree/master/ZakladyCs/02-Posloupnosti)
+1. [Dvourozměrná pole](https://github.com/PetrVobornik/prednasky/tree/master/ZakladyCs/03-Matice)
+1. [Čtvercové matice](https://github.com/PetrVobornik/prednasky/tree/master/ZakladyCs/04-CtvercoveMatice)
+1. [Hledání min](https://github.com/PetrVobornik/prednasky/tree/master/ZakladyCs/05-HledaniMin)
+1. [Řazení](https://github.com/PetrVobornik/prednasky/tree/master/ZakladyCs/06-Razeni)
+1. [Seznamy, slovníky a metody rozšíření](https://github.com/PetrVobornik/prednasky/tree/master/ZakladyCs/07-Seznamy)
+1. [LINQ](https://github.com/PetrVobornik/prednasky/tree/master/ZakladyCs/08-LINQ)
+
+<p align="center">
+<img src="https://github.com/PetrVobornik/prednasky/raw/master/ZakladyCs/theme.png" alt="C#" width="320" />
+</p>
+
+---
+
 ## [Xamarin.Forms](https://github.com/PetrVobornik/prednasky/tree/master/Xamarin.Forms)
 1. [OOP a .NET technologie](https://github.com/PetrVobornik/prednasky/tree/master/Xamarin.Forms/01-OOP-a-NET)
 1. [Layout v Xamarin.Forms](https://github.com/PetrVobornik/prednasky/tree/master/Xamarin.Forms/02-Layout)
@@ -37,19 +53,4 @@ Projekty, prezentace a záznamy z přednášek o programování a dalších tech
 
 <p align="center">
 <img src="https://github.com/PetrVobornik/prednasky/raw/master/Excel/theme.png" alt="Excel" width="400" />
-</p>
-
----
-
-## [Základy programování v C#](https://github.com/PetrVobornik/prednasky/tree/master/ZakladyCs)
-1. [Základní příkazy](https://github.com/PetrVobornik/prednasky/tree/master/ZakladyCs/01-ZakladniPrikazy)
-1. [Jednorozměrná pole](https://github.com/PetrVobornik/prednasky/tree/master/ZakladyCs/02-Posloupnosti)
-1. [Dvourozměrná pole](https://github.com/PetrVobornik/prednasky/tree/master/ZakladyCs/03-Matice)
-1. [Čtvercové matice](https://github.com/PetrVobornik/prednasky/tree/master/ZakladyCs/04-CtvercoveMatice)
-1. [Hledání min](https://github.com/PetrVobornik/prednasky/tree/master/ZakladyCs/05-HledaniMin)
-1. [Řazení](https://github.com/PetrVobornik/prednasky/tree/master/ZakladyCs/06-Razeni)
-1. [Seznamy a LINQ](https://github.com/PetrVobornik/prednasky/tree/master/ZakladyCs/07-Seznamy-LINQ)
-
-<p align="center">
-<img src="https://github.com/PetrVobornik/prednasky/raw/master/ZakladyCs/theme.png" alt="C#" width="320" />
 </p>

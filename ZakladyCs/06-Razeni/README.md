@@ -58,4 +58,4 @@ Porovnání rychlostí řazení
 
 ---
 
-[Další přednáška - Seznamy, slovníky a metody rozšíření](https://github.com/PetrVobornik/prednasky/tree/master/ZakladyCs/07-Seznamy-LINQ)
+[Další přednáška - Seznamy, slovníky a metody rozšíření](https://github.com/PetrVobornik/prednasky/tree/master/ZakladyCs/07-Seznamy)
