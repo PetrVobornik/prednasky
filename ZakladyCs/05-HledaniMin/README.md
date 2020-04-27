@@ -4,9 +4,9 @@ Tentokrát zúročíme znalost práce s maticemi (2D poli) na praktickém příp
 
 [Projekt Hledání min](https://github.com/PetrVobornik/prednasky/tree/master/ZakladyCs/05-HledaniMin/HledaniMin)
 
-[![Základní příkazy - záznam z přednášky](https://img.youtube.com/vi/L6rTVZqbbPE/0.jpg)](https://youtu.be/L6rTVZqbbPE)
+[![Hledání min - záznam z přednášky](https://img.youtube.com/vi/L6rTVZqbbPE/0.jpg)](https://youtu.be/L6rTVZqbbPE)
 
-[Videozáznam z přednášky Základní příkazy](https://youtu.be/L6rTVZqbbPE)
+[Videozáznam z přednášky Hledání min](https://youtu.be/L6rTVZqbbPE)
 
 Přípravy
 * 00:00 - Založení projektu

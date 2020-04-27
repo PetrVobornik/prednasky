@@ -4,6 +4,10 @@ Navážeme na předchozí téma o seznamech a vyzkoušíme si na nich různé LI
 
 [Projekt LINQ](https://github.com/PetrVobornik/prednasky/tree/master/ZakladyCs/08-LINQ/LINQ)
 
+[![LINQ - záznam z přednášky](https://img.youtube.com/vi/FwqJ1mBLbu8/0.jpg)](https://youtu.be/FwqJ1mBLbu8)
+
+[Videozáznam z přednášky LINQ](https://youtu.be/FwqJ1mBLbu8)
+
 
 AGREGAČNÍ FUNKCE
 * 00:00 - Úvod
@@ -83,4 +87,4 @@ ZÁVĚREČNÉ SHRNUTÍ
 
 ---
 
-[Další přednáška - Soubory](https://github.com/PetrVobornik/prednasky/tree/master/ZakladyCs/09-Soubory)
+[Další přednáška - Textové soubory](https://github.com/PetrVobornik/prednasky/tree/master/ZakladyCs/09-SouboryTextove)

@@ -6,9 +6,9 @@ Programátorské umění si tentokrát procvičíme při sestavování klasický
 
 [Prezentace Řazení](https://github.com/PetrVobornik/prednasky/blob/master/ZakladyCs/06-Razeni/razeni.ppsx)
 
-[![Základní příkazy - záznam z přednášky](https://img.youtube.com/vi/k6i8frp414g/0.jpg)](https://youtu.be/k6i8frp414g)
+[![Řazení - záznam z přednášky](https://img.youtube.com/vi/k6i8frp414g/0.jpg)](https://youtu.be/k6i8frp414g)
 
-[Videozáznam z přednášky Základní příkazy](https://youtu.be/k6i8frp414g)
+[Videozáznam z přednášky Řazení](https://youtu.be/k6i8frp414g)
 
 TEORIE
 * 00:00 - Úvod

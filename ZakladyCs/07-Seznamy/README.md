@@ -4,6 +4,10 @@ Posloupnosti a matice již známe perfektně, takže můžeme postoupit k dalš�
 
 [Projekt Seznamy](https://github.com/PetrVobornik/prednasky/tree/master/ZakladyCs/07-Seznamy/Seznamy)
 
+[![Seznamy, slovníky a metody rozšíření - záznam z přednášky](https://img.youtube.com/vi/j3e53tPB464/0.jpg)](https://youtu.be/j3e53tPB464)
+
+[Videozáznam z přednášky Seznamy, slovníky a metody rozšíření](https://youtu.be/j3e53tPB464)
+
 
 Seznamy (List)
 * 00:00 - Úvod
@@ -34,4 +38,4 @@ Převody mezi seznamy různých typů
 
 ---
 
-[Další přednáška - Soubory](https://github.com/PetrVobornik/prednasky/tree/master/ZakladyCs/08-LINQ)
+[Další přednáška - LINQ](https://github.com/PetrVobornik/prednasky/tree/master/ZakladyCs/08-LINQ)

@@ -4,9 +4,9 @@ Programové zpracování matic je důležité pro celou řadu praktických úloh
 
 [Projekt Čtvercové matice](https://github.com/PetrVobornik/prednasky/tree/master/ZakladyCs/04-CtvercoveMatice/CtvercoveMatice)
 
-[![Základní příkazy - záznam z přednášky](https://img.youtube.com/vi/2MRy5OK4PZg/0.jpg)](https://youtu.be/2MRy5OK4PZg)
+[![Čtvercové matice - záznam z přednášky](https://img.youtube.com/vi/2MRy5OK4PZg/0.jpg)](https://youtu.be/2MRy5OK4PZg)
 
-[Videozáznam z přednášky Základní příkazy](https://youtu.be/2MRy5OK4PZg)
+[Videozáznam z přednášky Čtvercové matice](https://youtu.be/2MRy5OK4PZg)
 
 Úvod
 * 00:05 - Zahájení projektu

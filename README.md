@@ -12,6 +12,10 @@ Projekty, prezentace a záznamy z přednášek o programování a dalších tech
 1. [Řazení](https://github.com/PetrVobornik/prednasky/tree/master/ZakladyCs/06-Razeni)
 1. [Seznamy, slovníky a metody rozšíření](https://github.com/PetrVobornik/prednasky/tree/master/ZakladyCs/07-Seznamy)
 1. [LINQ](https://github.com/PetrVobornik/prednasky/tree/master/ZakladyCs/08-LINQ)
+1. [Textové soubory](https://github.com/PetrVobornik/prednasky/tree/master/ZakladyCs/09-SouboryTextove)
+1. [Souborový systém](https://github.com/PetrVobornik/prednasky/tree/master/ZakladyCs/10-SouborovySystem)
+1. [Binární soubory](https://github.com/PetrVobornik/prednasky/tree/master/ZakladyCs/11-SouboryBinarni)
+1. [XML soubory](https://github.com/PetrVobornik/prednasky/tree/master/ZakladyCs/12-SouboryXML)
 
 <p align="center">
 <img src="https://github.com/PetrVobornik/prednasky/raw/master/ZakladyCs/theme.png" alt="C#" width="320" />
