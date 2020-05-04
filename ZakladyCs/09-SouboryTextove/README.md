@@ -2,7 +2,7 @@
 
 Vypisování do konzole je sice hezké, ale ne příliš trvalé. Jak tedy výstupní data uchovat dlouhodoběji, a jak získat data vstupní, aniž by se s nimi musel uživatel vypisovat do příkazového řádku? No samozřejmě pomocí souborů. Následující části tedy budou věnovány právě jim. Nejprve se podíváme na soubory textové, tedy jak z nich číst, jak je vytvářet a jak do nich zapisovat informace dělené do řádků a čitelné pro člověka.
 
-[Projekt Textové soubory](https://github.com/PetrVobornik/prednasky/tree/master/ZakladyCs/09-SouboryTextove/Soubory)
+[Projekt Textové soubory](https://github.com/PetrVobornik/prednasky/tree/master/ZakladyCs/09-SouboryTextove/Soubory1)
 
 [Prezentace Práce se soubory v C#](https://github.com/PetrVobornik/prednasky/blob/master/ZakladyCs/09-SouboryTextove/soubory-textove.ppsx)
 

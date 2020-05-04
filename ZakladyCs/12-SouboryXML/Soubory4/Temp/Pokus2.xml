@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<data name="text" datum="2020-04-15T18:49:12.8991605+02:00">
+  <polozka name="počet" count="75">Delší text uvnitř elementu</polozka>
+  <polozka name="výška" count="57">
+    <polozka2 />
+  </polozka>
+</data>
