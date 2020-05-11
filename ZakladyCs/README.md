@@ -21,6 +21,5 @@ Letní semestr 2020.
 1. [Souborový systém](https://github.com/PetrVobornik/prednasky/tree/master/ZakladyCs/10-SouborovySystem)
 1. [Binární soubory](https://github.com/PetrVobornik/prednasky/tree/master/ZakladyCs/11-SouboryBinarni)
 1. [XML soubory](https://github.com/PetrVobornik/prednasky/tree/master/ZakladyCs/12-SouboryXML)
-1. ...
 
 Seriál video záznamů z přednášek o C# na [YouTube](https://www.youtube.com/playlist?list=PLxTqV9i8bnb8tanSMrno74A4tvOF7eIqT)

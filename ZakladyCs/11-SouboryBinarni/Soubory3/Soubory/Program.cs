@@ -38,6 +38,26 @@ namespace Soubory
             //Console.WriteLine("Celková velikost složky: {0:N0}", Soubor.VelikostSlozky(@"..\..\..\..\"));
 
 
+            // BINÁRNÍ SOUBORY
+            //Soubor.ZapisCislo(@"..\..\..\..\Temp\Cislo.dat");
+            //Soubor.ZapisCisla(@"..\..\..\..\Temp\Cisla.dat");
+            //Soubor.PrectiCisla(@"..\..\..\..\Temp\Cisla.dat");
+            //Soubor.ZapisujDoSouboruBinarne(@"..\..\..\..\Temp\Texty.dat");
+            //Soubor.PrectiTexty(@"..\..\..\..\Temp\Texty.dat");
+            //Soubor.PrectiTexty2(@"..\..\..\..\Temp\Texty.dat");
+            //int[,] a = Soubor.VytvorMatici(10, 15);
+            //Soubor.UlozMaticiBinarne(a, @"..\..\..\..\Temp\Matice.dat");
+            //int[,] b = Soubor.NactiMaticiBinarne(@"..\..\..\..\Temp\Matice.dat");
+            //Soubor.VypisMatici(b);
+
+            //Soubor.SlucSoubory(@"..\..\..\", @"..\..\..\..\Temp\Archiv.dat");
+            //Soubor.RozdelSoubory(@"..\..\..\..\Temp\Archiv.dat", @"..\..\..\..\Temp\Archiv");
+            //Soubor.SlucSoubory(@"..\..\..\", @"..\..\..\..\Temp\ArchivSifrovany.dat", "heslo123");
+            //Soubor.RozdelSoubory(@"..\..\..\..\Temp\ArchivSifrovany.dat", @"..\..\..\..\Temp\Archiv", "heslo123");
+            //Soubor.SlucSouboryZip(@"..\..\..\", @"..\..\..\..\Temp\Archiv.zip");
+            //Soubor.RozdelSouboryZip(@"..\..\..\..\Temp\Archiv.zip", @"..\..\..\..\Temp\Archiv");
+
+
             Console.WriteLine("Hotovo!");
             Console.ReadLine();
         }

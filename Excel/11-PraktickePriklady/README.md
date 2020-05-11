@@ -42,3 +42,7 @@ V tomto praktickém příkladě si ukážeme, jak do Excelu přidávat vlastní 
 * 09:50 - Shrnutí
 
 [Sešit Excelu - Univerzální kalendář](https://github.com/PetrVobornik/prednasky/raw/master/Excel/11-PraktickePriklady/kalendar.xlsx)
+
+---
+
+[Zpět na přehled přednášek](https://github.com/PetrVobornik/prednasky)

@@ -10,6 +10,8 @@ namespace Soubory
 {
     public static class Soubor
     {
+        #region Textové soubory 
+
         public static string PreciCelySoubor(string soubor)
         {
             string obsah = "";
@@ -22,6 +24,10 @@ namespace Soubory
             Console.WriteLine(obsah);
             return obsah;
         }
+
+        // Přečtení celého souboru jinak
+        public static string PreciCelySoubor2(string soubor)
+            => File.ReadAllText(soubor);
 
         public static void PreciCelySouborPoRadcich(string soubor)
         {
@@ -63,6 +69,12 @@ namespace Soubory
                     sw.WriteLine(random.Next(100));
         }
 
+        public static void ZapisujCislaDoSouboru2(string soubor)
+            => File.WriteAllLines(soubor,                   // Zapíše do souboru naásl. řádky
+                                                            //Enumerable.Range(0, 20)                   // Vytvoří seznam hodnot 0-19   (v1)
+                Enumerable.Repeat(0, 20)                    // Vytvoří seznam s 20ti nulami (v2)
+                .Select(x => random.Next(100).ToString())); // Změní čísla na náhodná a převede na string
+
         public static int SumaCiselZeSouboru(string soubor)
         {
             int suma = 0;
@@ -87,7 +99,8 @@ namespace Soubory
                     .Select(x => Convert.ToInt32(x))
                     .OrderBy(x => x)
                     .Select(x => x.ToString())
-                    .ToArray());
+                    //.ToArray  // Není nezbytné
+                    );
         }
 
         public static void VytorTestovaciSouborCsv(string soubor)
@@ -117,7 +130,7 @@ namespace Soubory
             Console.WriteLine("Celkem {0}", suma);
         }
 
-        // Matice čísel
+        #region Matice čísel
 
         public static int[,] VytvorMatici(int m, int n)
         {
@@ -163,8 +176,11 @@ namespace Soubory
             }
         }
 
+        #endregion
 
-        // Souborový systém
+        #endregion
+
+        #region Souborový systém
 
         public static bool ExistujeSoubor(string soubor)
         {
@@ -253,6 +269,23 @@ namespace Soubory
                 HledejSoubory(dir);
             }
         }
+
+        // Další způsob hledání souborů i v podsložkách
+        public static void HledejJenSoubory(string slozka)
+        {
+            DirectoryInfo di = new DirectoryInfo(slozka); // Informace o složce
+            FileInfo[] soubory = di.GetFiles("*", SearchOption.AllDirectories);
+            foreach (var fi in soubory) // Projít všechny nalezené soubory a vypsat je
+                Console.WriteLine("{0,-70} {1,12:N0} B", fi.FullName, fi.Length);
+        }
+
+        // Výpočet velikosti složky (součet velikostí všech souborů v ní a jejích podsložkách)
+        public static long VelikostSlozky(string slozka)
+            => (new DirectoryInfo(slozka))                  // Informace o složce
+                .GetFiles("*", SearchOption.AllDirectories) // Všechny soubory včetně podsložek
+                .Sum(soubor => soubor.Length);              // Součet velikostí všech souborů
+
+        #endregion
 
     }
 }

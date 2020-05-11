@@ -8,10 +8,12 @@ namespace Soubory
         {
             // TEXTOVÉ SOUBORY
             //Soubor.PreciCelySoubor("..\\..\\..\\Soubor.cs");
+            //Soubor.PreciCelySoubor2("..\\..\\..\\Soubor.cs");
             //Soubor.PreciCelySouborPoRadcich(@"..\..\..\Soubor.cs");
             //Soubor.PreciCelySouborPoRadcich2(@"..\..\..\Soubor.cs");
             //Soubor.ZapisujDoSouboru(@"..\..\..\..\Temp\Slova.txt");
             //Soubor.ZapisujCislaDoSouboru(@"..\..\..\..\Temp\Cisla.txt");
+            //Soubor.ZapisujCislaDoSouboru2(@"..\..\..\..\Temp\Cisla2.txt");
             //Soubor.SumaCiselZeSouboru(@"..\..\..\..\Temp\Cisla.txt");
             //Soubor.SumaCiselZeSouboru2(@"..\..\..\..\Temp\Cisla.txt");
             //Soubor.SerazeniCiselVSouboru(@"..\..\..\..\Temp\Cisla.txt", @"..\..\..\..\Temp\CislaSerazena.txt");
@@ -32,7 +34,9 @@ namespace Soubory
             //Soubor.SouboryVeSlozce(@"..\..\..\");
             //Soubor.PodslozkyVeSlozce(@"..\..\..\");
             //Soubor.HledejSoubory(@"..\..\..\..\");
-            
+            //Soubor.HledejJenSoubory(@"..\..\..\..\");
+            //Console.WriteLine("Celková velikost složky: {0:N0}", Soubor.VelikostSlozky(@"..\..\..\..\"));
+
 
             // BINÁRNÍ SOUBORY
             //Soubor.ZapisCislo(@"..\..\..\..\Temp\Cislo.dat");
@@ -48,6 +52,10 @@ namespace Soubory
 
             //Soubor.SlucSoubory(@"..\..\..\", @"..\..\..\..\Temp\Archiv.dat");
             //Soubor.RozdelSoubory(@"..\..\..\..\Temp\Archiv.dat", @"..\..\..\..\Temp\Archiv");
+            //Soubor.SlucSoubory(@"..\..\..\", @"..\..\..\..\Temp\ArchivSifrovany.dat", "heslo123");
+            //Soubor.RozdelSoubory(@"..\..\..\..\Temp\ArchivSifrovany.dat", @"..\..\..\..\Temp\Archiv", "heslo123");
+            //Soubor.SlucSouboryZip(@"..\..\..\", @"..\..\..\..\Temp\Archiv.zip");
+            //Soubor.RozdelSouboryZip(@"..\..\..\..\Temp\Archiv.zip", @"..\..\..\..\Temp\Archiv");
 
 
             // XML SOUBORY
@@ -56,6 +64,7 @@ namespace Soubory
             //Soubor.CtiXml(@"..\..\..\..\Temp\Pokus2.xml");
 
 
+            Console.WriteLine("Hotovo!");
             Console.ReadLine();
         }
     }
