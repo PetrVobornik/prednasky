@@ -11,30 +11,32 @@ V závěrečné části o souborech si ukážeme ještě jeden praktický a čas
 [Videozáznam z přednášky XML soubory](https://youtu.be/Vvtg489ZJxE)
 
 Teorie
-00:00 - Úvod
-00:10 - Struktura XML dokumentu
-01:45 - XML ukázka
-03:19 - Třídy pro práci s XML soubory
+* 00:00 - Úvod
+* 00:10 - Struktura XML dokumentu
+* 01:45 - XML ukázka
+* 03:19 - Třídy pro práci s XML soubory
 
 Praktické ukázky
-05:09 - Vytvoření XML jedním složeným příkazem
-08:54 - Rozbor výsledku
-10:46 - Postupné vytváření elementů
-13:49 - Ukázka výsledku
-14:55 - Čtení XML
-17:45 - Procházení podelementů
-19:01 - Procházení podelementů do hloubky
-21:48 - Závěr
+* 05:09 - Vytvoření XML jedním složeným příkazem
+* 08:54 - Rozbor výsledku
+* 10:46 - Postupné vytváření elementů
+* 13:49 - Ukázka výsledku
+* 14:55 - Čtení XML
+* 17:45 - Procházení podelementů
+* 19:01 - Procházení podelementů do hloubky
+* 21:48 - Závěr
 
 
-[![Soubory v C# - shrnutí](https://img.youtube.com/vi/iwffeuXfHwA/0.jpg)](https://youtu.be/iwffeuXfHwA)
+## Soubory v C# - shrnutí
 
 Krátké závěrečné shrnutí ukázek z předchozích čtyř témat (9-12) o souborech v C#.
+
+[![Soubory v C# - shrnutí](https://img.youtube.com/vi/iwffeuXfHwA/0.jpg)](https://youtu.be/iwffeuXfHwA)
  
-00:07 - Textové soubory
-01:15 - Souborový systém
-01:46 - Binární soubory
-02:48 - XML soubory
+* 00:07 - Textové soubory
+* 01:15 - Souborový systém
+* 01:46 - Binární soubory
+* 02:48 - XML soubory
 
 ---
 
