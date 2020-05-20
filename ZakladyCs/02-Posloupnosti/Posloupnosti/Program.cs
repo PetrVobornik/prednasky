@@ -15,7 +15,7 @@ namespace Posloupnosti
             //for (int i = 0; i < a.Length; i++)
             //    a[i] = Convert.ToInt32(Console.ReadLine());
 
-            // Načtení hodnot do 1 do N
+            // Načtení hodnot od 1 do N
             //for (int i = 0; i < a.Length; i++)
             //    a[i] = i + 1;
 
@@ -65,7 +65,7 @@ namespace Posloupnosti
             Console.WriteLine("minimum = {0} a poprvé je na indexu {1}", a[iMin], iMin);
 
             // Odebrání člena posloupnosti
-            //Console.Write("Zadej index člena pro odbrání: ");
+            //Console.Write("Zadej index člena pro odebrání: ");
             //int k = Convert.ToInt32(Console.ReadLine());
             //VypisPosloupnost(a);
             //for (int i = k; i < a.Length - 1; i++)
