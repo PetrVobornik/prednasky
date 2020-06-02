@@ -4,6 +4,10 @@ Tentokrát budeme pracovat s posloupnostmi neboli jednorozměrnými (1D) poli. P
 
 [Projekt Posloupnosti](https://github.com/PetrVobornik/prednasky/tree/master/ZakladyCs/02-Posloupnosti/Posloupnosti)
 
+[![Posloupnosti - záznam z přednášky](https://img.youtube.com/vi/zF3bdaezONA/0.jpg)](https://youtu.be/zF3bdaezONA)
+
+[Videozáznam z přednášky Posloupnosti](https://youtu.be/zF3bdaezONA)
+
 
 Základní nezbytnosti
 * 00:00 - Založení projektu

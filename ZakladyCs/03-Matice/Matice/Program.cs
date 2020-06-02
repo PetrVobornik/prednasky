@@ -19,6 +19,10 @@ namespace Matice
                     //a[i, j] = j + i * a.GetLength(1) + 1;
                     //a[i, j] = i + j * a.GetLength(0) + 1;
 
+            // Jiný způsob naplnění matice náhodnými čísly
+            for (int i = 0; i < a.Length; i++)
+                a[i / a.GetLength(1), i % a.GetLength(1)] = random.Next(10);
+
             VypisMatici(a);
 
             // Součet hondnot
@@ -41,7 +45,7 @@ namespace Matice
             int poslLich = 2;
             for (int i = 0; i < a.GetLength(0); i++)
                 for (int j = 0; j < a.GetLength(1); j++)
-                    if (a[i, j] % 2 == 1)
+                    if (a[i, j] % 2 != 0) // podmínka (a[i, j] % 2 == 1) chybně vynechá záporné hodnoty
                         poslLich = a[i, j];
             if (poslLich == 2)
                 Console.WriteLine("V matici žádná lichá hodnota není");
@@ -52,7 +56,7 @@ namespace Matice
             poslLich = 2;
             for (int j = 0; j < a.GetLength(1); j++)
                 for (int i = 0; i < a.GetLength(0); i++)
-                    if (a[i, j] % 2 == 1)
+                    if (a[i, j] % 2 != 0)
                         poslLich = a[i, j];
             if (poslLich == 2)
                 Console.WriteLine("V matici žádná lichá hodnota není");
@@ -62,8 +66,8 @@ namespace Matice
             // Minimální a maximální hodnota
             int min = a[0, 0];
             int max = a[0, 0];
-            for (int j = 0; j < a.GetLength(1); j++)
-                for (int i = 0; i < a.GetLength(0); i++)
+            for (int i = 0; i < a.GetLength(0); i++)
+                for (int j = 0; j < a.GetLength(1); j++)
                 {
                     if (a[i, j] < min)
                         min = a[i, j];
@@ -76,8 +80,8 @@ namespace Matice
             // Minimum a počet jeho výskytů
             min = a[0, 0];
             int pocetMinim = 0;
-            for (int j = 0; j < a.GetLength(1); j++)
-                for (int i = 0; i < a.GetLength(0); i++)
+            for (int i = 0; i < a.GetLength(0); i++)
+                for (int j = 0; j < a.GetLength(1); j++)
                 {
                     if (a[i, j] < min)
                     {
@@ -90,13 +94,13 @@ namespace Matice
             Console.WriteLine("Nejmenší hodnota v matici je {0} a je tam {1}x", min, pocetMinim);
 
             // Průměr hodnot na r-tém řádku
-            //Console.Write("Zadej index řádku (0-{0}): ", a.GetLength(0)-1);
-            //int r = Convert.ToInt32(Console.ReadLine());
-            //int soucetR = 0;
-            //for (int j = 0; j < a.GetLength(1); j++)
-            //    soucetR += a[r, j];
-            //Console.WriteLine("Průměr hodnot na řádku s indexem {0} je {1}", r, 
-            //    soucetR / (double)a.GetLength(1));
+            Console.Write("Zadej index řádku (0-{0}): ", a.GetLength(0) - 1);
+            int r = Convert.ToInt32(Console.ReadLine());
+            int soucetR = 0;
+            for (int j = 0; j < a.GetLength(1); j++)
+                soucetR += a[r, j];
+            Console.WriteLine("Průměr hodnot na řádku s indexem {0} je {1}", r,
+                soucetR / (double)a.GetLength(1));
 
             // Záměna prvního a posledního řádku 
             VypisMatici(a);
@@ -109,18 +113,18 @@ namespace Matice
             VypisMatici(a);
 
             // Součin prvků z s-tého sloupce
-            //Console.Write("Zadej index sloupce (0-{0}): ", a.GetLength(1)-1);
-            //int s = Convert.ToInt32(Console.ReadLine());
-            //int soucinS = 1;
-            //for (int i = 0; i < a.GetLength(0); i++)
-            //    soucinS *= a[i, s];
-            //Console.WriteLine("Součin hodnot sloupce s indexem {0} je {1}", s, soucinS);
+            Console.Write("Zadej index sloupce (0-{0}): ", a.GetLength(1) - 1);
+            int s = Convert.ToInt32(Console.ReadLine());
+            int soucinS = 1;
+            for (int i = 0; i < a.GetLength(0); i++)
+                soucinS *= a[i, s];
+            Console.WriteLine("Součin hodnot sloupce s indexem {0} je {1}", s, soucinS);
 
             // Průměry ze všech sloupců
             int[] prS = new int[a.GetLength(1)];
             for (int j = 0; j < a.GetLength(1); j++)
             {
-                int sumS = 1;
+                int sumS = 0;
                 for (int i = 0; i < a.GetLength(0); i++)
                     sumS += a[i, j];
                 prS[j] = sumS / a.GetLength(0);
@@ -132,13 +136,13 @@ namespace Matice
 
             // Součet dvou matic (C = A + B)
             var b = new int[a.GetLength(0), a.GetLength(1)];
-            for (int i = 0; i < a.GetLength(0); i++)
-                for (int j = 0; j < a.GetLength(1); j++)
+            for (int i = 0; i < b.GetLength(0); i++)
+                for (int j = 0; j < b.GetLength(1); j++)
                     b[i, j] = random.Next(10);
             
             var c = new int[a.GetLength(0), a.GetLength(1)];
-            for (int i = 0; i < a.GetLength(0); i++)
-                for (int j = 0; j < a.GetLength(1); j++)
+            for (int i = 0; i < c.GetLength(0); i++)
+                for (int j = 0; j < c.GetLength(1); j++)
                     c[i, j] = a[i, j] + b[i, j];
 
             VypisMatici(a);
@@ -158,6 +162,16 @@ namespace Matice
                     Console.Write("{0,2}, ", a[i, j]);
                 Console.WriteLine();
             }
+            Console.WriteLine();
+        }
+
+        // Jiná verze výpisu matice pomocí jediného cyklu
+        static void VypisMatici2(int[,] a)
+        {
+            for (int i = 0; i < a.Length; i++) // Projít všechny členy jediným ckylem
+                Console.Write("{0,2}{1}", // Vypsat min. 2 znaky člena a za ním čárku nebo zalomení řádku
+                    a[i / a.GetLength(1), i % a.GetLength(1)], // Člen indexovaný z celkového pořadí pomocí počtu sloupců
+                    (i + 1) % a.GetLength(1) == 0 ? Environment.NewLine : ", "); // Čárka mezi členy, na koncích řádků zalomení
             Console.WriteLine();
         }
     }
