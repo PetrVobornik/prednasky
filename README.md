@@ -5,8 +5,8 @@ Projekty, prezentace a záznamy z přednášek o programování a dalších tech
 
 ## [Základy programování v C#](https://github.com/PetrVobornik/prednasky/tree/master/ZakladyCs)
 1. [Základní příkazy](https://github.com/PetrVobornik/prednasky/tree/master/ZakladyCs/01-ZakladniPrikazy)
-1. [Jednorozměrná pole](https://github.com/PetrVobornik/prednasky/tree/master/ZakladyCs/02-Posloupnosti)
-1. [Dvourozměrná pole](https://github.com/PetrVobornik/prednasky/tree/master/ZakladyCs/03-Matice)
+1. [Posloupnosti (1D pole)](https://github.com/PetrVobornik/prednasky/tree/master/ZakladyCs/02-Posloupnosti)
+1. [Matice (2D pole)](https://github.com/PetrVobornik/prednasky/tree/master/ZakladyCs/03-Matice)
 1. [Čtvercové matice](https://github.com/PetrVobornik/prednasky/tree/master/ZakladyCs/04-CtvercoveMatice)
 1. [Hledání min](https://github.com/PetrVobornik/prednasky/tree/master/ZakladyCs/05-HledaniMin)
 1. [Řazení](https://github.com/PetrVobornik/prednasky/tree/master/ZakladyCs/06-Razeni)
