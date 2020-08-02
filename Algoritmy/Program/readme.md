@@ -1,11 +1,10 @@
 # Program Algoritmy
 
-## Aktuální verze - 1.4.1.1 - programu Algoritmy
+## Aktuální verze (1.4.1.1) programu Algoritmy
 
 * Instalátor programu Algoritmy	- [algoritmy-setup.exe](https://github.com/PetrVobornik/prednasky/tree/master/Algoritmy/Program/algoritmy-setup.exe)	(1,80 MB)
 * Program Algoritmy (bez instalace)	- [algoritmy.zip](https://github.com/PetrVobornik/prednasky/tree/master/Algoritmy/Program/algoritmy.zip)	(1,86 MB)
 * Program Algoritmy (rychlé spuštìní) - [algoritmy.exe](https://github.com/PetrVobornik/prednasky/tree/master/Algoritmy/Program/algoritmy.exe)	(1,48 MB)
-* Stáhnout program algoritmy
 
 
 ## Dokumenty
