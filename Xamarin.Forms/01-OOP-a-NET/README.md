@@ -37,7 +37,7 @@ Druhá část přehledu základů objektově orientovaného programování v jaz
 
 Ukázka základních principů objektově orientovaného programování v praktické ukázce na programu (třídě) Bankomat v Xamarin.Forms.
 
-[![Ukázka OOP - Program Bankomat v Xamarin.Forms - záznam z přednášky](https://img.youtube.com/vi/FhzPbeIMusY/0.jpg)](https://www.youtube.com/watch?v=FhzPbeIMusY)
+[![Ukázka OOP 1 - Program Bankomat v Xamarin.Forms - záznam z přednášky](https://img.youtube.com/vi/FhzPbeIMusY/0.jpg)](https://www.youtube.com/watch?v=FhzPbeIMusY)
 
 [Videozáznam z přednášky - Program Bankomat v Xamarin.Forms](https://www.youtube.com/watch?v=FhzPbeIMusY)
 
@@ -48,9 +48,13 @@ Ukázka základních principů objektově orientovaného programování v prakti
 
 ## Ukázka OOP 2 (dědičnost a polymorfizmus) - Program Kalkulátor v Xamarin.Forms
 
-Ukázka základního principu dědičnosti a polymorfizmu v jednoduché praktické ukázce abstraktní třídy Operace a jejích potomků.
+Ukázka základních principů objektově orientovaného programování dědičnosti a polymorfismu v C#, názorně a podrobně předvedené na jednoduchém praktickém příkladu multiplatformní aplikace Kalkulátor v Xamarin.Forms.
 
-[Projekt Kalkulátor](https://github.com/PetrVobornik/prednasky/tree/master/Xamarin.Forms/01-OOP-a-NET/OopKalkulator)
+[![Ukázka OOP 2 - Program Kalkulátor v Xamarin.Forms - záznam z přednášky](https://img.youtube.com/vi/OgBtzpeabRk/0.jpg)](https://www.youtube.com/watch?v=OgBtzpeabRk)
+
+[Videozáznam z přednášky - Program Kalkulátor v Xamarin.Forms](https://www.youtube.com/watch?v=OgBtzpeabRk)
+
+[Projekt OOP Kalkulátor](https://github.com/PetrVobornik/prednasky/tree/master/Xamarin.Forms/01-OOP-a-NET/OopKalkulator)
 
 ---
 
