@@ -22,6 +22,8 @@ V první převážně teoretické části si vysvětlíme často kladenou otázk
 [Kódy ze cvičení](https://github.com/PetrVobornik/prednasky/tree/master/Algoritmy/01-Principy/cviceni)
 
 
+[Program Algoritmy ke stažení](https://github.com/PetrVobornik/prednasky/tree/master/Algoritmy/Program/)
+
 ---
 
 [Další přednáška - Větvení](https://github.com/PetrVobornik/prednasky/tree/master/Algoritmy/02-Vetveni)
