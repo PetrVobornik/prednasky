@@ -10,6 +10,7 @@ Základy algoritmů jsou určeny především pro úplné začátečníky v obla
 Zimní semestr 2019.
 
 1. [Principy algoritmů, vývojové diagramy, vstupy a výstupy](https://github.com/PetrVobornik/prednasky/tree/master/Algoritmy/01-Principy)
+1. [Větvení a cykly](https://github.com/PetrVobornik/prednasky/tree/master/Algoritmy/02-Vetveni-a-cykly)
 
 Seriál video záznamů z přednášek o Základech Algoritmů na [YouTube](https://www.youtube.com/playlist?list=PLxTqV9i8bnb-BL7IhBCQ3qgXA0TRDg_JT)
 
