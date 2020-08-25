@@ -8,7 +8,7 @@ V první převážně teoretické části si vysvětlíme často kladenou otázk
 
 [![Algoritmy 1 - Principy, diagramy, vstupy a výstupy - záznam z přednášky](https://img.youtube.com/vi/eo9Jq5ALHD4/0.jpg)](https://www.youtube.com/watch?v=eo9Jq5ALHD4&list=PLxTqV9i8bnb-BL7IhBCQ3qgXA0TRDg_JT)
 
-[Videozáznam z přednášky Principy, diagramy, vstupy a výstupy](https://youtu.be/eo9Jq5ALHD4)
+[Videozáznam z přednášky Principy, diagramy, vstupy a výstupy](https://www.youtube.com/watch?v=eo9Jq5ALHD4&list=PLxTqV9i8bnb-BL7IhBCQ3qgXA0TRDg_JT)
 
 * 00:00 - Principy algoritmů
 * 05:01 - Vývojové diagramy
@@ -26,7 +26,7 @@ V prvním cvičení navazujícím na první přednášku si upevníme nabyté v�
 
 [![Algoritmy 2 - Základní příkazy, DIV a MOD, prohazování proměnných - záznam ze cvičení](https://img.youtube.com/vi/fNLOg6ZnaOY/0.jpg)](https://www.youtube.com/watch?v=fNLOg6ZnaOY&list=PLxTqV9i8bnb-BL7IhBCQ3qgXA0TRDg_JT)
 
-[Videozáznam ze cvičení Základní příkazy, DIV a MOD, prohazování proměnných](https://youtu.be/fNLOg6ZnaOY)
+[Videozáznam ze cvičení Základní příkazy, DIV a MOD, prohazování proměnných](https://www.youtube.com/watch?v=fNLOg6ZnaOY&list=PLxTqV9i8bnb-BL7IhBCQ3qgXA0TRDg_JT)
 
 * 00:00 - Hello World!
 * 02:28 - Standardní části algoritmu

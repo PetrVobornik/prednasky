@@ -8,7 +8,7 @@ Teoretický úvod máme za sebou a můžeme se vrhnout na praktičtější zále
 
 [![Algoritmy 3 - Větvení a cykly - záznam z přednášky](https://img.youtube.com/vi/ch5miiqbAqI/0.jpg)](https://www.youtube.com/watch?v=ch5miiqbAqI&list=PLxTqV9i8bnb-BL7IhBCQ3qgXA0TRDg_JT)
 
-[Videozáznam z přednášky Větvení a cykly](https://youtu.be/ch5miiqbAqI)
+[Videozáznam z přednášky Větvení a cykly](https://www.youtube.com/watch?v=ch5miiqbAqI&list=PLxTqV9i8bnb-BL7IhBCQ3qgXA0TRDg_JT)
 
 * 00:00 - Neúplné větvení
 * 02:39 - Úplné větvení
