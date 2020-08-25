@@ -44,4 +44,4 @@ V prvním cvičení navazujícím na první přednášku si upevníme nabyté v�
 
 ---
 
-[Další přednáška - Větvení](https://github.com/PetrVobornik/prednasky/tree/master/Algoritmy/02-Vetveni-a-cykly)
+[Další přednáška - Větvení a cykly](https://github.com/PetrVobornik/prednasky/tree/master/Algoritmy/02-Vetveni-a-cykly)
