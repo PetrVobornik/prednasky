@@ -1,6 +1,6 @@
-{ Sestavte algoritmus, kterı urèí a vypíše souèet èísel postupnì 
-  naèítanıch do promìnnıch a, b a c, a pak urèí a vypíše 
-  i jejich souèin. }
+{ Sestavte algoritmus, kterı urèí a vypíše souèet a souèin èísel postupnì 
+  naèítanıch do promìnnıch a, b a c.
+}
 zaèátek
   èti(a);
   èti(b);
