@@ -78,3 +78,14 @@ Web [programko.net](https://www.programko.net) (web v přípravě), [Facebook](h
 <p align="center">
 <img src="https://github.com/PetrVobornik/prednasky/raw/master/Excel/theme.png" alt="Excel" width="400" />
 </p>
+
+---
+
+## [Základy Databází](https://github.com/PetrVobornik/prednasky/tree/master/Excel)
+1. [Databázové systémy](https://github.com/PetrVobornik/prednasky/tree/master/Databaze/01-Databazeove-systemy)
+1. [Transakce](https://github.com/PetrVobornik/prednasky/tree/master/Databaze/08-Transakce)
+1. ...
+
+<p align="center">
+<img src="https://github.com/PetrVobornik/prednasky/raw/master/Databaze/theme.png" alt="Databáze" width="256" />
+</p>

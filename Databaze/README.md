@@ -1,7 +1,7 @@
 # Základy Databází
 
 <p align="center">
-<img src="https://github.com/PetrVobornik/prednasky/raw/master/Databaze/theme.png" alt="Databáze" width="320" />
+<img src="https://github.com/PetrVobornik/prednasky/raw/master/Databaze/theme.png" alt="Databáze" width="256" />
 </p>
 
 
