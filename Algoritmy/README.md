@@ -5,9 +5,9 @@
 </p>
 
 
-Záznamy přednášek a materiály k na téma *Základy Algoritmů*.
+Záznamy přednášek a materiály na téma *Základy Algoritmů*.
 Základy algoritmů jsou určeny především pro úplné začátečníky v oblasti programování, kteří uvítají velmi pozvolný úvod do celého tématu. Místo konkrétního programovacího jazyka tak použijeme počeštěný pseudokód, jež neklade nároky na syntaxi či škálu poskytovaných funkcí, ale naopak, podporuje pouze pár základních příkazů, které si nováček snadno osvojí, a jejichž vhodným kombinováním se rychle naučí základním algoritmickým postupům, konstrukcím a myšlení.
-Zimní semestr 2019.
+Zimní semestr 2019. Záznamy cvičení budou postupně doplňovány.
 
 1. [Principy algoritmů, vývojové diagramy, vstupy a výstupy](https://github.com/PetrVobornik/prednasky/tree/master/Algoritmy/01-Principy)
 1. [Větvení a cykly](https://github.com/PetrVobornik/prednasky/tree/master/Algoritmy/02-Vetveni-a-cykly)
