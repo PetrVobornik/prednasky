@@ -1,7 +1,27 @@
 # Přednášky
 Projekty, prezentace a záznamy z přednášek o programování a dalších technologiích. 
+[Připravovaný web programko.NET](https://www.programko.net)
 [Facebook](https://www.facebook.com/Programovat/)
 
+
+## [Základy Algoritmů](https://github.com/PetrVobornik/prednasky/tree/master/Algoritmy)
+1. [Principy algoritmů, vývojové diagramy, vstupy a výstupy](https://github.com/PetrVobornik/prednasky/tree/master/Algoritmy/01-Principy)
+1. [Větvení a cykly](https://github.com/PetrVobornik/prednasky/tree/master/Algoritmy/02-Vetveni-a-cykly)
+1. [Jednoduchá proměnná v cyklu - předem známý počet hodnot](https://github.com/PetrVobornik/prednasky/tree/master/Algoritmy/03-Predem-znamy-pocet)
+1. [Jednoduchá proměnná v cyklu - předem neznámý počet hodnot](https://github.com/PetrVobornik/prednasky/tree/master/Algoritmy/04-Predem-neznamy-pocet)
+1. [Přehled příkazů](https://github.com/PetrVobornik/prednasky/tree/master/Algoritmy/05-Prehled-prikazu)
+1. [Posloupnosti](https://github.com/PetrVobornik/prednasky/tree/master/Algoritmy/06-Posloupnosti)
+1. [Vyhledávání v posloupnosti](https://github.com/PetrVobornik/prednasky/tree/master/Algoritmy/07-Vyhledavani)
+1. [Posuny v posloupnosti](https://github.com/PetrVobornik/prednasky/tree/master/Algoritmy/08-Posuny)
+1. [Práce s více posloupnostmi](https://github.com/PetrVobornik/prednasky/tree/master/Algoritmy/09-Vice-posloupnosti)
+1. [Matice](https://github.com/PetrVobornik/prednasky/tree/master/Algoritmy/10-Matice)
+
+
+<p align="center">
+<img src="https://github.com/PetrVobornik/prednasky/raw/master/Algoritmy/theme.png" width="400" alt="Algoritmy" />
+</p>
+
+---
 
 ## [Základy programování v C#](https://github.com/PetrVobornik/prednasky/tree/master/ZakladyCs)
 1. [Základní příkazy](https://github.com/PetrVobornik/prednasky/tree/master/ZakladyCs/01-ZakladniPrikazy)

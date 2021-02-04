@@ -33,5 +33,5 @@ Dnes si rozšíříme obzory a po důkladném procvičení jednoduché proměnn�
 
 ---
 
-[Další přednáška - Posloupnosti](https://github.com/PetrVobornik/prednasky/tree/master/Algoritmy/07-Vyhledavani)
+[Další přednáška - Vyhledávání v posloupnosti](https://github.com/PetrVobornik/prednasky/tree/master/Algoritmy/07-Vyhledavani)
 

@@ -29,5 +29,5 @@ Tentokrát budeme v posloupnostech posouvat hodnoty členů při jejich odebír�
 
 ---
 
-[Další přednáška - Posloupnosti](https://github.com/PetrVobornik/prednasky/tree/master/Algoritmy/09-Vice-posloupnosti)
+[Další přednáška - Práce s více posloupnostmi](https://github.com/PetrVobornik/prednasky/tree/master/Algoritmy/09-Vice-posloupnosti)
 

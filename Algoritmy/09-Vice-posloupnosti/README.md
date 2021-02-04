@@ -30,5 +30,5 @@ S jednou posloupností jsme si již užili spoustu zábavy, a co teprve, když j
 
 ---
 
-[Další přednáška - Posloupnosti](https://github.com/PetrVobornik/prednasky/tree/master/Algoritmy/10-Matice)
+[Další přednáška - Matice](https://github.com/PetrVobornik/prednasky/tree/master/Algoritmy/10-Matice)
 
