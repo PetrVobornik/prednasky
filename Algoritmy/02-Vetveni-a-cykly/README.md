@@ -53,5 +53,5 @@ Cvičení navazuje na přednášku a zaměřuje se na problematiku větvení na 
 
 ---
 
-[Další přednáška - Větvení a cykly](https://github.com/PetrVobornik/prednasky/tree/master/Algoritmy/03-Predem-znamy-pocet)
+[Další přednáška - Jednoduchá proměnná v cyklu - předem známý počet hodnot](https://github.com/PetrVobornik/prednasky/tree/master/Algoritmy/03-Predem-znamy-pocet)
 
