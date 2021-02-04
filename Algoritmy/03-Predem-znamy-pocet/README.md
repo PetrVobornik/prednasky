@@ -6,9 +6,9 @@ V této přednášce se konečně pořádně zaměříme na cykly. Konkrétně z
 
 [Kódy z přednášky](https://github.com/PetrVobornik/prednasky/tree/master/Algoritmy/03-Predem-znamy-pocet/prednaska)
 
-[![Algoritmy 5 - Jednoduchá proměnná v cyklu - předem neznámý počet hodnot - záznam z přednášky](https://img.youtube.com/vi/BfZCzN3ECEI/0.jpg)](https://www.youtube.com/watch?v=BfZCzN3ECEI&list=PLxTqV9i8bnb-BL7IhBCQ3qgXA0TRDg_JT)
+[![Algoritmy 5 - Jednoduchá proměnná v cyklu - předem známý počet hodnot - záznam z přednášky](https://img.youtube.com/vi/BfZCzN3ECEI/0.jpg)](https://www.youtube.com/watch?v=BfZCzN3ECEI&list=PLxTqV9i8bnb-BL7IhBCQ3qgXA0TRDg_JT)
 
-[Videozáznam z přednášky Jednoduchá proměnná v cyklu - předem neznámý počet hodnot](https://www.youtube.com/watch?v=BfZCzN3ECEI&list=PLxTqV9i8bnb-BL7IhBCQ3qgXA0TRDg_JT)
+[Videozáznam z přednášky Jednoduchá proměnná v cyklu - předem známý počet hodnot](https://www.youtube.com/watch?v=BfZCzN3ECEI&list=PLxTqV9i8bnb-BL7IhBCQ3qgXA0TRDg_JT)
 
 * 00:00​ - Součet předem známého počtu hodnot cyklem DOKUD
 * 06:34​ - Totéž pomocí cyklu PRO
