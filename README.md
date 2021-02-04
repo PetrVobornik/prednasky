@@ -1,7 +1,6 @@
 # Přednášky
 Projekty, prezentace a záznamy z přednášek o programování a dalších technologiích. 
-[Připravovaný web programko.NET](https://www.programko.net)
-[Facebook](https://www.facebook.com/Programovat/)
+Web [programko.net](https://www.programko.net) (web v přípravě), [Facebook](https://www.facebook.com/Programovat/).
 
 
 ## [Základy Algoritmů](https://github.com/PetrVobornik/prednasky/tree/master/Algoritmy)
