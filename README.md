@@ -1,4 +1,4 @@
-# Přednášky
+# Přednášky o programování
 Projekty, prezentace a záznamy z přednášek o programování a dalších technologiích. 
 
 Web [programko.net](https://www.programko.net) (web v přípravě), [Facebook](https://www.facebook.com/Programovat/).
