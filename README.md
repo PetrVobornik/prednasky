@@ -18,7 +18,7 @@ Web [programko.net](https://www.programko.net) (web v přípravě), [Facebook](h
 
 
 <p align="center">
-<img src="https://github.com/PetrVobornik/prednasky/raw/master/Algoritmy/theme.png" width="400" alt="Algoritmy" />
+<img src="https://github.com/PetrVobornik/prednasky/raw/master/Algoritmy/theme.png" width="256" alt="Algoritmy" />
 </p>
 
 ---
