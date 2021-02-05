@@ -58,4 +58,4 @@ Ukázka základních principů objektově orientovaného programování dědičn
 
 ---
 
-[Další přednáška - Layout v Xamarin.Forms](https://github.com/PetrVobornik/prednasky/tree/master/Xamarin.Forms/02-Layout)
+[Další přednáška - Ovládací prvky](https://github.com/PetrVobornik/prednasky/tree/master/Xamarin.Forms/02-OvladaciPrvky)

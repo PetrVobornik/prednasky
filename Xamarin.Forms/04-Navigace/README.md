@@ -6,9 +6,9 @@ Ukázka základních postupů při navigaci v Xamarin.Forms aplikaci, tj. hlavn�
 
 [Videozáznam z přednášky - Navigace v aplikaci](https://www.youtube.com/watch?v=8dYOsUFnlWA)
 
-[Prezentace Navigace v aplikaci](https://github.com/PetrVobornik/prednasky/blob/master/Xamarin.Forms/03-Navigace/navigace.ppsx?raw=true)
+[Prezentace Navigace v aplikaci](https://github.com/PetrVobornik/prednasky/blob/master/Xamarin.Forms/04-Navigace/navigace.ppsx?raw=true)
 
-[Projekt Navigace](https://github.com/PetrVobornik/prednasky/tree/master/Xamarin.Forms/03-Navigace/Navigace)
+[Projekt Navigace](https://github.com/PetrVobornik/prednasky/tree/master/Xamarin.Forms/04-Navigace/Navigace)
 
 ## Typy stránek
 * Content Page
@@ -20,4 +20,4 @@ Ukázka základních postupů při navigaci v Xamarin.Forms aplikaci, tj. hlavn�
 
 ---
 
-[Další přednáška - Ovládací prvky](https://github.com/PetrVobornik/prednasky/tree/master/Xamarin.Forms/04-OvladaciPrvky)
+[Další přednáška - Vázání dat](https://github.com/PetrVobornik/prednasky/tree/master/Xamarin.Forms/05-VazaniDat)

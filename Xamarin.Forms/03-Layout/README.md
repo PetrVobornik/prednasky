@@ -6,9 +6,9 @@ Ukázka hlavních polohovacích kontejnerů pro rozložení ovládacích prvků 
 
 [Videozáznam z přednášky - Layout v Xamarin.Forms](https://www.youtube.com/watch?v=VvrViTDniKw)
 
-[Prezentace Layout v Xamarin.Forms](https://github.com/PetrVobornik/prednasky/blob/master/Xamarin.Forms/02-Layout/polohovaci-prvky.ppsx?raw=true)
+[Prezentace Layout v Xamarin.Forms](https://github.com/PetrVobornik/prednasky/blob/master/Xamarin.Forms/03-Layout/polohovaci-prvky.ppsx?raw=true)
 
-[Projekt Polohovací prvky](https://github.com/PetrVobornik/prednasky/tree/master/Xamarin.Forms/02-Layout/PolohovaciPrvky)
+[Projekt Polohovací prvky](https://github.com/PetrVobornik/prednasky/tree/master/Xamarin.Forms/03-Layout/PolohovaciPrvky)
 
 ## Polohovací prvky
 * StackLayout – řazení pod-prvků pod/za sebe
@@ -22,4 +22,4 @@ Ukázka hlavních polohovacích kontejnerů pro rozložení ovládacích prvků 
 
 ---
 
-[Další přednáška - Navigace v aplikaci](https://github.com/PetrVobornik/prednasky/tree/master/Xamarin.Forms/03-Navigace)
+[Další přednáška - Navigace v aplikaci](https://github.com/PetrVobornik/prednasky/tree/master/Xamarin.Forms/04-Navigace)

@@ -10,9 +10,9 @@ Představení všech základních ovládacích prvků (controls), které jsou v 
 
 [Zkrácený videozáznam z přednášky 2020 - Přehled jen nových ovládacích prvků 2020](https://www.youtube.com/watch?v=6WnouEuccIU)
 
-[Prezentace Ovládací prvky](https://github.com/PetrVobornik/prednasky/blob/master/Xamarin.Forms/04-OvladaciPrvky/ovladaci-prvky.ppsx?raw=true)
+[Prezentace Ovládací prvky](https://github.com/PetrVobornik/prednasky/blob/master/Xamarin.Forms/02-OvladaciPrvky/ovladaci-prvky.ppsx?raw=true)
 
-[Projekt Ovládací prvky](https://github.com/PetrVobornik/prednasky/tree/master/Xamarin.Forms/04-OvladaciPrvky/OvladaciPrvky)
+[Projekt Ovládací prvky](https://github.com/PetrVobornik/prednasky/tree/master/Xamarin.Forms/02-OvladaciPrvky/OvladaciPrvky)
 
 ## Ovládací prvky
 * Label – text, popisek
@@ -52,4 +52,4 @@ Představení všech základních ovládacích prvků (controls), které jsou v 
 
 ---
 
-[Další přednáška - Vázání dat](https://github.com/PetrVobornik/prednasky/tree/master/Xamarin.Forms/05-VazaniDat)
+[Další přednáška - Layout v Xamarin.Forms](https://github.com/PetrVobornik/prednasky/tree/master/Xamarin.Forms/03-Layout)
