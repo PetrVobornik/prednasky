@@ -6,9 +6,9 @@
 
     <StackLayout HorizontalOptions="Center" VerticalOptions="Center" WidthRequest="250">
         <Label Text="Stav konta bankomatu" />
-        <Entry x:Name="eStav" HorizontalTextAlignment="End" />
+        <Entry x:Name="eStav" HorizontalTextAlignment="End" Keyboard="Numeric" />
         <Label Text="Částka" />
-        <Entry x:Name="eCastka" HorizontalTextAlignment="End" />
+        <Entry x:Name="eCastka" HorizontalTextAlignment="End" Keyboard="Numeric" />
         <Button x:Name="bVlozit" Text="Vložit" Clicked="BVlozit_Clicked" />
         <Button x:Name="bVybrat" Text="Vybrat" Clicked="BVybrat_Clicked" /> 
     </StackLayout>
