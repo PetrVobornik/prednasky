@@ -1,12 +1,12 @@
 # OOP a .NET technologie
 
-## Porovnání .NET technologií
+## Přehled technologií .NET 
 
-Základní přehled technologií .NET, aneb co všechno ten .NET a C# vlastně umí.
+Technologií .NET není zrovna pomálu a v jazyce C# lze už napsat v podstatě jakýkoli typ aplikace. Projděme si to vyzkoušet, od konzolí, přes hry, až po Core webové aplikace.
 
-[![Porovnání .NET technologií - záznam z přednášky](https://img.youtube.com/vi/LIXC68nDkMc/0.jpg)](https://www.youtube.com/watch?v=LIXC68nDkMc)
+[![Porovnání .NET technologií - záznam z přednášky](https://img.youtube.com/vi/a7pEHfAds8A/0.jpg)](https://www.youtube.com/watch?v=a7pEHfAds8A)
 
-[Videozáznam z přednášky - Porovnání .NET technologií](https://www.youtube.com/watch?v=LIXC68nDkMc)
+[Videozáznam z přednášky - Porovnání .NET technologií](https://www.youtube.com/watch?v=a7pEHfAds8A)
 
 [Prezentace Porovnání .NET technologií](https://github.com/PetrVobornik/prednasky/blob/master/Xamarin.Forms/01-OOP-a-NET/technologie-net.ppsx?raw=true)
 
