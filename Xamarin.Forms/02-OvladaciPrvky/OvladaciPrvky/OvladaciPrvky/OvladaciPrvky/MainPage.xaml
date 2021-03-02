@@ -1,7 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             xmlns:local="clr-namespace:OvladaciPrvky"
+             xmlns:local="clr-namespace:OvladaciPrvky" 
+             xmlns:toolkit="http://xamarin.com/schemas/2020/toolkit"
              x:Class="OvladaciPrvky.MainPage">
 
     <ScrollView>
@@ -18,7 +19,7 @@
             <TableView Intent="Settings" HeightRequest="400">
                 <TableRoot>
                     <TableSection Title="Základní nastavení">
-                        <TextCell Text="Vybrané album" Detail="Kája Gott" />
+                        <TextCell Text="Vybrané album" Detail="Karel Gott" />
                         <ImageCell Text="Sociální síť" Detail="Facebook" ImageSource="facebook.png" />
                         <SwitchCell Text="Přehrávat dokola" On="True" />
                         <SwitchCell Text="Náhodné přehrávání" />
@@ -53,7 +54,7 @@
             </CollectionView>
 
             <!-- CarouselView...  -->
-            <CarouselView x:Name="cCarousel" HeightRequest="100" IndicatorView="iCarIndicator">
+            <CarouselView x:Name="cCarousel" HeightRequest="100" IndicatorView="iCarIndicator" PositionChanged="cCarousel_PositionChanged">
                 <CarouselView.ItemTemplate>
                     <DataTemplate>
                         <StackLayout>
@@ -93,7 +94,7 @@
             </Picker>
 
             <!-- MediaElement -->
-            <MediaElement Source="https://sec.ch9.ms/ch9/5d93/a1eab4bf-3288-4faf-81c4-294402a85d93/XamarinShow_mid.mp4"
+            <toolkit:MediaElement Source="https://sec.ch9.ms/ch9/5d93/a1eab4bf-3288-4faf-81c4-294402a85d93/XamarinShow_mid.mp4"
               ShowsPlaybackControls="True" Volume="0.01" HeightRequest="300" />
 
             <!-- WebView... -->
@@ -164,8 +165,8 @@
             <!-- Image -->
             <Image Source="https://upload.wikimedia.org/wikipedia/commons/2/2c/Rotating_earth_%28large%29.gif"
                    IsAnimationPlaying="True" />
-            <Image Source="https://scontent-prg1-1.cdninstagram.com/v/t51.2885-15/e35/74969020_541065930022917_563139040754857265_n.jpg?_nc_ht=scontent-prg1-1.cdninstagram.com&amp;_nc_cat=109&amp;_nc_ohc=vzj7_7J1ff0AX98YP4L&amp;oh=55d6c04a240956636b91ddc0141b0827&amp;oe=5E9069BD" 
-                   HeightRequest="500" Aspect="AspectFit" />            
+            <Image Source="https://raw.githubusercontent.com/PetrVobornik/prednasky/master/Xamarin.Forms/theme.png" 
+                   Aspect="AspectFit" />            
             <Image Source="facebook.png" />
 
             <!-- Label... -->

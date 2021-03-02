@@ -24,9 +24,15 @@ namespace OvladaciPrvky
             lSeznam.ItemsSource = "Leden,Únor,Březen,Duben,Květen,Červen,Červenec,Srpen,Září,Říjen,Listopad,Prosinec"
                 .Split(',').Select(x => new { Name = x, Color = RandomColor });
 
-            cCarousel.ItemsSource = lSeznam.ItemsSource; // CarouselView
+            //cCarousel.ItemsSource = lSeznam.ItemsSource; // CarouselView (na Androidu to je v XF5 třeba nastavit až v pozdější fázi => přesunuto do OnAppearing)
 
             cCollect.ItemsSource = lSeznam.ItemsSource; // CollectionView
+        }
+
+        protected override void OnAppearing() // Spustí se při vstupu na tuto stránku
+        {
+            base.OnAppearing();
+            cCarousel.ItemsSource = lSeznam.ItemsSource; // CarouselView
         }
 
         private void Button_Clicked(object sender, EventArgs e)
@@ -58,7 +64,9 @@ namespace OvladaciPrvky
             wWeb.Source = eUrl.Text; // WebView
         }
 
-
-  
+        private void cCarousel_PositionChanged(object sender, PositionChangedEventArgs e)
+        {
+            int i = e.CurrentPosition;
+        }
     }
 }

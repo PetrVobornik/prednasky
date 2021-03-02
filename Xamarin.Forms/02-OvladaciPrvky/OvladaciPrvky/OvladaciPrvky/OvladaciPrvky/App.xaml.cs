@@ -9,12 +9,12 @@ namespace OvladaciPrvky
     {
         public App()
         {
-            Device.SetFlags(new string[] { 
-                "MediaElement_Experimental", 
-                "SwipeView_Experimental", 
-                "CarouselView_Experimental",  
-                "IndicatorView_Experimental",
-            });
+            //Device.SetFlags(new string[] { 
+            //    "MediaElement_Experimental", 
+            //    "SwipeView_Experimental", 
+            //    "CarouselView_Experimental",  
+            //    "IndicatorView_Experimental",
+            //});
 
             InitializeComponent();
 
