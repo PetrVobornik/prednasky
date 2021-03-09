@@ -4,15 +4,16 @@
              x:Class="PolohovaciPrvky.Logo"
              BackgroundColor="Gray">
     <ContentView.Content>
-        <Grid Padding="15" RowSpacing="7" ColumnSpacing="7">
-            <Grid.RowDefinitions>
+        <Grid Padding="15" RowSpacing="7" ColumnSpacing="7" 
+              RowDefinitions="*, *" ColumnDefinitions="*, *">
+            <!--<Grid.RowDefinitions>
                 <RowDefinition Height="*" />
                 <RowDefinition Height="*" />
             </Grid.RowDefinitions>
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="*" />
                 <ColumnDefinition Width="*" />
-            </Grid.ColumnDefinitions>
+            </Grid.ColumnDefinitions>-->
             <ContentView Grid.Row="0" Grid.Column="0" BackgroundColor="OrangeRed" />
             <ContentView Grid.Row="0" Grid.Column="1" BackgroundColor="YellowGreen" />
             <ContentView Grid.Row="1" Grid.Column="0" BackgroundColor="DeepSkyBlue" />
