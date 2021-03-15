@@ -46,7 +46,7 @@ namespace Navigace
 
         bool isJmeno = false;
         InputDialog dlg;
-        private async void Binput_Clicked(object sender, EventArgs e)
+        private async void BInputPage_Clicked(object sender, EventArgs e)
         {
             dlg = new InputDialog();
             dlg.Jmeno = "Tvé Jméno";
@@ -62,6 +62,13 @@ namespace Navigace
                 isJmeno = false;
             }
             base.OnAppearing();
+        }
+
+        private async void bInputDlg_Clicked(object sender, EventArgs e)
+        {
+            string jmeno = await DisplayPromptAsync("Tvé Jméno", "Zadej své jméno");
+            if (!String.IsNullOrEmpty(jmeno)) // Pokud se dialog uzavře jinak než přes OK, metoda vrátí prázdný string
+                Title = "Vítej " + jmeno;
         }
     }
 }

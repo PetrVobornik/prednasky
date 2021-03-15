@@ -16,7 +16,8 @@
             <Button Text="Master-Detail" x:Name="bMD" Clicked="BMD_Clicked" />
             <Button Text="Carousel" x:Name="bCarousel" Clicked="BCarousel_Clicked" />
             <Button Text="Druhá stránka" x:Name="bDruha" Clicked="BDruha_Clicked" />
-            <Button Text="Input dialog" x:Name="binput" Clicked="Binput_Clicked" />
+            <Button Text="Input dialog - stránka" x:Name="bInputPage" Clicked="BInputPage_Clicked" />
+            <Button Text="Input dialog - dialog" x:Name="bInputDlg" Clicked="bInputDlg_Clicked" />
         </StackLayout>
     </Grid>
 
