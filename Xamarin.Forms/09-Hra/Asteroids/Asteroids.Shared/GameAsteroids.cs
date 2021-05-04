@@ -37,6 +37,7 @@ namespace Asteroids.Shared
 
         public GameAsteroids()
         {
+            IsMouseVisible = true;
             graphics = new GraphicsDeviceManager(this);
             Content.RootDirectory = "Content";
         }
