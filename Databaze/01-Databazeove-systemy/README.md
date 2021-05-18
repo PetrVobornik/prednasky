@@ -2,7 +2,7 @@
 
 Teoretický úvod do databázových systémů a návrhu databáze.
 
-[Prezentace Databázové systémy](https://github.com/PetrVobornik/prednasky/tree/master/Databaze/01-Databazeove-systemy/databazove-systemy.ppsx?raw=true)
+[Prezentace Databázové systémy](https://github.com/PetrVobornik/prednasky/blob/master/Databaze/01-Databazeove-systemy/databazove-systemy.ppsx?raw=true)
 
 [![Základy databází - Databázové systémy - záznam z přednášky](https://img.youtube.com/vi/dUPLSRrsojM/0.jpg)](https://www.youtube.com/watch?v=dUPLSRrsojM&list=PLxTqV9i8bnb_ZkImlRjWJLIVQTkC_1VBT)
 

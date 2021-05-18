@@ -2,7 +2,7 @@
 
 Teoretický úvod do databázových systémů a návrhu databáze.
 
-[Prezentace Transakce](https://github.com/PetrVobornik/prednasky/tree/master/Databaze/08-Transakce/transakce.ppsx?raw=true)
+[Prezentace Transakce](https://github.com/PetrVobornik/prednasky/blob/master/Databaze/08-Transakce/transakce.ppsx?raw=true)
 
 [![Základy databází - Transakce - záznam z přednášky](https://img.youtube.com/vi/tDNlzaiyVq4/0.jpg)](https://www.youtube.com/watch?v=tDNlzaiyVq4&list=PLxTqV9i8bnb_ZkImlRjWJLIVQTkC_1VBT)
 

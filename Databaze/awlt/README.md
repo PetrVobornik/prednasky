@@ -7,7 +7,7 @@ Ukázková databáze AdventureWorksLT (AWLT). Upraveno pro výukové účely z p
 
 ### Lze ji buď obnovit ze zálohy 
 
-* Stáhněte soubor [AdventureWorksLT.bak](https://github.com/PetrVobornik/prednasky/tree/master/Databaze/awlt/AdventureWorksLT.bak?raw=true) do na svůj počítač.
+* Stáhněte soubor [AdventureWorksLT.bak](https://github.com/PetrVobornik/prednasky/blob/master/Databaze/awlt/AdventureWorksLT.bak?raw=true) do na svůj počítač.
 * Spusťte SSMS jako správce, připojte se k serveru, klikněte pravým tlačítkem na složku *Database*, a zvolte *Restore Database*.
 * Zdroj (Source) zvolte *Device* a nalistujete (*Add*) uložený soubor *AdventureWorksLT.bak*.
 * V *Destination* - *Database* zvolte název databáze, který tam zatím nemáte.
@@ -16,7 +16,7 @@ Ukázková databáze AdventureWorksLT (AWLT). Upraveno pro výukové účely z p
 
 ### nebo vytvořit SQL skriptem
 
-* Stáhněte soubor [AdventureWorksLT.sql](https://github.com/PetrVobornik/prednasky/tree/master/Databaze/awlt/AdventureWorksLT.sql?raw=true).
+* Stáhněte soubor [AdventureWorksLT.sql](https://github.com/PetrVobornik/prednasky/blob/master/Databaze/awlt/AdventureWorksLT.sql?raw=true).
 * Spusťte SSMS jako správce, připojte se k serveru, a otevřete (Open file - Ctrl+O) stažený SQL soubor.
 * Hned na začátku (řádky 7 a 9) je 2x *FILENAME = N'D:\awlt.mdf'* (podruhé je u soboru postfix '_log').
 * Upravte cestu těchto dvou souborů do nějaké platné složky na vašem počítači, do které bude mít opravnění SQL Server zapisovat.
