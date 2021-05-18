@@ -81,7 +81,7 @@ Web [programko.net](https://www.programko.net) (web v přípravě), [Facebook](h
 
 ---
 
-## [Základy Databází](https://github.com/PetrVobornik/prednasky/tree/master/Excel)
+## [Základy Databází](https://github.com/PetrVobornik/prednasky/tree/master/Databaze)
 1. [Databázové systémy](https://github.com/PetrVobornik/prednasky/tree/master/Databaze/01-Databazeove-systemy)
 1. [Transakce](https://github.com/PetrVobornik/prednasky/tree/master/Databaze/08-Transakce)
 1. ...
