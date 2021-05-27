@@ -1,0 +1,16 @@
+﻿<Window x:Class="HledaniMinOOP.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:HledaniMinOOP"
+        mc:Ignorable="d"
+        Title="Hledání min" Height="800" Width="800">
+    <Grid>
+        <Frame BorderThickness="1" BorderBrush="Black">
+            <Frame.Content>
+                <Grid x:Name="gPlocha" />
+            </Frame.Content>
+        </Frame>
+    </Grid>
+</Window>

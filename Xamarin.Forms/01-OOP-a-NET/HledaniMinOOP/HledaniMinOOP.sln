@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31313.79
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HledaniMinOOP", "HledaniMinOOP\HledaniMinOOP.csproj", "{FDAB9684-0737-4697-8170-5DB41EE38C0D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FDAB9684-0737-4697-8170-5DB41EE38C0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDAB9684-0737-4697-8170-5DB41EE38C0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDAB9684-0737-4697-8170-5DB41EE38C0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDAB9684-0737-4697-8170-5DB41EE38C0D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C3872A11-880B-4F9D-9EB0-B20BAE027AC8}
+	EndGlobalSection
+EndGlobal
