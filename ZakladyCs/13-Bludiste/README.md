@@ -1,4 +1,4 @@
-# Rekurzivní zpracování vícerozměrného prostoru.
+# Rekurzivní zpracování vícerozměrného prostoru
 
 Fungování rekurzivního zpracování prostoru si ukážeme na praktickém příkladu, a sice generátoru náhodné mapy 2D bludiště a jeho procházení.
 
