@@ -24,16 +24,18 @@ namespace BankomatProgram
             eStav.Text = bankomat.Castka.ToString("N0") + ",-";
         }
 
-        private void BVlozit_Clicked(object sender, EventArgs e)
-        {
-            bankomat.Vloz(Convert.ToInt32(eCastka.Text));
-        }
 
         private void BVybrat_Clicked(object sender, EventArgs e)
         {
             bool povedloSe = bankomat.Vyber(Convert.ToInt32(eCastka.Text));
             if (!povedloSe)
                 DisplayAlert("Výběr", "V bankomatu není dost peněz", "OK");
+        }
+
+        private void BVlozit_Clicked(object sender, EventArgs e)
+        {
+            if (!bankomat.Vloz(Convert.ToInt32(eCastka.Text)))
+                DisplayAlert("Vklad", "Do bankomatu se tolik peněz nevejde", "OK");
         }
     }
 }

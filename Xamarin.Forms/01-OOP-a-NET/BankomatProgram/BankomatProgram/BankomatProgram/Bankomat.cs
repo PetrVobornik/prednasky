@@ -12,6 +12,9 @@ namespace BankomatProgram
             castka = vklad;
         }
 
+        // Konstanty
+        public const int Maximum = 2000000;
+
         // Datové položky a vlastnosti
         private int castka;
         public int Castka
@@ -35,9 +38,12 @@ namespace BankomatProgram
             return false;
         }
 
-        public void Vloz(int castka)
+        public bool Vloz(int castka)
         {
+            if (Castka + castka > Maximum)
+                return false;
             Castka += castka;
+            return true;
         }
 
         // Událost
