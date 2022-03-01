@@ -2,7 +2,6 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:OvladaciPrvky" 
-             xmlns:toolkit="http://xamarin.com/schemas/2020/toolkit"
              x:Class="OvladaciPrvky.MainPage">
 
     <ScrollView>
@@ -93,10 +92,6 @@
                 </Picker.Items>
             </Picker>
 
-            <!-- MediaElement -->
-            <toolkit:MediaElement Source="https://sec.ch9.ms/ch9/5d93/a1eab4bf-3288-4faf-81c4-294402a85d93/XamarinShow_mid.mp4"
-              ShowsPlaybackControls="True" Volume="0.01" HeightRequest="300" />
-
             <!-- WebView... -->
             <Entry x:Name="eUrl" Completed="EUrl_Completed" Keyboard="Url" />
             <WebView Source="https://www.uhk.cz" HeightRequest="500" x:Name="wWeb"
@@ -121,23 +116,33 @@
             </SwipeView>
             
 
-            <!-- drobnosti -->
-            <BoxView Color="Fuchsia" WidthRequest="100" HeightRequest="50" HorizontalOptions="Center" />
-
-            <ActivityIndicator IsRunning="True" BackgroundColor="Yellow" Color="Blue" />
-            <ActivityIndicator IsRunning="True" />
-
-            <ProgressBar Progress="0.666" BackgroundColor="Red" ProgressColor="Lime" />
-            <ProgressBar Progress="0.666" />
+            <!-- Datum a čas -->
 
             <TimePicker />
             <DatePicker />
 
-            <Stepper x:Name="sKrokovac" Minimum="-5" Maximum="5" Increment="0.5" Value="0" />
-            <Label Text="{Binding Source={x:Reference sKrokovac}, Path=Value}" />
+            <!-- Slider a Stepper -->
+            <Stepper x:Name="sKrokovac" Minimum="-5" Maximum="5" Increment="0.5" Value="0" HorizontalOptions="Center" />
+            <Label Text="{Binding Source={x:Reference sKrokovac}, Path=Value}" HorizontalOptions="Center" />
 
             <Slider Minimum="0" Maximum="100" Value="75" />
 
+
+            <!-- RadioButton -->
+            <StackLayout Orientation="Horizontal" HorizontalOptions="Center" RadioButtonGroup.GroupName="Volba">
+                <RadioButton Content="Ano" WidthRequest="70" />
+                <RadioButton Content="Ne" WidthRequest="70" />
+            </StackLayout>
+
+            <!-- CheckBox -->
+            <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+                <CheckBox IsChecked="False" />
+                <Label Text="Italic" Margin="0,0,30,0" VerticalOptions="Center" />
+                <CheckBox IsChecked="True" />
+                <Label Text="Bold" VerticalOptions="Center" />
+            </StackLayout>
+
+            <!-- Switch -->
             <Switch IsToggled="True" HorizontalOptions="Center" />
             
 
@@ -161,7 +166,101 @@
             
             <Button Text="Sledujte nás" HorizontalOptions="Center" Image="facebook.png" />
             <Button Text="Klikni na mě!" HorizontalOptions="Center" Clicked="Button_Clicked" />
-            
+
+
+            <!-- Shapes - ukázka -->
+
+            <Grid WidthRequest="200" HeightRequest="350" HorizontalOptions="Center">
+                <!-- Pozadí -->
+                <Rectangle StrokeThickness="1" Stroke="Black">
+                    <Rectangle.Fill>
+                        <LinearGradientBrush StartPoint="0.5,0" EndPoint="0.5,1">
+                            <GradientStop Color="#EEFFFF" Offset="0" />
+                            <GradientStop Color="#88FFFF" Offset="1" />
+                        </LinearGradientBrush>
+                    </Rectangle.Fill>
+                </Rectangle>
+                <!-- Listy -->
+                <Polygon StrokeThickness="0" 
+                    Points="28,50 50,0 28,90 22,80 0,20 22,120" Margin="0,160,0,0" 
+                    HorizontalOptions="Center" VerticalOptions="Start">
+                    <Polygon.Fill>
+                        <LinearGradientBrush StartPoint="0,0.5" EndPoint="1,0.5">
+                            <GradientStop Color="#008800" Offset="0" />
+                            <GradientStop Color="#66DD66" Offset="0.49" />
+                            <GradientStop Color="#008800" Offset="0.51" />
+                            <GradientStop Color="#66DD66" Offset="1" />
+                        </LinearGradientBrush>
+                    </Polygon.Fill>
+                </Polygon>
+                <!-- Stonek -->
+                <Rectangle StrokeThickness="0" WidthRequest="8" Margin="0,86,0,1" HorizontalOptions="Center">
+                    <Rectangle.Fill>
+                        <LinearGradientBrush StartPoint="0,0.5" EndPoint="1,0.5">
+                            <GradientStop Color="#66DD66" Offset="0" />
+                            <GradientStop Color="#008800" Offset="1" />
+                        </LinearGradientBrush>
+                    </Rectangle.Fill>
+                </Rectangle>
+                <!-- Lístky -->
+                <Path WidthRequest="202" HeightRequest="202" 
+                      StrokeThickness="0.5" Stroke="Black" HorizontalOptions="Center"
+                      Data="M	101	101						
+                            C	191	56	,	191	146	,	101	101
+                            C	196.4594155	132.8198052	,	132.8198052	196.4594155	,	101	101
+                            C	146	191	,	56	191	,	101	101
+                            C	69.18019485	196.4594155	,	5.54058454	132.8198052	,	101	101
+                            C	11	146	,	11	56	,	101	101
+                            C	5.54058454	69.18019485	,	69.18019485	5.54058454	,	101	101
+                            C	56	11	,	146	11	,	101	101
+                            C	132.8198052	5.54058454	,	196.4594155	69.18019485	,	101	101
+                            Z" >
+                    <Path.Fill>
+                        <RadialGradientBrush>
+                            <GradientStop Color="#FFFFFF" Offset="0" />
+                            <GradientStop Color="#FFAAAA" Offset="0.5" />
+                            <GradientStop Color="#FF5555" Offset="1.0" />
+                        </RadialGradientBrush>
+                    </Path.Fill>
+                </Path>
+                <!-- Střed -->
+                <Ellipse  HorizontalOptions="Center" WidthRequest="30" HeightRequest="30" Margin="0,86,0,0" 
+                          StrokeThickness="1" Stroke="Black" VerticalOptions="Start">
+                    <Ellipse.Fill>
+                        <RadialGradientBrush Center="0.3,0.3">
+                            <GradientStop Color="#FFFFFF" Offset="0" />
+                            <GradientStop Color="#FFFF00" Offset="1.0" />
+                        </RadialGradientBrush>
+                    </Ellipse.Fill>
+                </Ellipse>
+                <!-- Zem -->
+                <Rectangle HorizontalOptions="Fill" VerticalOptions="End" HeightRequest="50" 
+                           Margin="1">
+                    <Rectangle.Fill>
+                        <LinearGradientBrush StartPoint="0.5,0" EndPoint="0.5,1">
+                            <GradientStop Color="#FF8844" Offset="0" />
+                            <GradientStop Color="#884422" Offset="1" />
+                        </LinearGradientBrush>
+                    </Rectangle.Fill>
+                </Rectangle>
+            </Grid>
+
+
+            <!-- Shapes -->
+
+            <Path Data="M 0,50 c 0,50 100,50 100,0 c 0,-50 100,-50 100,0Z" 
+                Fill="Lime" Stroke="Brown" StrokeThickness="5" HorizontalOptions="Center" />
+            <Polyline Points="40,10 120,80 10,50" HorizontalOptions="Center"
+                Fill="Violet" Stroke="Purple" StrokeThickness="5" />
+            <Polygon Points="40,10 120,80 10,50" HorizontalOptions="Center"
+                Fill="Violet" Stroke="Purple" StrokeThickness="5" />
+            <Ellipse Fill="Aqua" Stroke="Green" StrokeThickness="3"
+                WidthRequest="150" HeightRequest="50" HorizontalOptions="Center" />
+            <Rectangle Fill="Yellow" Stroke="Blue" StrokeThickness="3"
+                WidthRequest="150" HeightRequest="50" HorizontalOptions="Center" />
+            <Line X2="200" Stroke="Red" StrokeThickness="5" 
+                WidthRequest="200" HeightRequest="10" HorizontalOptions="Center" />
+
             <!-- Image -->
             <Image Source="https://upload.wikimedia.org/wikipedia/commons/2/2c/Rotating_earth_%28large%29.gif"
                    IsAnimationPlaying="True" />
@@ -196,7 +295,20 @@ Karle!
             <Label Text="Toto je konec!" HorizontalOptions="Center"
                FontAttributes="Bold" FontSize="Medium" TextColor="Blue" BackgroundColor="Yellow"
                TextDecorations="Strikethrough,Underline"    />
+
+
+            <!-- Aktivita -->
             
+            <ProgressBar Progress="0.333" BackgroundColor="Red" ProgressColor="Lime" />
+            <ProgressBar Progress="0.666" />
+
+            <ActivityIndicator IsRunning="True" BackgroundColor="Yellow" Color="Blue" />
+            <ActivityIndicator IsRunning="True" />
+
+            <!-- BoxView -->
+
+            <BoxView Color="Fuchsia" WidthRequest="100" HeightRequest="50" HorizontalOptions="Center" />
+
         </StackLayout>
     </ScrollView>
 
