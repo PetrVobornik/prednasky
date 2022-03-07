@@ -14,10 +14,10 @@
                 <ColumnDefinition Width="*" />
                 <ColumnDefinition Width="*" />
             </Grid.ColumnDefinitions>-->
-            <ContentView Grid.Row="0" Grid.Column="0" BackgroundColor="OrangeRed" />
-            <ContentView Grid.Row="0" Grid.Column="1" BackgroundColor="YellowGreen" />
-            <ContentView Grid.Row="1" Grid.Column="0" BackgroundColor="DeepSkyBlue" />
-            <ContentView Grid.Row="1" Grid.Column="1" BackgroundColor="Yellow" />
+            <BoxView Grid.Row="0" Grid.Column="0" BackgroundColor="OrangeRed" />
+            <BoxView Grid.Row="0" Grid.Column="1" BackgroundColor="YellowGreen" />
+            <BoxView Grid.Row="1" Grid.Column="0" BackgroundColor="DeepSkyBlue" />
+            <BoxView Grid.Row="1" Grid.Column="1" BackgroundColor="Yellow" />
         </Grid>
     </ContentView.Content>
 </ContentView>

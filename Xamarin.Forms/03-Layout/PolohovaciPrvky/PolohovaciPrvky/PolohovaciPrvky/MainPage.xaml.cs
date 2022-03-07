@@ -46,4 +46,10 @@ namespace PolohovaciPrvky
             }
         }
     }
+
+    public class DvojityRamecek : ContentView
+    {
+        public Color Ram1 { get; set; } = Color.Blue;
+        public Color Ram2 { get; set; } = Color.Green;
+    }
 }

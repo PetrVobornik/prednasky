@@ -4,46 +4,69 @@
              xmlns:local="clr-namespace:PolohovaciPrvky"
              x:Class="PolohovaciPrvky.MainPage">
 
+    <!-- ControlTemplate -->
+    <ContentPage.Resources>
+        <ControlTemplate x:Key="DvojityRamecekTemplate">
+            <Frame BindingContext="{Binding Source={RelativeSource TemplatedParent}}" 
+                    BorderColor="{Binding Ram1}">
+                <Frame BorderColor="{Binding Ram2}">
+                    <ContentPresenter />
+                </Frame>
+            </Frame>
+        </ControlTemplate>
+    </ContentPage.Resources>
+    
     <ScrollView>
         <StackLayout>
+
+            <!-- TemplateView... -->
+            <Label Text="TemplateView" Margin="10,20,0,5" FontSize="Subtitle" />
+            <local:DvojityRamecek ControlTemplate="{StaticResource DvojityRamecekTemplate}" Margin="30">
+                <Label Text="Text ve dvojitém rámečku" />
+            </local:DvojityRamecek>
             
             <!-- ContentView -->
+            <Label Text="ContentView" Margin="10,20,0,5" FontSize="Subtitle" />
             <local:Logo WidthRequest="120" HeightRequest="120" Margin="0,25" HorizontalOptions="Center" />
 
             <!-- Frame -->
-            <Frame OutlineColor="Red" HorizontalOptions="Center" Margin="0,50" Padding="20,10" 
+            <Label Text="Frame" Margin="10,20,0,5" FontSize="Subtitle" />
+            <Frame BorderColor="Red" HorizontalOptions="Center" Margin="0,50" Padding="20,10" 
                    BackgroundColor="LightYellow">
                 <Label Text="Text v rámečku" />
             </Frame>
             
             <!-- RelativeLayout -->
+            <Label Text="RelativeLayout" Margin="10,20,0,5" FontSize="Subtitle" />
             <RelativeLayout BackgroundColor="Aqua" HeightRequest="200">
-                <ContentView BackgroundColor="Red" x:Name="cRed"
+                <BoxView BackgroundColor="Red" x:Name="bRed"
                     RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=0.75}"
                     RelativeLayout.HeightConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height, Factor=0.5}" />
-                <ContentView BackgroundColor="Violet" WidthRequest="50" HeightRequest="50"
-                    RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToView, ElementName=cRed, Property=Width, Constant=5}"
-                    RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToView, ElementName=cRed, Property=Height, Constant=-50}" />
-                <ContentView BackgroundColor="Maroon" WidthRequest="50" HeightRequest="50"
-                    RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToView, ElementName=cRed, Property=Width, Constant=-50}"
-                    RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToView, ElementName=cRed, Property=Height, Constant=5}" />
+                <BoxView BackgroundColor="Violet" WidthRequest="50" HeightRequest="50"
+                    RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToView, ElementName=bRed, Property=Width, Constant=5}"
+                    RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToView, ElementName=bRed, Property=Height, Constant=-50}" />
+                <BoxView BackgroundColor="Maroon" WidthRequest="50" HeightRequest="50"
+                    RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToView, ElementName=bRed, Property=Width, Constant=-50}"
+                    RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToView, ElementName=bRed, Property=Height, Constant=5}" />
             </RelativeLayout>
             
             <!-- AbsoluteLayout -->
+            <Label Text="AbsoluteLayout" Margin="10,20,0,5" FontSize="Subtitle" />
             <AbsoluteLayout HeightRequest="200">
-                <ContentView BackgroundColor="Silver" AbsoluteLayout.LayoutFlags="All" 
-                             AbsoluteLayout.LayoutBounds="0,0,1,1" />
-                <ContentView BackgroundColor="Blue" AbsoluteLayout.LayoutFlags="PositionProportional" 
-                             AbsoluteLayout.LayoutBounds="0.5,0.5,300,190" />
-                <ContentView BackgroundColor="Yellow" AbsoluteLayout.LayoutFlags="PositionProportional" 
-                             AbsoluteLayout.LayoutBounds="1,1,100,80" />
-                <ContentView BackgroundColor="Lime" AbsoluteLayout.LayoutFlags="PositionProportional" 
-                             AbsoluteLayout.LayoutBounds="0.9,0.9,100,80" />
-                <ContentView BackgroundColor="Red" AbsoluteLayout.LayoutFlags="PositionProportional" 
-                             AbsoluteLayout.LayoutBounds="0.9,0.9,5,5" />
+                <BoxView BackgroundColor="Silver" AbsoluteLayout.LayoutFlags="All" 
+                                AbsoluteLayout.LayoutBounds="0,0,1,1" />
+                <BoxView BackgroundColor="Blue" AbsoluteLayout.LayoutFlags="PositionProportional" 
+                                AbsoluteLayout.LayoutBounds="0.5,0.5,300,190" />
+                <BoxView BackgroundColor="Yellow" AbsoluteLayout.LayoutFlags="PositionProportional" 
+                                AbsoluteLayout.LayoutBounds="1,1,100,80" />
+                <BoxView BackgroundColor="Lime" AbsoluteLayout.LayoutFlags="PositionProportional" 
+                                AbsoluteLayout.LayoutBounds="0.9,0.9,100,80" />
+                <BoxView BackgroundColor="Red" AbsoluteLayout.LayoutFlags="PositionProportional" 
+                                AbsoluteLayout.LayoutBounds="0.9,0.9,5,5" />
             </AbsoluteLayout>
             
             <!-- Grid -->
+            <Label Text="Grid" Margin="10,20,0,5" FontSize="Subtitle" />
             <Grid HeightRequest="200" 
                   ColumnDefinitions="Auto, 10, *, *" RowDefinitions="*, 2*">
                 <!--<Grid.ColumnDefinitions>
@@ -57,16 +80,18 @@
                     <RowDefinition Height="2*" />
                 </Grid.RowDefinitions>-->
                 <Label Grid.Column="0" Text="První řádek" VerticalOptions="Center" />
-                <ContentView Grid.Column="2" BackgroundColor="Red" />
-                <ContentView Grid.Column="3" BackgroundColor="Lime" Grid.RowSpan="2" />
+                <BoxView Grid.Column="2" BackgroundColor="Red" />
+                <BoxView Grid.Column="3" BackgroundColor="Lime" Grid.RowSpan="2" />
                 <Label Grid.Column="0" Grid.Row="1" Text="Druhý řádek gridu" VerticalOptions="Center" />
-                <ContentView Grid.Column="2" Grid.Row="1" BackgroundColor="Blue" />
+                <BoxView Grid.Column="2" Grid.Row="1" BackgroundColor="Blue" />
             </Grid>
             
-            <!-- FlexLayout -->
+            <!-- FlexLayout... -->
+            <Label Text="FlexLayout" Margin="10,20,0,5" FontSize="Subtitle" />
             <FlexLayout x:Name="flFlex" Wrap="Wrap" JustifyContent="SpaceAround" />
 
             <!-- StackLayout -->
+            <Label Text="StackLayout" Margin="10,20,0,5" FontSize="Subtitle" />
             <StackLayout Spacing="10" Margin="20">
                 <Label Text="Login:" />
                 <Entry />

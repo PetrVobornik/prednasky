@@ -38,7 +38,7 @@
             </TableView>
 
             <!-- CollectionView... -->
-            <CollectionView x:Name="cCollect" HeightRequest="300" SelectionMode="Single" Header="Měsíce" Footer="Rok 2020">
+            <CollectionView x:Name="cCollect" HeightRequest="300" SelectionMode="Single" Header="Měsíce" Footer="Rok 2022">
                 <CollectionView.ItemsLayout>
                     <GridItemsLayout Orientation="Vertical" Span="3" />
                 </CollectionView.ItemsLayout>
