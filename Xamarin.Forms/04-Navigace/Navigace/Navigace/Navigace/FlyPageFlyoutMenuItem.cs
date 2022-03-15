@@ -6,12 +6,11 @@ using System.Threading.Tasks;
 
 namespace Navigace
 {
-
-    public class MDPageMenuItem
+    public class FlyPageFlyoutMenuItem
     {
-        public MDPageMenuItem()
+        public FlyPageFlyoutMenuItem()
         {
-            TargetType = typeof(MDPageDetail);
+            TargetType = typeof(FlyPageDetail); // FlyPageFlyoutMenuItem);
         }
         public int Id { get; set; }
         public string Title { get; set; }

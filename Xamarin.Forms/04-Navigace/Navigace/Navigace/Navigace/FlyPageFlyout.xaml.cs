@@ -13,34 +13,34 @@ using Xamarin.Forms.Xaml;
 namespace Navigace
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class MDPageMaster : ContentPage
+    public partial class FlyPageFlyout : ContentPage
     {
         public ListView ListView;
 
-        public MDPageMaster()
+        public FlyPageFlyout()
         {
             InitializeComponent();
 
-            BindingContext = new MDPageMasterViewModel();
+            BindingContext = new FlyPageFlyoutViewModel();
             ListView = MenuItemsListView;
         }
 
-        class MDPageMasterViewModel : INotifyPropertyChanged
+        private class FlyPageFlyoutViewModel : INotifyPropertyChanged
         {
-            public ObservableCollection<MDPageMenuItem> MenuItems { get; set; }
-            
-            public MDPageMasterViewModel()
+            public ObservableCollection<FlyPageFlyoutMenuItem> MenuItems { get; set; }
+
+            public FlyPageFlyoutViewModel()
             {
-                MenuItems = new ObservableCollection<MDPageMenuItem>(new[]
+                MenuItems = new ObservableCollection<FlyPageFlyoutMenuItem>(new[]
                 {
-                    new MDPageMenuItem { Id = 0, Title = "Stránka 1" },
-                    new MDPageMenuItem { Id = 1, Title = "Stránka 2" },
-                    new MDPageMenuItem { Id = 2, Title = "Stránka 3", TargetType = typeof(Zalozky) },
-                    new MDPageMenuItem { Id = 3, Title = "Stránka 4" },
-                    new MDPageMenuItem { Id = 4, Title = "Stránka 5" },
+                    new FlyPageFlyoutMenuItem { Id = 0, Title = "Stránka 1" },
+                    new FlyPageFlyoutMenuItem { Id = 1, Title = "Stránka 2" },
+                    new FlyPageFlyoutMenuItem { Id = 2, Title = "Stránka 3", TargetType = typeof(Zalozky) },
+                    new FlyPageFlyoutMenuItem { Id = 3, Title = "Stránka 4" },
+                    new FlyPageFlyoutMenuItem { Id = 4, Title = "Stránka 5" },
                 });
             }
-            
+
             #region INotifyPropertyChanged Implementation
             public event PropertyChangedEventHandler PropertyChanged;
             void OnPropertyChanged([CallerMemberName] string propertyName = "")

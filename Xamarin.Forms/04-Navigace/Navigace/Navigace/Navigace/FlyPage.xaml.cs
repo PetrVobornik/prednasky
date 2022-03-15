@@ -10,17 +10,19 @@ using Xamarin.Forms.Xaml;
 namespace Navigace
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class MDPage : MasterDetailPage
+    public partial class FlyPage : FlyoutPage
     {
-        public MDPage()
+        public FlyPage()
         {
             InitializeComponent();
-            MasterPage.ListView.ItemSelected += ListView_ItemSelected;
+            FlyoutPage.ListView.ItemSelected += ListView_ItemSelected;
+
+            //FlyoutLayoutBehavior = FlyoutLayoutBehavior.Popover;
         }
 
         private void ListView_ItemSelected(object sender, SelectedItemChangedEventArgs e)
         {
-            var item = e.SelectedItem as MDPageMenuItem;
+            var item = e.SelectedItem as FlyPageFlyoutMenuItem;
             if (item == null)
                 return;
 
@@ -30,7 +32,7 @@ namespace Navigace
             Detail = new NavigationPage(page);
             IsPresented = false;
 
-            MasterPage.ListView.SelectedItem = null;
+            FlyoutPage.ListView.SelectedItem = null;
         }
     }
 }

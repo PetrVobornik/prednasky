@@ -29,19 +29,14 @@ namespace Navigace
             Navigation.PushAsync(new Zalozky());
         }
 
-        private void BMD_Clicked(object sender, EventArgs e)
-        {
-            Navigation.PushAsync(new MDPage());
-        }
-
         private void BCarousel_Clicked(object sender, EventArgs e)
         {
             Navigation.PushAsync(new CarPage());
         }
 
-        private async void BDruha_Clicked(object sender, EventArgs e)
+        private async void bFlyout_Clicked(object sender, EventArgs e)
         {
-            await Navigation.PushAsync(new DruhaStranka());
+            await Navigation.PushAsync(new FlyPage());
         }
 
         bool isJmeno = false;
@@ -52,6 +47,7 @@ namespace Navigace
             dlg.Jmeno = "Tvé Jméno";
             isJmeno = true;
             await Navigation.PushModalAsync(new NavigationPage(dlg));
+            Title = "Vítej " + dlg.Jmeno;
         }
 
         protected override void OnAppearing()
@@ -69,6 +65,11 @@ namespace Navigace
             string jmeno = await DisplayPromptAsync("Tvé Jméno", "Zadej své jméno");
             if (!String.IsNullOrEmpty(jmeno)) // Pokud se dialog uzavře jinak než přes OK, metoda vrátí prázdný string
                 Title = "Vítej " + jmeno;
+        }
+
+        private async void BDruha_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new DruhaStranka());
         }
     }
 }

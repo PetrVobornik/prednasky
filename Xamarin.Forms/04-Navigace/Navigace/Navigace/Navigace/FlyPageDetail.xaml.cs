@@ -10,9 +10,9 @@ using Xamarin.Forms.Xaml;
 namespace Navigace
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class MDPageDetail : ContentPage
+    public partial class FlyPageDetail : ContentPage
     {
-        public MDPageDetail()
+        public FlyPageDetail()
         {
             InitializeComponent();
         }

@@ -13,11 +13,11 @@
     <Grid>
         <StackLayout HorizontalOptions="Center" VerticalOptions="Center" WidthRequest="150">
             <Button Text="Záložky" x:Name="bZalozky" Clicked="BZalozky_Clicked" />
-            <Button Text="Master-Detail" x:Name="bMD" Clicked="BMD_Clicked" />
             <Button Text="Carousel" x:Name="bCarousel" Clicked="BCarousel_Clicked" />
-            <Button Text="Druhá stránka" x:Name="bDruha" Clicked="BDruha_Clicked" />
+            <Button Text="Flyout" x:Name="bFlyout" Clicked="bFlyout_Clicked" />
             <Button Text="Input dialog - stránka" x:Name="bInputPage" Clicked="BInputPage_Clicked" />
             <Button Text="Input dialog - dialog" x:Name="bInputDlg" Clicked="bInputDlg_Clicked" />
+            <Button Text="Druhá stránka" x:Name="bDruha" Clicked="BDruha_Clicked" />
         </StackLayout>
     </Grid>
 
