@@ -16,7 +16,7 @@
 
         <Entry x:Name="eJmeno2" />
 
-        <Label Text="{Binding Jmeno, StringFormat='Ahoj {0}!'}" />
+        <Label Text="{Binding Jmeno, Mode=OneWay, StringFormat='Ahoj {0}!'}" />
 
         <Slider x:Name="sStupnu" Minimum="0" Maximum="360" Value="0" />
         <Label x:Name="lStupnu" />
