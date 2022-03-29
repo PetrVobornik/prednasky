@@ -17,6 +17,8 @@ abych mohl zjednat nápravu.
 	<img src="https://github.com/PetrVobornik/prednasky/raw/master/ZakladyCs/Kniha/img/zaklady-cs-book.jpg" alt="Ilustrační obrázek knihy Základy C#" />
 </p>
 
+Oficiální odkaz na knihu: [programko.net/zaklady-cs/kniha](https://programko.net/zaklady-cs/kniha)
+
 
 ### Historie knihy
 
