@@ -8,7 +8,12 @@
 
             <WebView x:Name="wWeb" Navigated="WWeb_Navigated">
                 <WebView.Source>
-                    <OnPlatform UWP="https://wallpaperscraft.com" Android="https://www.bing.com/images/" />
+                    <OnPlatform x:TypeArguments="WebViewSource">
+                        <OnPlatform.Platforms>
+                            <On Platform="Android" Value="https://www.bing.com/images/"/>
+                            <On Platform="UWP" Value="https://wallpaperscraft.com"/>
+                        </OnPlatform.Platforms>
+                    </OnPlatform>
                 </WebView.Source>
             </WebView>
 
