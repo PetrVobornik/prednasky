@@ -1,7 +1,7 @@
 # Kniha "Strukturované programování - Základy C#"
 
-Kniha je kompletní, ale stejně jako nikdy nekončí vývoj jazyka C#, 
-tak i na ní bude stále co ladit. Na druhé straně vpravo dole je datum 
+Kniha je kompletní, ale stejně jako nekončí vývoj jazyka C#, 
+tak i na ní bude stále co ladit a doplňovat. Na druhé straně vpravo dole je datum 
 vydání dané verze. Kniha neprošla jazykovou korekcí, takže pokud v ní 
 naleznete nějakou chybu libovolného typu, prosím o její oznámení, 
 abych mohl zjednat nápravu.
@@ -14,11 +14,11 @@ abych mohl zjednat nápravu.
 
 
 <p align="center">
-	<img src="https://github.com/PetrVobornik/prednasky/raw/master/ZakladyCs/Kniha/img/zaklady-cs-book.png" alt="Ilustrační obrázek knihy Základy C#" />
+	<img src="https://github.com/PetrVobornik/prednasky/raw/master/ZakladyCs/Kniha/img/zaklady-cs-book.jpg" alt="Ilustrační obrázek knihy Základy C#" />
 </p>
 
 
-### Log změn v knize
+### Historie knihy
 
 * 28.03.2022 - Aktualizace titulní strany
 * 27.03.2022 - *Aktualizace textu o novinky v C# 10 (.NET 6)*
