@@ -7,7 +7,7 @@ naleznete nějakou chybu libovolného typu, prosím o její oznámení,
 abych mohl zjednat nápravu.
 
 <p align="center">
-	<a href="https://github.com/PetrVobornik/prednasky/raw/master/ZakladyCs/Kniha/zaklady-cs.pdf" target="_blank" />
+	<a href="https://github.com/PetrVobornik/prednasky/raw/master/ZakladyCs/Kniha/zaklady-cs.pdf" />
 		<img src="https://github.com/PetrVobornik/prednasky/raw/master/ZakladyCs/Kniha/img/pdf.png" alt="Odkaz na stažení knihy Základy C# v PDF" width="96" /><br/>Stáhnout knihu v PDF
 	</a>
 </p>
@@ -30,4 +30,4 @@ abych mohl zjednat nápravu.
 
 ---
 
-[Zpět na přehled přednášek o základech C#](https://github.com/PetrVobornik/prednasky/ZakladyCs)
+[Zpět na přehled přednášek o základech C#](https://github.com/PetrVobornik/prednasky/tree/master/ZakladyCs)
