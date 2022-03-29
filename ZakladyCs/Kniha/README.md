@@ -18,7 +18,7 @@ abych mohl zjednat nápravu.
 </p>
 
 <p align="right">
-Oficiální odkaz na knihu: [programko.net/zaklady-cs/kniha](https://programko.net/zaklady-cs/kniha)
+Oficiální odkaz na knihu: <a href="https://programko.net/zaklady-cs/kniha">programko.net/zaklady-cs/kniha</a>
 </p>
 
 
