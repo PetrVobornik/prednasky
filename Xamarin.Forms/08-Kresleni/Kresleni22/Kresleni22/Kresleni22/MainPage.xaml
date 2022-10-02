@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:iconsB="clr-namespace:FontAwesome.Solid;assembly=FontAwesome.Solid"
+             x:Class="Kresleni22.MainPage">
+    <ContentPage.ToolbarItems>
+        
+        <ToolbarItem x:Name="bPridat" Text="Nový" Order="Primary" Priority="0" Clicked="bPridat_Clicked">
+            <ToolbarItem.IconImageSource>
+                <iconsB:IconSource Icon="Plus" Size="100" Color="{AppThemeBinding Light=Black, Dark=White}" />
+            </ToolbarItem.IconImageSource>
+        </ToolbarItem>
+        <ToolbarItem x:Name="bTloustkaCary" Text="Tloušťka čáry" Order="Primary" Priority="1" Clicked="bTloustkaCary_Clicked">
+            <ToolbarItem.IconImageSource>
+                <iconsB:IconSource Icon="AlignJustify" Size="100" Color="{AppThemeBinding Light=Black, Dark=White}" />
+            </ToolbarItem.IconImageSource>
+        </ToolbarItem>
+        <ToolbarItem x:Name="bBarvaCary" Text="Barva čáry" Order="Primary" Priority="2" Clicked="bBarvaCary_Clicked">
+            <ToolbarItem.IconImageSource>
+                <iconsB:IconSource Icon="PaintBrush" Size="100" Color="{AppThemeBinding Light=Black, Dark=White}" />
+            </ToolbarItem.IconImageSource>
+        </ToolbarItem>
+        <ToolbarItem x:Name="bBarvaVyplne" Text="Barva výplně" Order="Primary" Priority="3" Clicked="bBarvaVyplne_Clicked">
+            <ToolbarItem.IconImageSource>
+                <iconsB:IconSource Icon="FillDrip" Size="100" Color="{AppThemeBinding Light=Black, Dark=White}" />
+            </ToolbarItem.IconImageSource>
+        </ToolbarItem>
+        <ToolbarItem x:Name="bConfirm" Text="Přidat" Order="Primary" Priority="4" Clicked="bConfirm_Clicked">
+            <ToolbarItem.IconImageSource>
+                <iconsB:IconSource Icon="Check" Size="100" Color="{AppThemeBinding Light=Black, Dark=White}" />
+            </ToolbarItem.IconImageSource>
+        </ToolbarItem>
+
+        <ToolbarItem x:Name="bNovyVykres" Text="Nový výkres" Order="Secondary" Priority="5" Clicked="bNovyVykres_Clicked">
+            <ToolbarItem.IconImageSource>
+                <iconsB:IconSource Icon="File" Size="100" Color="{AppThemeBinding Light=Black, Dark=White}" />
+            </ToolbarItem.IconImageSource>
+        </ToolbarItem>
+        <ToolbarItem x:Name="bUlozitVykres" Text="Uložit výkres" Order="Secondary" Priority="6" Clicked="bUlozitVykres_Clicked">
+            <ToolbarItem.IconImageSource>
+                <iconsB:IconSource Icon="Save" Size="100" Color="{AppThemeBinding Light=Black, Dark=White}" />
+            </ToolbarItem.IconImageSource>
+        </ToolbarItem>
+        <ToolbarItem x:Name="bNacistVykres" Text="Načíst výkres" Order="Secondary" Priority="7" Clicked="bNacistVykres_Clicked">
+            <ToolbarItem.IconImageSource>
+                <iconsB:IconSource Icon="FolderOpen" Size="100" Color="{AppThemeBinding Light=Black, Dark=White}" />
+            </ToolbarItem.IconImageSource>
+        </ToolbarItem>
+        <ToolbarItem x:Name="bKopieVykresu" Text="Kopie kresby" Order="Secondary" Priority="8" Clicked="bKopieVykresu_Clicked">
+            <ToolbarItem.IconImageSource>
+                <iconsB:IconSource Icon="Copy" Size="100" Color="{AppThemeBinding Light=Black, Dark=White}" />
+            </ToolbarItem.IconImageSource>
+        </ToolbarItem>
+
+    </ContentPage.ToolbarItems>
+
+    <Grid x:Name="gMain" ColumnDefinitions="*,Auto">
+        <ScrollView HorizontalScrollBarVisibility="Default" VerticalScrollBarVisibility="Default">
+            <AbsoluteLayout x:Name="alPlocha">
+                <AbsoluteLayout.GestureRecognizers>
+                    <PanGestureRecognizer PanUpdated="Pan_PanUpdated" />
+                </AbsoluteLayout.GestureRecognizers>
+            </AbsoluteLayout>
+        </ScrollView>
+
+        <ListView x:Name="lSeznam" Grid.Column="1" WidthRequest="200" BackgroundColor="{AppThemeBinding Light=#FFEEEEEE, Dark=#FF404040}" ItemTapped="lSeznam_ItemTapped" />
+    </Grid>
+
+</ContentPage>

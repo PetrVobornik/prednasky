@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Kresleni22Maui.MainPage">
+
+    <ContentPage.ToolbarItems>
+
+        <ToolbarItem x:Name="bPridat" Text="Nový" Order="Primary" Priority="0" Clicked="bPridat_Clicked">
+            <ToolbarItem.IconImageSource>
+                <FontImageSource FontFamily="FontAw" Glyph="&#xf067;" Size="100" Color="{AppThemeBinding Light=Black, Dark=White}" />
+            </ToolbarItem.IconImageSource>
+        </ToolbarItem>
+        <ToolbarItem x:Name="bTloustkaCary" Text="Tloušťka čáry" Order="Primary" Priority="1" Clicked="bTloustkaCary_Clicked">
+            <ToolbarItem.IconImageSource>
+                <FontImageSource FontFamily="FontAw" Glyph="&#xf039;" Size="100" Color="{AppThemeBinding Light=Black, Dark=White}" />
+            </ToolbarItem.IconImageSource>
+        </ToolbarItem>
+        <ToolbarItem x:Name="bBarvaCary" Text="Barva čáry" Order="Primary" Priority="2" Clicked="bBarvaCary_Clicked">
+            <ToolbarItem.IconImageSource>
+                <FontImageSource FontFamily="FontAw" Glyph="&#xf1fc;" Size="100" Color="{AppThemeBinding Light=Black, Dark=White}" />
+            </ToolbarItem.IconImageSource>
+        </ToolbarItem>
+        <ToolbarItem x:Name="bBarvaVyplne" Text="Barva výplně" Order="Primary" Priority="3" Clicked="bBarvaVyplne_Clicked">
+            <ToolbarItem.IconImageSource>
+                <FontImageSource FontFamily="FontAw" Glyph="&#xf576;" Size="100" Color="{AppThemeBinding Light=Black, Dark=White}" />
+            </ToolbarItem.IconImageSource>
+        </ToolbarItem>
+        <ToolbarItem x:Name="bConfirm" Text="Přidat" Order="Primary" Priority="4" Clicked="bConfirm_Clicked">
+            <ToolbarItem.IconImageSource>
+                <FontImageSource FontFamily="FontAw" Glyph="&#xf00c;" Size="100" Color="{AppThemeBinding Light=Black, Dark=White}" />
+            </ToolbarItem.IconImageSource>
+        </ToolbarItem>
+
+        <ToolbarItem x:Name="bNovyVykres" Text="Nový výkres" Order="Secondary" Priority="5" Clicked="bNovyVykres_Clicked">
+            <ToolbarItem.IconImageSource>
+                <FontImageSource FontFamily="FontAw" Glyph="&#xf15b;" Size="100" Color="{AppThemeBinding Light=Black, Dark=White}" />
+            </ToolbarItem.IconImageSource>
+        </ToolbarItem>
+        <ToolbarItem x:Name="bUlozitVykres" Text="Uložit výkres" Order="Secondary" Priority="6" Clicked="bUlozitVykres_Clicked">
+            <ToolbarItem.IconImageSource>
+                <FontImageSource FontFamily="FontAw" Glyph="&#xf0c7;" Size="100" Color="{AppThemeBinding Light=Black, Dark=White}" />
+            </ToolbarItem.IconImageSource>
+        </ToolbarItem>
+        <ToolbarItem x:Name="bNacistVykres" Text="Načíst výkres" Order="Secondary" Priority="7" Clicked="bNacistVykres_Clicked">
+            <ToolbarItem.IconImageSource>
+                <FontImageSource FontFamily="FontAw" Glyph="&#xf07c;" Size="100" Color="{AppThemeBinding Light=Black, Dark=White}" />
+            </ToolbarItem.IconImageSource>
+        </ToolbarItem>
+        <ToolbarItem x:Name="bKopieVykresu" Text="Kopie kresby" Order="Secondary" Priority="8" Clicked="bKopieVykresu_Clicked">
+            <ToolbarItem.IconImageSource>
+                <FontImageSource FontFamily="FontAw" Glyph="&#xf0c5;" Size="100" Color="{AppThemeBinding Light=Black, Dark=White}" />
+            </ToolbarItem.IconImageSource>
+        </ToolbarItem>
+
+    </ContentPage.ToolbarItems>
+
+    <Grid x:Name="gMain" ColumnDefinitions="*,Auto">
+        <ScrollView HorizontalScrollBarVisibility="Default" VerticalScrollBarVisibility="Default">
+            <AbsoluteLayout x:Name="alPlocha">
+                <AbsoluteLayout.GestureRecognizers>
+                    <PanGestureRecognizer PanUpdated="Pan_PanUpdated" />
+                </AbsoluteLayout.GestureRecognizers>
+            </AbsoluteLayout>
+        </ScrollView>
+
+        <ListView x:Name="lSeznam" Grid.Column="1" WidthRequest="200" BackgroundColor="{AppThemeBinding Light=#FFEEEEEE, Dark=#FF404040}" ItemTapped="lSeznam_ItemTapped" />
+    </Grid>
+</ContentPage>
