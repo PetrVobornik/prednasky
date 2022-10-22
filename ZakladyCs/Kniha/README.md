@@ -18,8 +18,12 @@ abych mohl zjednat nápravu.
 </p>
 
 <p align="right">
-Oficiální odkaz na knihu: <a href="https://programko.net/zaklady-cs/kniha">programko.net/zaklady-cs/kniha</a>
+Oficiální udržovaný odkaz na knihu: <a href="https://programko.net/zaklady-cs/kniha">programko.net/zaklady-cs/kniha</a>
 </p>
+
+### Citace
+
+Voborník P.: _Strukturované programování - Základy C#_. Hradec Králové, 2022. Dostupné z: programko.net/zaklady-cs/kniha
 
 
 ### Historie knihy
