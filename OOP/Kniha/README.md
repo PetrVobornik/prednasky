@@ -1,10 +1,12 @@
 # Kniha "Objektově orientované programování v C#"
 
-Kniha je kompletní, ale stejně jako nekončí vývoj jazyka C#, 
-tak i na ní bude stále co ladit a doplňovat. Na druhé straně vpravo dole je datum 
-vydání dané verze. Kniha neprošla jazykovou korekcí, takže pokud v ní 
-naleznete nějakou chybu libovolného typu, prosím o její oznámení, 
-abych mohl zjednat nápravu.
+Kniha "Objektově orientované programování v C#" obsahuje ucelený přehled, názorný popis 
+a praktické příklady (které jsou v případě elektronické verze i přímo spustitelné) 
+o důležitých programových prvcích jazyka C# (třídy a jejich složky, struktury, záznamy, 
+výčty, projekty apod., včetně jejich méně známých možností posledních verzí), a také 
+základní principy, jak s jejich pomocí budovat OOP architekturu (dědičnost, polymorfismus, 
+abstrakce, rozhraní apod.) vlastních programů a aplikací.
+
 
 <p align="center">
 	<a href="https://github.com/PetrVobornik/prednasky/raw/master/OOP/Kniha/oop.pdf" />
@@ -20,6 +22,12 @@ abych mohl zjednat nápravu.
 <p align="right">
 Oficiální udržovaný odkaz na knihu: <a href="https://programko.net/oop/kniha">programko.net/oop/kniha</a>
 </p>
+
+Kniha je kompletní, ale stejně jako nekončí vývoj jazyka C#, 
+tak i na ní bude stále co ladit a doplňovat. Na druhé straně vpravo dole je datum 
+vydání dané verze. Kniha neprošla jazykovou korekcí, takže pokud v ní 
+naleznete nějakou chybu libovolného typu, prosím o její oznámení, 
+abych mohl zjednat nápravu.
 
 
 ### Citace
