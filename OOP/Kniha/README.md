@@ -44,6 +44,17 @@ Voborník P.: _Objektově orientované programování v C#_. Hradec Králové, 2
 * 15.06.2020 - Prvotní rozdělení témat a kapitol knihy
 
 
+## Hlášení chyb
+
+Pokud v knize najdete nějakou chybu, překlep či nepřesnost, napište mi o tom prosím 
+třeba přes tento [formulář](https://programko.net/knihy/chyby), ať mohu knihu do příští verze opravit.
+
+
+### Poděkování za upozornění na chybu
+
+* Lukáš F.
+
+
 ---
 
 [Přejít na záznamy přednášek o OOP v C#](https://github.com/PetrVobornik/prednasky/tree/master/Xamarin.Forms/01-OOP-a-NET)

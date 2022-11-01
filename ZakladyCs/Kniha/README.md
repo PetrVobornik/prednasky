@@ -37,6 +37,12 @@ Voborník P.: _Strukturované programování - Základy C#_. Hradec Králové, 2
 * 04.03.2020 - První předběžné vydání interně pro studenty PřF UHK
 
 
+## Hlášení chyb
+
+Pokud v knize najdete nějakou chybu, překlep či nepřesnost, napište mi o tom prosím 
+třeba přes tento [formulář](https://programko.net/knihy/chyby), ať mohu knihu do příští verze opravit.
+
+
 ---
 
 [Zpět na přehled přednášek o základech C#](https://github.com/PetrVobornik/prednasky/tree/master/ZakladyCs)
