@@ -37,6 +37,7 @@ Voborník P.: _Objektově orientované programování v C#_. Hradec Králové, 2
 
 ### Historie knihy
 
+* 01.11.2022 - Oprava doposud nalezených "překlepů"
 * 22.10.2022 - Zveřejnění knihy na GitHubu
 * 02.05.2022 - Téměř kompletní kniha poskytnuta interně pro studenty PřF UHK
 * 18.03.2022-14.6.2022 - Streamovaná tvorba knihy + dolaďování v offscreenu

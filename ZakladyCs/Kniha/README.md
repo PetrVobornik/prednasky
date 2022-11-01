@@ -28,10 +28,11 @@ Voborník P.: _Strukturované programování - Základy C#_. Hradec Králové, 2
 
 ### Historie knihy
 
+* 01.11.2022 - Aktualizace drobností
 * 28.03.2022 - Aktualizace titulní strany
 * 27.03.2022 - *Aktualizace textu o novinky v C# 10 (.NET 6)*
 * 19.03.2022 - Opravy v textu
-* 05.12.2021 - Zveřejnění knihy na GitHubu
+* 05.12.2021 - Zveřejnění knihy na GitHubu (celková doba úprav 262 hodin)
 * 12.03.2021 - Kompletní kniha poskytnuta interně pro studenty PřF UHK
 * 04.03.2020 - První předběžné vydání interně pro studenty PřF UHK
 
