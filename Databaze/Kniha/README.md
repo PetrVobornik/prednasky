@@ -22,7 +22,7 @@ Oficiální udržovaný odkaz na knihu: <a href="https://programko.net/databaze/
 </p>
 
 Kniha pokrývá celý semestr výuky tohoto předmětu, přičemž (většinou) nesestříhané záznamy 
-z přednášek jednotlivých témat dle této knihy jsou pro inspiraci zde: [https://programko.net/databaze/prednasky](programko.net/databaze/prednasky)
+z přednášek jednotlivých témat dle této knihy jsou pro inspiraci zde: [programko.net/databaze/prednasky](https://programko.net/databaze/prednasky)
 
 Kniha je kompletní, ale stejně jako nekončí vývoj databázových systémů, 
 tak i na ní bude stále co ladit a doplňovat. Na druhé straně vpravo dole je datum 
