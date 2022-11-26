@@ -1,10 +1,13 @@
 # Kniha "Databázové systémy: SQL Server"
 
-Kniha je kompletní, ale stejně jako nekončí vývoj databázových systémů, 
-tak i na ní bude stále co ladit a doplňovat. Na druhé straně vpravo dole je datum 
-vydání dané verze. Kniha neprošla jazykovou korekcí, takže pokud v ní 
-naleznete nějakou chybu libovolného typu, prosím o její oznámení, 
-abych mohl zjednat nápravu.
+
+Kniha „Databázové systémy: SQL Server“ obsahuje jemný úvod do problematiky databázových systémů 
+a návrhu struktury databáze. Také od základů až pro pokročilé konstrukce, na názorných příkladech 
+a přiložené demonstrační databázi, vysvětluje dotazovací jazyk SQL se zvláštním zaměřením 
+na specifika SQL Serveru.
+
+Kniha pokrývá celý semestr výuky tohoto předmětu, přičemž (většinou) nesestříhané záznamy 
+z přednášek jednotlivých témat dle této knihy jsou pro inspiraci zde: [https://programko.net/databaze/kniha](programko.net/databaze/kniha)
 
 <p align="center">
 	<a href="https://github.com/PetrVobornik/prednasky/raw/master/Databaze/Kniha/databaze.pdf" />
@@ -20,6 +23,13 @@ abych mohl zjednat nápravu.
 <p align="right">
 Oficiální udržovaný odkaz na knihu: <a href="https://programko.net/databaze/kniha">programko.net/databaze/kniha</a>
 </p>
+
+Kniha je kompletní, ale stejně jako nekončí vývoj databázových systémů, 
+tak i na ní bude stále co ladit a doplňovat. Na druhé straně vpravo dole je datum 
+vydání dané verze. Kniha neprošla jazykovou korekcí, takže pokud v ní 
+naleznete nějakou chybu libovolného typu, prosím o její oznámení, 
+abych mohl zjednat nápravu.
+
 
 ### Citace
 
