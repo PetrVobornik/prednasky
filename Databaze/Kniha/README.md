@@ -4,7 +4,7 @@
 Kniha „Databázové systémy: SQL Server“ obsahuje jemný úvod do problematiky databázových systémů 
 a návrhu struktury databáze. Také od základů až pro pokročilé konstrukce, na názorných příkladech 
 a přiložené demonstrační databázi, vysvětluje dotazovací jazyk SQL se zvláštním zaměřením 
-na specifika SQL Serveru.
+na specifika SQL Serveru. 
 
 Kniha pokrývá celý semestr výuky tohoto předmětu, přičemž (většinou) nesestříhané záznamy 
 z přednášek jednotlivých témat dle této knihy jsou pro inspiraci zde: [https://programko.net/databaze/kniha](programko.net/databaze/kniha)
