@@ -6,9 +6,6 @@ a návrhu struktury databáze. Také od základů až pro pokročilé konstrukce
 a přiložené demonstrační databázi, vysvětluje dotazovací jazyk SQL se zvláštním zaměřením 
 na specifika SQL Serveru. 
 
-Kniha pokrývá celý semestr výuky tohoto předmětu, přičemž (většinou) nesestříhané záznamy 
-z přednášek jednotlivých témat dle této knihy jsou pro inspiraci zde: [https://programko.net/databaze/kniha](programko.net/databaze/kniha)
-
 <p align="center">
 	<a href="https://github.com/PetrVobornik/prednasky/raw/master/Databaze/Kniha/databaze.pdf" />
 		<img src="https://github.com/PetrVobornik/prednasky/raw/master/Databaze/Kniha/img/pdf.png" alt="Odkaz na stažení knihy Databázové systémy: SQL Server v PDF" width="96" /><br/>Stáhnout knihu v PDF
@@ -23,6 +20,9 @@ z přednášek jednotlivých témat dle této knihy jsou pro inspiraci zde: [htt
 <p align="right">
 Oficiální udržovaný odkaz na knihu: <a href="https://programko.net/databaze/kniha">programko.net/databaze/kniha</a>
 </p>
+
+Kniha pokrývá celý semestr výuky tohoto předmětu, přičemž (většinou) nesestříhané záznamy 
+z přednášek jednotlivých témat dle této knihy jsou pro inspiraci zde: [https://programko.net/databaze/prednasky](programko.net/databaze/prednasky)
 
 Kniha je kompletní, ale stejně jako nekončí vývoj databázových systémů, 
 tak i na ní bude stále co ladit a doplňovat. Na druhé straně vpravo dole je datum 
