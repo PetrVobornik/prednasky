@@ -93,7 +93,7 @@ namespace Posloupnosti
             a[a.Length - 1] = p;
             VypisPosloupnost(a);
 
-            // Cyklický posun vzad (doleva)
+            // Cyklický posun vzad (doprava)
             p = a[a.Length - 1];
             for (int i = a.Length - 1; i > 0; i--)
                 a[i] = a[i - 1];
