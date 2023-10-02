@@ -54,7 +54,7 @@ namespace ZakladniPrikazy
             //if (b > max) max = b;
             //if (c > max) max = c;
             //if (d > max) max = d;
-            //Console.WriteLine("Najvětší je {0}", max);
+            //Console.WriteLine("Největší je {0}", max);
 
             // Prohození dvou proměnných
             //int a = Convert.ToInt32(Console.ReadLine());
