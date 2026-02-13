@@ -32,11 +32,23 @@ abych mohl zjednat nápravu.
 
 ### Citace
 
-Voborník P.: _Objektově orientované programování v C#_. Hradec Králové, 2022. Dostupné z: programko.net/oop/kniha
+Voborník P.: _Objektově orientované programování v C#_. 1. vydání, Hradec Králové, 2022. Revize z 30.12.2025.
+Dostupné z: https://programko.net/oop/kniha
+
+
+### Licence (text knihy)
+
+Text knihy „Objektově orientované programování v C#“ je licencován pod licencí
+Creative Commons Uveďte původ 4.0 Mezinárodní (CC BY 4.0):
+https://creativecommons.org/licenses/by/4.0/
+
+Můžete jej kopírovat, šířit, upravovat a používat i komerčně, pokud uvedete autora, zdroj a licenci
+a vyznačíte případné změny (v přiměřené formě).
 
 
 ### Historie knihy
 
+* 30.12.2025 - Oprava dalších překlepů
 * 01.11.2022 - Oprava doposud nalezených "překlepů"
 * 22.10.2022 - Zveřejnění knihy na GitHubu
 * 02.05.2022 - Téměř kompletní kniha poskytnuta interně pro studenty PřF UHK
