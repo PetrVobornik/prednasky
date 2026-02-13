@@ -39,7 +39,7 @@ Voborník P.: _Databázové systémy: SQL Server_. Hradec Králové, 2022. Dostu
 ### Historie knihy
 
 * 03.10.2023 - Doplnění popisu u vnějšího spojování tabulek
-* 01.11.2022 - Zveřejnění knihy na GitHubu
+* 01.11.2022 - Zveřejnění knihy na GitHubu 
 * 04.10.2022 - Kompletní kniha v ucelené formě poskytnuta studentům PřF UHK
 * 07.02.2022 (LS) - Další doplněná aktualizovaná verze kapitol pro studenty PřF UHK
 * 20.09.2021 (ZS) - Aktualizovaná verze kapitol pro studenty PřF UHK
