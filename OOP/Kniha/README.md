@@ -48,6 +48,7 @@ a vyznačíte případné změny (v přiměřené formě).
 
 ### Historie knihy
 
+* 26.02.2026 - 2.rozšířené a aktualizované vydání knihy [ZDE](https://herohero.co/petrvobornik/post/vobornikjelkqphoshqkopdfnvvbbshta)
 * 30.12.2025 - Oprava dalších překlepů
 * 01.11.2022 - Oprava doposud nalezených "překlepů"
 * 22.10.2022 - Zveřejnění knihy na GitHubu
