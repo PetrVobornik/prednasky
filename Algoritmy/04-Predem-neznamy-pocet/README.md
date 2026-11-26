@@ -24,7 +24,7 @@ Přednáška navazuje na předchozí téma o cyklech, ovšem tentokrát budeme z
 
 ## Cvičení
 
-...
+[Kódy ze cvičení](https://github.com/PetrVobornik/prednasky/tree/master/Algoritmy/04-Predem-neznamy-pocet/cviceni)
 
 [Program Algoritmy ke stažení](https://github.com/PetrVobornik/prednasky/tree/master/Algoritmy/Program/)
 

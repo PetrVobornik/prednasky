@@ -4,7 +4,7 @@ S jednou posloupností jsme si již užili spoustu zábavy, a co teprve, když j
 
 ## Přednáška
 
-[Kódy z přednášky](https://github.com/PetrVobornik/prednasky/tree/master/Algoritmy/09-Vice-posloupnosti)
+[Kódy z přednášky](https://github.com/PetrVobornik/prednasky/tree/master/Algoritmy/09-Vice-posloupnosti/prednaska)
 
 [![Algoritmy 17 - Práce s více posloupnostmi - záznam z přednášky](https://img.youtube.com/vi/kDMcA6VBOWM/0.jpg)](https://www.youtube.com/watch?v=kDMcA6VBOWM&list=PLxTqV9i8bnb-BL7IhBCQ3qgXA0TRDg_JT)
 
@@ -23,6 +23,8 @@ S jednou posloupností jsme si již užili spoustu zábavy, a co teprve, když j
 * 28:29​ - Závěr
 
 ## Cvičení
+
+[Kódy ze cvičení](https://github.com/PetrVobornik/prednasky/tree/master/Algoritmy/09-Vice-posloupnosti/cviceni)
 
 ...
 

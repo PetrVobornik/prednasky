@@ -20,6 +20,8 @@ V této přednášce se konečně pořádně zaměříme na cykly. Konkrétně z
 
 ## Cvičení
 
+[Kódy ze cvičení](https://github.com/PetrVobornik/prednasky/tree/master/Algoritmy/03-Predem-znamy-pocet/cviceni)
+
 ...
 
 [Program Algoritmy ke stažení](https://github.com/PetrVobornik/prednasky/tree/master/Algoritmy/Program/)

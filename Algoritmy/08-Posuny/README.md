@@ -4,7 +4,7 @@ Tentokrát budeme v posloupnostech posouvat hodnoty členů při jejich odebír�
 
 ## Přednáška
 
-[Kódy z přednášky](https://github.com/PetrVobornik/prednasky/tree/master/Algoritmy/08-Posuny)
+[Kódy z přednášky](https://github.com/PetrVobornik/prednasky/tree/master/Algoritmy/08-Posuny/prednaska)
 
 [![Algoritmy 15 - Posuny v posloupnosti - záznam z přednášky](https://img.youtube.com/vi/6-c0PWTBIWs/0.jpg)](https://www.youtube.com/watch?v=6-c0PWTBIWs&list=PLxTqV9i8bnb-BL7IhBCQ3qgXA0TRDg_JT)
 
@@ -22,6 +22,8 @@ Tentokrát budeme v posloupnostech posouvat hodnoty členů při jejich odebír�
 * 27:06 - Závěr
 
 ## Cvičení
+
+[Kódy ze cvičení](https://github.com/PetrVobornik/prednasky/tree/master/Algoritmy/08-Posuny/cviceni)
 
 ...
 

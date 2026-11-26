@@ -1,0 +1,22 @@
+{ Maximum a jeho poøadí z pøedem neznámého poètu èísel zakonèených nulou }
+zaèátek
+  èti(èíslo);
+  max := èíslo;
+  i := 1;
+  poøadí := 1;
+  dokud èíslo <> 0 opakuj
+  zaèátek
+    jestliže èíslo > max pak
+    zaèátek
+      max := èíslo;
+      poøadí := i;  
+    konec;   
+    èti(èíslo);
+    i := i + 1;
+  konec;
+  
+  jestliže max = 0 pak
+    napiš("nebyla zadáná žádná hodnota")
+  jinak  
+    napiš("max = ", max, ", poøadí = ", poøadí);
+konec.

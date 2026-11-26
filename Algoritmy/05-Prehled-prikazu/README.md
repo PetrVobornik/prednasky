@@ -4,7 +4,7 @@ Nyní bychom již měli znát a umět používat všechny dostupné příkazy a 
 
 ## Přednáška
 
-[Kódy z přednášky](https://github.com/PetrVobornik/prednasky/tree/master/Algoritmy/05-Prehled-prikazu)
+[Kódy z přednášky](https://github.com/PetrVobornik/prednasky/tree/master/Algoritmy/05-Prehled-prikazu/prednaska)
 
 [![Algoritmy 9 - Přehled příkazů - záznam z přednášky](https://img.youtube.com/vi/f9n46xy8jew/0.jpg)](https://www.youtube.com/watch?v=f9n46xy8jew&list=PLxTqV9i8bnb-BL7IhBCQ3qgXA0TRDg_JT)
 
@@ -22,9 +22,6 @@ Nyní bychom již měli znát a umět používat všechny dostupné příkazy a 
 * 21:14​ - Určení pořadí posledního výskytu extrémní hodnoty
 * 22:05​ - Závěr
 
-## Cvičení
-
-...
 
 [Program Algoritmy ke stažení](https://github.com/PetrVobornik/prednasky/tree/master/Algoritmy/Program/)
 

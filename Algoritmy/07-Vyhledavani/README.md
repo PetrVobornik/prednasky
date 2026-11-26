@@ -4,7 +4,7 @@ I tato přednáška bude věnována posloupnostem neboli jednorozměrným polím
 
 ## Přednáška
 
-[Kódy z přednášky](https://github.com/PetrVobornik/prednasky/tree/master/Algoritmy/07-Vyhledavani)
+[Kódy z přednášky](https://github.com/PetrVobornik/prednasky/tree/master/Algoritmy/07-Vyhledavani/prednaska)
 
 [![Algoritmy 13 - Vyhledávání v posloupnosti - záznam z přednášky](https://img.youtube.com/vi/MWOXEJN7Dm0/0.jpg)](https://www.youtube.com/watch?v=MWOXEJN7Dm0&list=PLxTqV9i8bnb-BL7IhBCQ3qgXA0TRDg_JT)
 
@@ -37,6 +37,8 @@ Kombinace
 * 28:37​ - Závěr
 
 ## Cvičení
+
+[Kódy ze cvičení](https://github.com/PetrVobornik/prednasky/tree/master/Algoritmy/07-Vyhledavani/cviceni)
 
 ...
 

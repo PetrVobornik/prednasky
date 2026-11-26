@@ -4,7 +4,7 @@ Dnes si rozšíříme obzory a po důkladném procvičení jednoduché proměnn�
 
 ## Přednáška
 
-[Kódy z přednášky](https://github.com/PetrVobornik/prednasky/tree/master/Algoritmy/06-Posloupnosti)
+[Kódy z přednášky](https://github.com/PetrVobornik/prednasky/tree/master/Algoritmy/06-Posloupnosti/prednaska)
 
 [![Algoritmy 11 - Posloupnosti - záznam z přednášky](https://img.youtube.com/vi/f9n46xy8jew/0.jpg)](https://www.youtube.com/watch?v=f9n46xy8jew&list=PLxTqV9i8bnb-BL7IhBCQ3qgXA0TRDg_JT)
 
@@ -26,6 +26,8 @@ Dnes si rozšíříme obzory a po důkladném procvičení jednoduché proměnn�
 * 22:43​ - Závěr
 
 ## Cvičení
+
+[Kódy ze cvičení](https://github.com/PetrVobornik/prednasky/tree/master/Algoritmy/06-Posloupnosti/cviceni)
 
 ...
 

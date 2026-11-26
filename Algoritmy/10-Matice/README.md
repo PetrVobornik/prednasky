@@ -4,7 +4,7 @@ Rozšiřte si obzory o další rozměr a naučte se tvořit algoritmy, které bu
 
 ## Přednáška
 
-[Kódy z přednášky](https://github.com/PetrVobornik/prednasky/tree/master/Algoritmy/10-Matice)
+[Kódy z přednášky](https://github.com/PetrVobornik/prednasky/tree/master/Algoritmy/10-Matice/prednaska)
 
 [![Algoritmy 17 - Matice - záznam z přednášky](https://img.youtube.com/vi/lcucxnY-XbI/0.jpg)](https://www.youtube.com/watch?v=lcucxnY-XbI&list=PLxTqV9i8bnb-BL7IhBCQ3qgXA0TRDg_JT)
 
@@ -28,6 +28,10 @@ Rozšiřte si obzory o další rozměr a naučte se tvořit algoritmy, které bu
 * 29:29​ - Závěr
 
 ## Cvičení
+
+[Kódy ze cvičení](https://github.com/PetrVobornik/prednasky/tree/master/Algoritmy/10-Matice/cviceni)
+
+[Kódy z rozšířeného cvičení o čtvercových maticích](https://github.com/PetrVobornik/prednasky/tree/master/Algoritmy/10-Matice/cviceni-ctvercove-matice)
 
 ...
 
