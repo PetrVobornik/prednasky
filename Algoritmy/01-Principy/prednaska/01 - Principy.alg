@@ -1,11 +1,11 @@
 { 
-Principy algoritmù:
+Principy algoritmÅ¯:
 - Hromadnost
 - Determinovanost
-- Koneènost
+- KoneÄnost
 - Rezultativnost
 }
-zaèátek
-  èti(a);        // Hromadnost
-  napiš(a + 3);  // Rezultativnost
+zaÄÃ¡tek
+  Äti(a);        // Hromadnost
+  napiÅ¡(a + 3);  // Rezultativnost
 konec.

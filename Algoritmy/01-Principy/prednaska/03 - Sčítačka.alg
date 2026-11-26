@@ -1,6 +1,6 @@
-{ Sèítaèka }
-zaèátek
-  èti(x);                      // Pøíkaz vstupu 
-  èti(y);                      // Pøíkaz vstupu 
-  napiš(x, " + ", y, " = ", x + y); // Pøíkaz vıstupu    
+{ SÄÃ­taÄka }
+zaÄÃ¡tek
+  Äti(x);                      // PÅ™Ã­kaz vstupu 
+  Äti(y);                      // PÅ™Ã­kaz vstupu 
+  napiÅ¡(x, " + ", y, " = ", x + y); // PÅ™Ã­kaz vÃ½stupu    
 konec.

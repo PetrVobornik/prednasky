@@ -6,6 +6,11 @@ V první převážně teoretické části si vysvětlíme často kladenou otázk
 
 [Kódy z přednášky](https://github.com/PetrVobornik/prednasky/tree/master/Algoritmy/01-Principy/prednaska)
 
+1. [Principy algoritmů](https://devpad.page/#v=1&pl=alg&name=01%20-%20Principy.alg&code=qwGrVuAKKMrMS84sqFRIzEnPL8osyT263opLV8GjKD83MSUvv7gEyHFJLUktys3Myy9LhIp45-elHumFcoJSq0pzShJLMsvAArVcVYlHeg8vLEnN5lJQONJbkqmRqGmtAAX6-shmKyjkJRZkHl2okaigrWAMUgWURzMvG2hXsh4A)
+2. [Základní příkazy](https://devpad.page/#v=1&pl=alg&name=02%20-%20P%C5%99%C3%ADkazy.alg&code=zgGrVog6vDA7JzEl7_BahYKjMw-vzU6sqlSo5apKPNJ7eGFJajaXgkKFgpWtgrG1Alagr68QANUHMiDz6MzEqlSgaUB9R3pLMjUqNInQWFZcUlpQqgDUk5dYkHl0oYZSVGJKYo5CVnGmgpKOQoWOgpKeEtAgFD2H90J0AQFXdn5earIeAA)
+3. [Sčítačka](https://devpad.page/#v=1&pl=alg&name=03%20-%20S%C4%8D%C3%ADta%C4%8Dka.alg&code=xgGrVgg-0nt4bUnikd7sRIVariog4_DCktRsLgWFI70lmRoVmtYKWIG-vkLA0ZmH12YnVimUFZeUFpQqwPRUkqYnL7Eg8-hCjQodBSUFbQUlHYVKEMsWxKoACoBMQ9F4eC9EKxBwZefnpSbrAQA)
+
+
 [![Algoritmy 1 - Principy, diagramy, vstupy a výstupy - záznam z přednášky](https://img.youtube.com/vi/eo9Jq5ALHD4/0.jpg)](https://www.youtube.com/watch?v=eo9Jq5ALHD4&list=PLxTqV9i8bnb-BL7IhBCQ3qgXA0TRDg_JT)
 
 [Videozáznam z přednášky Principy, diagramy, vstupy a výstupy](https://www.youtube.com/watch?v=eo9Jq5ALHD4&list=PLxTqV9i8bnb-BL7IhBCQ3qgXA0TRDg_JT)
@@ -16,6 +21,8 @@ V první převážně teoretické části si vysvětlíme často kladenou otázk
 * 18:51 - Krokování algoritmu
 * 20:28 - Shrnutí příkazů
 * 20:44 - Program na sčítání
+
+
 
 
 ## Cvičení

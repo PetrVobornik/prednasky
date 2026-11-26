@@ -6,6 +6,7 @@
 * Kromě **pseudokódu** plně kompatibliním s původními Algoritmy podporuje také **Python, C#** a **JavaScript**.
 * Funguje přímo v prohlížeči, bez registrace **zdarma**, bez reklam, bez sledování a **bez instalace** – a tak to i zůstane.
 * **Krokování**, sledování proměnných, vlastností objektů, seznamů i polí (1D-3D), s možností jejich změny za behu programu.
+* Sdílení kódů URL odkazem (např. [zde](https://devpad.page/?sample=game-of-life&pl=alg)).
 * Přečtěte si, co všechno umí, v tomto **[článku](https://petrvobornik.cz/devpad)**.
 
 

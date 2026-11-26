@@ -1,6 +1,6 @@
-{ Základní pøíkazy }
-zaèátek
-  x := 3;                      // Pøíkaz pøiøazení
-  èti(x);                      // Pøíkaz vstupu 
-  napiš("Zadal jsi ", x, "."); // Pøíkaz vıstupu    
+{ ZÃ¡kladnÃ­ pÅ™Ã­kazy }
+zaÄÃ¡tek
+  x := 3;                      // PÅ™Ã­kaz pÅ™iÅ™azenÃ­
+  Äti(x);                      // PÅ™Ã­kaz vstupu 
+  napiÅ¡("Zadal jsi ", x, "."); // PÅ™Ã­kaz vÃ½stupu    
 konec.
